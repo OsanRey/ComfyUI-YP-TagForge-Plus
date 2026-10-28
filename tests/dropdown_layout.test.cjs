@@ -1,0 +1,35 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const context = {};
+vm.createContext(context);
+vm.runInContext(fs.readFileSync(path.join(__dirname, '../web/completer/dropdown_layout.js'), 'utf8').replace(/export /g, ''), context);
+const calculate = (extra = {}) => context.dropdownLayout({ position: { top: 100, left: 100 },
+    viewportWidth: 1200, viewportHeight: 900, width: 600, headerHeight: 32, contentHeight: 400, ...extra });
+const standard = calculate();
+assert.equal(standard.width, 600);
+assert.equal(standard.listHeight, 400, 'show every requested row when it fits on screen');
+assert.equal(calculate({ width: 1000 }).width, 1000);
+assert.equal(calculate({ contentHeight: 600 }).listHeight, 600, 'more tags must make a taller popup');
+assert.equal(calculate({ contentHeight: 2000 }).listHeight + 34, 790, 'only the screen edge limits height');
+const bottom = calculate({ position: { top: 850, left: 1100 } });
+assert.equal(bottom.left, 590, 'wide popup must be moved away from the right edge');
+assert.ok(bottom.top < 850 && bottom.top + bottom.listHeight + 34 < 850, 'open above caret when near bottom');
+const narrow = calculate({ viewportWidth: 360, width: 1200 });
+assert.equal(narrow.width, 340);
+assert.equal(narrow.left, 10);
+const short = calculate({ contentHeight: 40 });
+assert.equal(short.listHeight, 40, 'do not add empty vertical space to short lists');
+const scroll = calculate({ scrollY: 500, scrollX: 20, position: { top: 600, left: 120 } });
+assert.equal(scroll.top, 600);
+assert.equal(scroll.left, 120);
+const updates = [];
+context.mk_name = x => x;
+context.TagCompleter = { updateSetting: (...args) => updates.push(args) };
+vm.runInContext(fs.readFileSync(path.join(__dirname, '../web/settings.js'), 'utf8').replace(/^import .*;\s*/gm, '').replace(/export /g, '')
+    + '\nglobalThis.definitions = settings;', context);
+context.definitions.dropdownWidth.onChange(880);
+assert.equal(context.definitions.dropdownMaxHeight, undefined, 'remove the pixel-height setting');
+assert.deepEqual(updates, [['dropdownWidth', 880]]);
+console.log('Popup size settings, height budget, short lists, scrolling and screen-edge placement: passed');

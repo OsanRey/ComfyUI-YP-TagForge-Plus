@@ -1,0 +1,520 @@
+import { app } from "../../../scripts/app.js";
+import { loadCSS } from "../utils.js";
+import { TagCompleterSettings } from "./tag_completer_settings.js";
+import { TextAreaCaretHelper } from "./caret_helper.js";
+import { SearchEngine } from "./search_engine.js";
+import { DropdownRenderer } from "./dropdown_renderer.js";
+import { DropdownController } from "./dropdown_controller.js";
+import { KeyboardHandler } from "./keyboard_handler.js";
+import { TextProcessor } from "./text_processor.js";
+import { VirtualDropdownController } from "./virtual_dropdown_controller.js";
+
+loadCSS("css/tag_completer.css");
+loadCSS("css/category_pill.css");
+loadCSS("css/custom_badge.css");
+loadCSS("css/specific_text_style.css");
+
+// ==============================================
+// タグ補間機能のメインクラス
+// ==============================================
+
+export class TagCompleter {
+
+    // ------------------------------------------
+    // 静的プロパティ
+    // ------------------------------------------
+    static instanceArray = [];
+
+    // ------------------------------------------
+    // コンストラクタ
+    // ------------------------------------------
+    constructor(element) {
+        this.element = element;
+        this.settings = TagCompleterSettings;
+
+        this.initialize();
+        TagCompleter.instanceArray.push(this);
+    }
+
+    // ------------------------------------------
+    // 静的メソッド
+    // ------------------------------------------
+
+    // --- 設定を更新 ---
+    static updateSetting(key, value) {
+        if (key in TagCompleterSettings) {
+            TagCompleterSettings[key] = value;
+
+            if (key === "delay") {
+                TagCompleter.instanceArray.forEach(instance => {
+                    instance.updateDebouncedFunction();
+                });
+            }
+            if (key === "dropdownWidth") {
+                TagCompleter.instanceArray.forEach(instance => {
+                    const controller = instance.dropdownController;
+                    if (controller?.isVisible()) controller.updateDropdownPosition(controller.lastPosition);
+                });
+            }
+        }
+    }
+
+    
+    // ------------------------------------------
+    // 初期化
+    // ------------------------------------------
+
+    // --- 初期化 ---
+    initialize() {
+        this.initializeComponents();
+        this.setupKeyboardHandlers();
+        this.setupEventListeners();
+        this.updateDebouncedFunction();
+        
+        // Inizializza le variabili per il modo wildcard
+        this.isInWildcardMode = false;
+        this.originalWildcardResult = null;
+        this.originalSearchInfo = null;
+    }
+
+    // --- コンポーネントを初期化 ---
+    initializeComponents() {
+        this.helper = new TextAreaCaretHelper(this.element, () => app.canvas?.ds?.scale ?? 1);
+        this.searchEngine = new SearchEngine();
+        this.dropdownRenderer = new DropdownRenderer();
+        this.keyboardHandler = new KeyboardHandler();
+        // this.dropdownController = new DropdownController(this.element);
+        this.dropdownController = new VirtualDropdownController(this.element);
+        this.textProcessor = new TextProcessor();
+    }
+
+    // --- キーボードイベントハンドラーを設定 ---
+    setupKeyboardHandlers() {
+        this.keyboardHandler.setEventHandlers({
+            onNavigateUp: () => this.dropdownController.navigateUp(), 
+            onNavigateDown: () => this.dropdownController.navigateDown(), 
+            onInsertItem: () => this.insertSelectedItem(), 
+            onHide: () => {
+                if (this.isInWildcardMode) {
+                    // ESC: torna alla wildcard inserita
+                    this.isInWildcardMode = false;
+                    this.originalWildcardResult = null;
+                    this.originalSearchInfo = null;
+                    this.dropdownController.hide();
+                } else {
+                    this.dropdownController.hide();
+                }
+            }, 
+            onPageUp: () => this.handlePageUp(), 
+            onPageDown: () => this.handlePageDown(), 
+        });
+    }
+
+
+    // ------------------------------------------
+    // クリーンアップ
+    // ------------------------------------------
+    
+    // --- インスタンスを破棄 ---
+    destroy() {
+        this.searchEngine?.destroy();
+        this.dropdownController?.destroy();
+        this.removeEventListeners();
+
+        const index = TagCompleter.instanceArray.indexOf(this);
+        if (index > -1) {
+            TagCompleter.instanceArray.splice(index, 1);
+        }
+    }
+
+
+    // ------------------------------------------
+    // イベント管理メソッド
+    // ------------------------------------------
+
+    // --- イベントリスナーを設定 ---
+    setupEventListeners() {
+        // バインドした関数を保存
+        this.boundHandlers = {
+            keydown: (...args) => this.handleKeyDown(...args), 
+            input: (...args) => this.handleInput(...args), 
+            click: (...args) => this.handleClick(...args), 
+            blur: (...args) => this.handleBlur(...args)
+        };
+
+        this.element.addEventListener("keydown", this.boundHandlers.keydown);
+        this.element.addEventListener("input", this.boundHandlers.input);
+        this.element.addEventListener("click", this.boundHandlers.click);
+        this.element.addEventListener("blur", this.boundHandlers.blur);
+    }
+
+    // --- イベントリスナーを削除 ---
+    removeEventListeners() {
+        if (!this.boundHandlers) return;
+
+        this.element.removeEventListener("keydown", this.boundHandlers.keydown);
+        this.element.removeEventListener("input", this.boundHandlers.input);
+        this.element.removeEventListener("click", this.boundHandlers.click);
+        this.element.removeEventListener("blur", this.boundHandlers.blur);
+
+        this.boundHandlers = null;
+    }
+
+    // --- デバウンス関数を更新 ---
+    updateDebouncedFunction() {
+        this.debouncedUpdate = this.debounce(() => this.update(), this.settings.delay);
+    }
+
+
+    // ------------------------------------------
+    // イベントハンドラー
+    // ------------------------------------------
+
+    // --- keydown ---
+    handleKeyDown(e) {
+        if (!this.settings.enable) return;
+
+        this.keyboardHandler.handleKeyDown(e, this.dropdownController.isVisible());
+    }
+
+    // --- input ---
+    handleInput(e) {
+        if (!this.settings.enable) return;
+
+        this.debouncedUpdate();
+    }
+
+    // --- click ---
+    handleClick(e) {
+        this.dropdownController.hide();
+    }
+
+    // --- blur ---
+    handleBlur(e) {
+        // relatedTargetをチェックして、ドロップダウン内の要素にフォーカスが移った場合は隠さない
+        if (e.relatedTarget && this.dropdownController.dropdown.contains(e.relatedTarget)) {
+            return;
+        }
+
+        // mouseイベント中は隠さない
+        if (this.dropdownController.isMouseInteracting()) {
+            return;
+        }
+
+        setTimeout(() => {
+            if (!this.dropdownController.dropdown.contains(document.activeElement)) {
+                this.dropdownController.hide();
+            }
+        }, 0);
+    }
+
+    // --- pageup ---
+    handlePageUp(e) {
+        const pageSize = this.keyboardHandler.calculatePageMoveAmount(
+            this.dropdownController.getDropdownHeight()
+        );
+        this.dropdownController.navigatePage(-1, pageSize);
+    }
+
+    // --- pagedown ---
+    handlePageDown(e) {
+        const pageSize = this.keyboardHandler.calculatePageMoveAmount(
+            this.dropdownController.getDropdownHeight()
+        );
+        this.dropdownController.navigatePage(1, pageSize);
+    }
+
+    // --- item click ---
+    handleItemClick(e, result, searchInfo) {
+        if (e.target.classList.contains("yp-tagforge-plus-wikiLink")) return;
+
+        // Se è una wildcard, inserisci la wildcard completa
+        if (result.categoryName === "Wildcard" && result.wildcardValue) {
+            this.element.focus();
+
+            if (this.termCursorPostion) {
+                this.element.selectionStart = this.termCursorPostion.start;
+                this.element.selectionEnd = this.termCursorPostion.end;
+            }
+
+            const afterCursor = this.helper.getAfterCursor();
+            const insertValue = this.textProcessor.createInsertValue(result, searchInfo, afterCursor);
+            const replaceLength = this.textProcessor.getReplaceLength(searchInfo);
+
+            this.helper.insertAtCursor(insertValue, replaceLength);
+            
+            // Mostra le opzioni dopo un breve ritardo per assicurarsi che il dropdown sia visibile
+            setTimeout(() => this.showWildcardOptions(result, searchInfo), 50);
+            return;
+        }
+
+        // Se siamo in modalità wildcard opzioni, inserisci l'opzione sostituendo la wildcard
+        if (this.isInWildcardMode) {
+            // Se il risultato cliccato non è un'opzione della wildcard (es. un tag
+            // normale cercato dopo l'inserimento), esci dalla modalità e procedi
+            // con l'inserimento normale: la wildcard non va toccata.
+            if (!result.isWildcardOption) {
+                this.isInWildcardMode = false;
+                this.originalWildcardResult = null;
+                this.originalSearchInfo = null;
+            } else {
+            this.element.focus();
+
+            // Cerca la wildcard nell'intero testo del campo
+            const fullText = this.element.value;
+            const cursorPos = this.element.selectionStart;
+
+            // Cerca la wildcard più vicina al cursore
+            const wildcardRegex = /__([\w.\-+/*\\]+?)__/g;
+            let match;
+            let closestMatch = null;
+            let closestDistance = Infinity;
+
+            while ((match = wildcardRegex.exec(fullText)) !== null) {
+                const matchStart = match.index;
+                const matchEnd = matchStart + match[0].length;
+                const distance = Math.abs(cursorPos - matchEnd);
+
+                if (distance < closestDistance) {
+                    closestDistance = distance;
+                    closestMatch = {
+                        text: match[0],
+                        start: matchStart,
+                        end: matchEnd
+                    };
+                }
+            }
+
+            if (closestMatch) {
+                // Seleziona la wildcard e sostituiscila
+                this.element.selectionStart = closestMatch.start;
+                this.element.selectionEnd = closestMatch.end;
+                
+                // Inserisci l'opzione sostituendo la wildcard
+                this.helper.insertAtCursor(result.value, 0, 0);
+                
+                // Resetta la modalità wildcard
+                this.isInWildcardMode = false;
+                this.originalWildcardResult = null;
+                this.originalSearchInfo = null;
+                
+                setTimeout(() => this.dropdownController.hide(), 150);
+            }
+            return;
+            }
+        }
+
+        // Comportamento normale per tag normali
+        this.element.focus();
+
+        if (this.termCursorPostion) {
+            this.element.selectionStart = this.termCursorPostion.start;
+            this.element.selectionEnd = this.termCursorPostion.end;
+        }
+
+        const afterCursor = this.helper.getAfterCursor();
+        const insertValue = this.textProcessor.createInsertValue(result, searchInfo, afterCursor);
+        const replaceLength = this.textProcessor.getReplaceLength(searchInfo);
+
+        this.helper.insertAtCursor(insertValue, replaceLength);
+
+        setTimeout(() => this.dropdownController.hide(), 150);
+    }
+
+    // --- wildcard options ---
+    showWildcardOptions(wildcardResult, originalSearchInfo) {
+        // Dividi le opzioni della wildcard per riga (ogni riga è un'opzione completa)
+        const options = wildcardResult.wildcardValue.split('\n').map(opt => opt.trim()).filter(opt => opt);
+        
+        if (options.length === 0) return;
+
+        // Limita il numero di opzioni per evitare troppe risultati
+        const maxOptions = 30;
+        const limitedOptions = options.slice(0, maxOptions);
+
+        // Crea i risultati per le opzioni
+        const optionResults = limitedOptions.map((option, index) => ({
+            term: option,
+            text: option + (options.length > maxOptions && index === maxOptions - 1 ? ` (+${options.length - maxOptions} more)` : ''),
+            value: option,
+            category: null,
+            postCount: "Wildcard option",
+            categoryName: "Wildcard",
+            site: null,
+            translate: null,
+            wildcardValue: null,
+            isWildcardOption: true
+        }));
+
+        // Mostra le opzioni
+        const items = this.dropdownRenderer.createDropdownItems(
+            optionResults, 
+            originalSearchInfo, 
+            (e, result, searchInfo) => this.handleItemClick(e, result, searchInfo)
+        );
+        
+        const position = this.helper.getCursorOffset();
+        this.dropdownController.show(items, position);
+        
+        // Imposta la modalità wildcard
+        this.isInWildcardMode = true;
+        this.originalWildcardResult = wildcardResult;
+        this.originalSearchInfo = originalSearchInfo;
+    }
+
+
+    // ------------------------------------------
+    // コア機能
+    // ------------------------------------------
+    
+    // --- 補間候補を更新 ---
+    async update() {
+        if (this.searchEngine.isUpdating()) return;
+
+        const currentSequence = this.searchEngine.getNextSequence();
+        this.searchEngine.setUpdating(true);
+
+        try {
+            const searchInfo = this.getSearchInfo();
+
+            if (!searchInfo || !searchInfo.term) {
+                this.dropdownController.hide();
+                return;
+            }
+
+            // カーソル位置を記録
+            this.termCursorPostion = {
+                start: this.element.selectionStart, 
+                end: this.element.selectionEnd, 
+            };
+
+            // 検索実行
+            const searchResults = await this.searchEngine.fetchSearchResults(
+                searchInfo, 
+                currentSequence
+            );
+
+            // リクエストが古い場合は処理をスキップ
+            if (currentSequence !== this.searchEngine.getCurrentSequence()) {
+                console.warn("古いリクエストをスキップ: ", currentSequence);
+                return;
+            }
+
+            // 結果が空の場合
+            if (!searchResults || searchResults.length === 0) {
+                this.dropdownController.hide();
+                return;
+            }
+
+            this.showDropdown(searchResults, searchInfo);
+
+        } catch(error) {
+            if (error.name !== "AbortError") {
+                console.error("タグ検索エラー: ", error);
+            }
+            this.dropdownController.hide();
+        } finally {
+            this.searchEngine.setUpdating(false);
+        }
+    }
+
+    // --- 選択中のアイテムを挿入 ---
+    insertSelectedItem() {
+        const selectedItem = this.dropdownController.getSelectedItem();
+        if (!selectedItem) return;
+
+        // Se siamo in modalità wildcard opzioni, gestiamo direttamente l'inserimento
+        if (this.isInWildcardMode) {
+            const result = this.dropdownController.getCurrentResults()[this.dropdownController.getCurrentIndex()];
+            if (result && result.isWildcardOption) {
+                this.element.focus();
+
+                if (this.termCursorPostion) {
+                    this.element.selectionStart = this.termCursorPostion.start;
+                    this.element.selectionEnd = this.termCursorPostion.end;
+                }
+
+                // Trova la wildcard nel testo e sostituiscila con l'opzione
+                const beforeCursor = this.helper.getBeforeCursor();
+                const afterCursor = this.helper.getAfterCursor();
+
+                // Cerca la wildcard più vicina al cursore (l'ultima prima di esso)
+                const matches = beforeCursor ? [...beforeCursor.matchAll(/__([\w.\-+/*\\]+?)__/g)] : [];
+                const wildcardMatch = matches.length ? matches[matches.length - 1] : null;
+                if (wildcardMatch) {
+                    const wildcardText = wildcardMatch[0];
+                    const startPos = beforeCursor.lastIndexOf(wildcardText);
+                    const endPos = startPos + wildcardText.length;
+
+                    this.element.selectionStart = startPos;
+                    this.element.selectionEnd = endPos;
+
+                    // Inserisci l'opzione
+                    this.helper.insertAtCursor(result.value, wildcardText.length);
+                    setTimeout(() => this.dropdownController.hide(), 150);
+
+                    // Resetta la modalità wildcard
+                    this.isInWildcardMode = false;
+                    this.originalWildcardResult = null;
+                    this.originalSearchInfo = null;
+                } else {
+                    // Fallback: inserisci normalmente
+                    const insertValue = this.textProcessor.createInsertValue(result, this.originalSearchInfo, afterCursor);
+                    const replaceLength = this.textProcessor.getReplaceLength(this.originalSearchInfo);
+                    this.helper.insertAtCursor(insertValue, replaceLength);
+                    setTimeout(() => this.dropdownController.hide(), 150);
+                }
+            } else {
+                // Risultato non-wildcard (tag normale cercato dopo l'inserimento):
+                // esci dalla modalità e inserisci come tag normale
+                this.isInWildcardMode = false;
+                this.originalWildcardResult = null;
+                this.originalSearchInfo = null;
+                selectedItem.click();
+            }
+        } else {
+            // Comportamento normale per non-wildcard
+            selectedItem.click();
+        }
+    }
+
+    // --- 検索情報を取得 ---
+    getSearchInfo() {
+        const beforeCursor = this.helper.getBeforeCursor();
+        const rawTerm = this.textProcessor.getSearchTerm(beforeCursor);
+
+        if (!rawTerm) return null;
+
+        return this.searchEngine.parseSearchTerm(rawTerm);
+    }
+
+    // --- ドロップダウンを表示 ---
+    showDropdown(searchResults, searchInfo) {
+        const items = this.dropdownRenderer.createDropdownItems(
+            searchResults, 
+            searchInfo, 
+            (e, result, searchInfo) => this.handleItemClick(e, result, searchInfo)
+        );
+
+        const position = this.helper.getCursorOffset();
+        this.dropdownController.show(items, position);
+    }
+
+    
+    // ------------------------------------------
+    // ユーティリティメソッド
+    // ------------------------------------------
+    
+    // --- デバウンス関数を生成 ---
+    debounce(fn, delay) {
+        let timeout;
+        return (...args) => {
+            clearTimeout(timeout);
+            this.searchEngine.cancelCurrentRequest();
+
+            timeout = setTimeout(async () => {
+                await fn(...args);
+            }, delay);
+        };
+    }
+}

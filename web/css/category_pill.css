@@ -1,0 +1,81 @@
+/* --- カテゴリ名ピル --- */
+.yp-tagforge-plus-pill-category-general {
+    --pill-bg: rgba(100, 160, 255, 0.6);
+}
+
+.yp-tagforge-plus-pill-category-artist {
+    --pill-bg: rgba(220, 100, 120, 0.6);
+}
+
+.yp-tagforge-plus-pill-category-copyright {
+    --pill-bg: rgba(160, 120, 200, 0.6);
+}
+
+.yp-tagforge-plus-pill-category-character {
+    --pill-bg: rgba(100, 180, 140, 0.6);
+}
+
+.yp-tagforge-plus-pill-category-contributor {
+    --pill-bg: rgba(240, 190, 90, 0.6);
+}
+
+.yp-tagforge-plus-pill-category-species {
+    --pill-bg: rgba(255, 170, 140, 0.6);
+}
+
+.yp-tagforge-plus-pill-category-meta {
+    --pill-bg: rgba(120, 120, 120, 0.6);
+}
+
+.yp-tagforge-plus-pill-category-lore {
+    --pill-bg: rgba(120, 170, 150, 0.6);
+}
+
+
+
+.yp-tagforge-plus-pill-category-lora {
+    --pill-bg: rgba(150, 130, 210, 0.6); 
+}
+
+.yp-tagforge-plus-pill-category-embedding {
+    --pill-bg: rgba(80, 160, 200, 0.6);
+}
+
+.yp-tagforge-plus-pill-category-wildcard {
+    background: rgba(200, 150, 255, 0.6);
+}
+
+.yp-tagforge-plus-pill-category-wildcard-option {
+    background: rgba(150, 200, 255, 0.6);
+}
+
+/* --- Stili per opzioni wildcard lunghe --- */
+.yp-tagforge-plus-item {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+    line-height: 1.4 !important;
+}
+
+.yp-tagforge-plus-itemText {
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+.yp-tagforge-plus-item:hover .yp-tagforge-plus-itemText {
+    -webkit-line-clamp: unset !important;
+    max-height: none !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}
+
+/* Stili specifici per wildcard */
+.yp-tagforge-plus-pill-category-wildcard {
+    max-width: 100%;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+    line-height: 1.4 !important;
+}

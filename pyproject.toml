@@ -1,0 +1,17 @@
+[project]
+name = "comfyui-yp-tagforge-plus"
+version = "0.1.0"
+description = "Tag suggestions, Russian translations, related tags and prompt formatting for ComfyUI."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "OsanRey" }]
+dependencies = ["aiohttp", "numpy", "PyYAML"]
+
+[project.urls]
+Repository = "https://github.com/OsanRey/ComfyUI-YP-TagForge-Plus"
+Issues = "https://github.com/OsanRey/ComfyUI-YP-TagForge-Plus/issues"
+
+[tool.comfy]
+DisplayName = "YP TagForge Plus"
+Icon = "https://raw.githubusercontent.com/OsanRey/ComfyUI-YP-TagForge-Plus/main/assets/icon.svg"
