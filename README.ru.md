@@ -35,6 +35,8 @@ python -m pip install -r ComfyUI-YP-TagForge-Plus/requirements.txt
 
 Печатай в поле промпта. Стрелки **↑ / ↓** выбирают подсказку, **Enter / Tab** вставляют её. Можно выбирать мышью.
 
+При стандартных настройках выбор подсказки даёт такой результат:
+
 ```text
 onbe       → on bed,
 blueeyes   → blue eyes,

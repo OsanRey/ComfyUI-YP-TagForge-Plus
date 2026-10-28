@@ -95,6 +95,7 @@ export class TagCompleter {
             onNavigateDown: () => this.dropdownController.navigateDown(), 
             onInsertItem: () => this.insertSelectedItem(), 
             onHide: () => {
+                this.invalidateSearch();
                 if (this.isInWildcardMode) {
                     // ESC: torna alla wildcard inserita
                     this.isInWildcardMode = false;
@@ -117,6 +118,7 @@ export class TagCompleter {
     
     // --- インスタンスを破棄 ---
     destroy() {
+        this.debouncedUpdate?.cancel?.();
         this.searchEngine?.destroy();
         this.dropdownController?.destroy();
         this.removeEventListeners();
@@ -180,12 +182,20 @@ export class TagCompleter {
     // --- input ---
     handleInput(e) {
         if (!this.settings.enable) return;
-
+        this.invalidateSearch();
         this.debouncedUpdate();
+    }
+
+    invalidateSearch() {
+        this.debouncedUpdate?.cancel?.();
+        this.searchEngine.cancelCurrentRequest();
+        this.searchEngine.getNextSequence();
+        this.searchEngine.setUpdating(false);
     }
 
     // --- click ---
     handleClick(e) {
+        this.invalidateSearch();
         this.dropdownController.hide();
     }
 
@@ -201,6 +211,7 @@ export class TagCompleter {
             return;
         }
 
+        this.invalidateSearch();
         setTimeout(() => {
             if (!this.dropdownController.dropdown.contains(document.activeElement)) {
                 this.dropdownController.hide();
@@ -369,10 +380,10 @@ export class TagCompleter {
     
     // --- 補間候補を更新 ---
     async update() {
-        if (this.searchEngine.isUpdating()) return;
-
         const currentSequence = this.searchEngine.getNextSequence();
+        this.searchEngine.cancelCurrentRequest();
         this.searchEngine.setUpdating(true);
+        const snapshot = this.element.value;
 
         try {
             const searchInfo = this.getSearchInfo();
@@ -395,8 +406,7 @@ export class TagCompleter {
             );
 
             // リクエストが古い場合は処理をスキップ
-            if (currentSequence !== this.searchEngine.getCurrentSequence()) {
-                console.warn("古いリクエストをスキップ: ", currentSequence);
+            if (currentSequence !== this.searchEngine.getCurrentSequence() || this.element.value !== snapshot) {
                 return;
             }
 
@@ -409,12 +419,13 @@ export class TagCompleter {
             this.showDropdown(searchResults, searchInfo);
 
         } catch(error) {
+            if (currentSequence !== this.searchEngine.getCurrentSequence() || this.element.value !== snapshot) return;
             if (error.name !== "AbortError") {
                 console.error("タグ検索エラー: ", error);
             }
             this.dropdownController.hide();
         } finally {
-            this.searchEngine.setUpdating(false);
+            if (currentSequence === this.searchEngine.getCurrentSequence()) this.searchEngine.setUpdating(false);
         }
     }
 
@@ -508,7 +519,7 @@ export class TagCompleter {
     // --- デバウンス関数を生成 ---
     debounce(fn, delay) {
         let timeout;
-        return (...args) => {
+        const debounced = (...args) => {
             clearTimeout(timeout);
             this.searchEngine.cancelCurrentRequest();
 
@@ -516,5 +527,7 @@ export class TagCompleter {
                 await fn(...args);
             }, delay);
         };
+        debounced.cancel = () => clearTimeout(timeout);
+        return debounced;
     }
 }

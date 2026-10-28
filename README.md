@@ -42,7 +42,7 @@ Use the Python environment that runs ComfyUI. Restart ComfyUI, then press **Ctrl
 3. Click inside an existing tag to browse related tags.
 4. Click **📖** to open the tag page in a new tab.
 
-For example:
+With the default insertion settings, selecting a suggestion gives:
 
 ```text
 onbe       → on bed,
