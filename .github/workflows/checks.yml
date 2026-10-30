@@ -22,6 +22,6 @@ jobs:
       - name: Frontend tests
         run: for file in tests/*.test.cjs; do node "$file" || exit 1; done
       - name: Related-tag index tests
-        run: python -m unittest discover -s tests -p test_related.py
+        run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Database and route checks
         run: python tests/backend_smoke.py

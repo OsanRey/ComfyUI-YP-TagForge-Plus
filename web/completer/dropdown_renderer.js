@@ -1,3 +1,4 @@
+import { addTranslationEditor } from "./translation_editor.js";
 import { mkEl } from "../utils.js";
 import { TagCompleterSettings } from "./tag_completer_settings.js";
 
@@ -23,6 +24,7 @@ export class DropdownRenderer {
                 item.classList.add("yp-tagforge-plus-present");
                 item.title = [item.title, "Уже добавлен в текст"].filter(Boolean).join("\n");
             }
+            addTranslationEditor(item, result);
             return item;
         });
     }

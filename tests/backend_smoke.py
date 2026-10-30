@@ -65,6 +65,27 @@ async def main():
     assert data["translate"].strip() == "рубашка большого размера"
     assert round(data["results"][0]["similarity"] * 100, 2) == 31.81
     print("Standalone search, artists, Russian translations, related-tag route: passed", round(time.monotonic()-start, 2), "seconds")
+    import tempfile
+    from unittest.mock import patch
+    with tempfile.TemporaryDirectory() as directory:
+        dictionary = Path(directory) / "test.csv"
+        dictionary.write_text("oversized_clothes,old\n", encoding="utf-8")
+        with patch.object(endpoints.paths, "translate_dir", Path(directory)):
+            manager.translate_filename = "test.csv"
+            response = await endpoints.save_translation(Request({"tag": "oversized_clothes", "translation": "просторная одежда"}))
+            assert response.status == 200
+            assert any(row["value"] == "oversized_clothes" for row in manager.search("просторная", []))
+            response = await related.related(Request({"tag": "oversized_shirt"}))
+            assert json.loads(response.text)["results"][0]["translate"] == "просторная одежда"
+            await endpoints.load_translate(Request({"filename": "test.csv"}))
+            assert any(row["value"] == "oversized_clothes" for row in manager.search("просторная", []))
+            manager.translate_filename = "../test.csv"
+            response = await endpoints.save_translation(Request({"tag": "shirt", "translation": "x"}))
+            assert response.status == 400
+            manager.translate_filename = "None"
+            response = await endpoints.save_translation(Request({"tag": "shirt", "translation": "x"}))
+            assert response.status == 400
+    print("Translation editing: immediate search, related results, reload and invalid dictionaries passed")
     manager.close()
 
 # The restricted Windows test environment cannot create asyncio's loopback

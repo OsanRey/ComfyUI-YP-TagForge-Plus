@@ -12,7 +12,7 @@ for (const file of ['dropdown_layout.js', 'virtual_dropdown_controller.js']) {
         + (file.includes('controller') ? '\nglobalThis.Controller = VirtualDropdownController;' : ''), context);
 }
 const c = Object.create(context.Controller.prototype);
-const clone = width => ({ style: {}, children: [{ style: {}, classList: { contains: () => true } }],
+const clone = width => ({ style: {}, querySelector: () => null, children: [{ style: {}, classList: { contains: () => true } }],
     getBoundingClientRect() {
         assert.equal(this.style.flexWrap, 'nowrap');
         assert.equal(this.children[0].style.minWidth, '260px');

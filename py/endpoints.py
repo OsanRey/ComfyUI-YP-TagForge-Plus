@@ -187,3 +187,31 @@ async def search(req: web.Request):
     results = TagDataManager.search(term, filters)
 
     return web.json_response(results)
+
+@Endpoint.post("save_translation")
+async def save_translation(req: web.Request):
+    from .translation_edit import save_translation as write_csv
+    from .tagdata_manager import compact_tag
+    data = await req.json()
+    tag, translation = data.get("tag"), data.get("translation")
+    if (not isinstance(tag, str) or not 1 <= len(tag.strip()) <= 200
+            or any(ord(char) < 32 for char in tag)
+            or not isinstance(translation, str) or len(translation) > 2000
+            or any(ord(char) < 32 for char in translation)):
+        return web.json_response({"error": "Неверный тег или перевод"}, status=400)
+    tag, translation = tag.strip(), translation.strip()
+    filename = TagDataManager.translate_filename
+    if not filename or filename == "None":
+        return web.json_response({"error": "Сначала выберите словарь перевода в настройках"}, status=400)
+    try:
+        csv_path = TagDataManager.resolve_data_path(paths.translate_dir, filename)
+        write_csv(csv_path, tag, translation)
+    except (OSError, ValueError, UnicodeError) as error:
+        return web.json_response({"error": f"Не удалось сохранить словарь: {error}"}, status=400)
+    if TagDataManager.conn:
+        for table in TagDataManager.tables:
+            TagDataManager.conn.execute(
+                f"UPDATE {table}_tags SET translate=?, compactTranslate=? WHERE value=? OR term=?",
+                (translation, compact_tag(translation), tag, tag))
+        TagDataManager.conn.commit()
+    return web.json_response({"tag": tag, "translation": translation, "filename": filename})

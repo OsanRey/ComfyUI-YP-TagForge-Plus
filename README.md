@@ -100,3 +100,5 @@ For bug reports, include your ComfyUI/frontend versions and a short example of t
 ## License
 
 [MIT](LICENSE). Required copyright notices are included in [licenses/](licenses/).
+
+Translations can be edited directly in suggestion and related-tag rows using the subtle pencil button. Save with ✓ or Enter; cancel with × or Escape. Changes update the selected translation CSV itself and become searchable immediately. Select a translation dictionary in settings before editing.

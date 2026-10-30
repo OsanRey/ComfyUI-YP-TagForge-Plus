@@ -188,3 +188,26 @@
 .yp-tagforge-plus-item.yp-tagforge-plus-present.yp-tagforge-plus-item--selected > * {
     opacity: 0.62;
 }
+
+.yp-tagforge-plus-edit-translation {
+    order: 10; flex: 0 0 auto; border: 0; background: transparent; box-shadow: none;
+    color: #999; font: 18px/1 "Segoe UI", sans-serif; padding: 3px 5px;
+    cursor: pointer; opacity: .55; margin-left: 4px;
+}
+.yp-tagforge-plus-edit-translation:hover, .yp-tagforge-plus-edit-translation:focus-visible {
+    color: #eee; opacity: 1;
+}
+.yp-tagforge-plus-translation-editor {
+    order: 20; flex: 0 0 100%; display: flex; flex-wrap: wrap; gap: 5px;
+    padding: 5px 0; margin: 0; cursor: default;
+}
+.yp-tagforge-plus-translation-editor input {
+    flex: 1 1 180px; min-width: 0; background: #252527; border: 1px solid #777;
+    border-radius: 4px; color: #f2f2f2; padding: 5px 8px; font: 14px "Segoe UI", sans-serif;
+}
+.yp-tagforge-plus-translation-editor button {
+    background: #3b3b3e; color: #eee; border: 1px solid #555; border-radius: 4px; cursor: pointer;
+}
+.yp-tagforge-plus-edit-error { flex-basis: 100%; color: #e8a6a6; font-size: 12px; }
+.yp-tagforge-plus-edit-error:empty { display: none; }
+.yp-tagforge-plus-item.yp-tagforge-plus-present > .yp-tagforge-plus-translation-editor { opacity: 1; }

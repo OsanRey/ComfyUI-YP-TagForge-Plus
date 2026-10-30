@@ -62,6 +62,11 @@ export class VirtualDropdownController {
     // イベントリスナー設定
     // ------------------------------------------
     setupEventListeners() {
+        this.dropdown.addEventListener("yp-translation-resize", () => {
+            this.contentWidth = null;
+            this.rowWidth = null;
+            if (this.lastPosition) this.updateDropdownPosition(this.lastPosition);
+        });
         // スクロールイベント
         this.viewport.addEventListener("scroll", (...args) => this.handleScroll(...args));
         
@@ -561,6 +566,7 @@ export class VirtualDropdownController {
         measure.style.cssText = "position:fixed;left:-100000px;top:0;visibility:hidden;pointer-events:none;width:max-content";
         const rows = this.allItems.map(({ element }) => {
             const row = element.cloneNode(true);
+            row.querySelector(".yp-tagforge-plus-translation-editor")?.remove();
             Object.assign(row.style, { width: "max-content", maxWidth: "none", height: "auto", flexWrap: "nowrap", transition: "none" });
             for (const child of row.children) {
                 Object.assign(child.style, { flex: "0 0 auto", width: "max-content", maxWidth: "none" });
