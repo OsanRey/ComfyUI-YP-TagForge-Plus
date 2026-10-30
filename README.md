@@ -18,8 +18,9 @@ Tag suggestions, Russian translations, related tags and prompt formatting for Co
 - **Artist prefixes:** automatically insert `@` before Artist tags, use another prefix or disable it with an empty setting.
 - **Prompt formatting:** clean up repeated commas and surrounding spaces on blur, or manually with **Alt+Shift+F**.
 - **Readable lists:** alternating row backgrounds, full tag names with wrapping, plain-text translations and book links to tag pages.
+- **Inline translation editing:** correct translations directly in the selected CSV dictionary using the pencil button.
 - **Existing-tag detection:** tags already in the prompt appear dimmer, including tags with weights or spaces in place of underscores.
-- **Window sizing:** adjustable width; height follows the result count and available screen space.
+- **Window sizing:** adjustable base width with automatic expansion for longer rows; height follows the result count and available screen space.
 - **Node support:** classic text widgets, Nodes 2.0 and promoted Subgraph fields.
 
 Search uses local CSV snapshots. Book links open the tag's external page; suggestions do not require a live connection to Danbooru or e621.
@@ -58,15 +59,15 @@ Underscore conversion and the separator after insertion are configurable. Catego
 | --- | --- |
 | **Enable** | Enable the extension. |
 | **Main / extra / translation file** | Select local CSV data sources. |
-| **Префикс артистов** | Prefix for Artist tags; default `@`, empty disables it. |
+| **Artist prefix** | Prefix for Artist tags; default `@`, empty disables it. |
 | **Replace '_' with 'Space'** | Convert inserted tag underscores to spaces. |
 | **Delimiter / Add Space** | Configure the separator added after a suggestion. |
 | **Max Suggestions to Display** | Number of search suggestions; 0 requests all available matches. |
-| **Количество связанных тегов** | Number of related-tag results. |
-| **Ширина окна тегов (px)** | Popup width, from 320 to 1600 px. |
-| **Форматирование промпта** | Enable prompt formatting. |
-| **Форматировать при выходе из поля** | Format automatically when the field loses focus. |
-| **Запятая и пробел в конце строки** | Add a trailing comma and space. |
+| **Related tag count** | Number of related-tag results. |
+| **Tag window width (px)** | Base popup width, from 320 to 1600 px. The window expands for longer rows within screen bounds. |
+| **Prompt formatting** | Enable prompt formatting. |
+| **Format on blur** | Format automatically when the field loses focus. |
+| **Trailing comma and space** | Add a trailing comma and space. |
 
 Window height is automatic. Results that do not fit on screen remain available by scrolling. Settings apply without reloading the page.
 
@@ -75,6 +76,10 @@ Window height is automatic. Results that do not fit on screen remain available b
 Related results are ranked by Jaccard similarity using tag co-occurrence data. Selecting a result adds it after the source tag. If it is already present, the existing text is selected instead of being inserted again.
 
 Related data covers Danbooru. Some artists, rare tags and e621-only tags have no related entries. The first lookup builds a local disk index at `data/related.sqlite3`; later lookups use that index. Changing the source CSV rebuilds it automatically.
+
+## Editing translations
+
+Translations can be edited directly in suggestion and related-tag rows using the subtle pencil button. Save with ✓ or Enter; cancel with × or Escape. Changes update the selected translation CSV itself and become searchable immediately. Select a translation dictionary in settings before editing.
 
 ## Formatting
 
@@ -100,5 +105,3 @@ For bug reports, include your ComfyUI/frontend versions and a short example of t
 ## License
 
 [MIT](LICENSE). Required copyright notices are included in [licenses/](licenses/).
-
-Translations can be edited directly in suggestion and related-tag rows using the subtle pencil button. Save with ✓ or Enter; cancel with × or Escape. Changes update the selected translation CSV itself and become searchable immediately. Select a translation dictionary in settings before editing.
