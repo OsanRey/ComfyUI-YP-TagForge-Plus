@@ -86,7 +86,7 @@ export class PlusCompleter extends TagCompleter {
                     const after = snapshot.slice(range.end);
                     const suffix = after.startsWith(",") ? after.replace(/^,\s*/, ", ") : `, ${after}`;
                     applyTextareaText(this.element, `${before}, ${value}${suffix}`);
-                    this.element.setSelectionRange(before.length + 2 + value.length, before.length + 2 + value.length);
+                    this.element.setSelectionRange(before.length + 2 + value.length + 2, before.length + 2 + value.length + 2);
                 }
                 this.relatedRequest++;
                 this.dropdownController.hide();

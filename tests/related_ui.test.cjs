@@ -49,7 +49,15 @@ const data = { translate: 'оверсайз рубашка', results: [{ value: 
     assert.equal(c.dropdownController.items.length, 1);
     c.dropdownController.items[0].click();
     assert.equal(input.value, '(oversized shirt:1.2), oversized clothes, highres');
+    assert.equal(input.value.slice(0, input.selectionStart), '(oversized shirt:1.2), oversized clothes, ', 'caret belongs after separator');
     assert.equal(c.dropdownController.visible, false);
+    for (const tail of ['', ',', ',   ', ', next tag']) {
+        input.value = `oversized shirt${tail}`; input.selectionStart = 3; input.focus();
+        const inserting = c.showRelated(); respond(data); await inserting;
+        c.dropdownController.items[0].click();
+        assert.equal(input.value.slice(0, input.selectionStart), 'oversized shirt, oversized clothes, ');
+        assert.equal(input.value.slice(input.selectionStart), tail.includes('next') ? 'next tag' : '');
+    }
     input.value = 'oversized shirt, oversized clothes'; input.selectionStart = 3; input.focus();
     const again = c.showRelated(); respond(data); await again;
     c.dropdownController.items[0].click();

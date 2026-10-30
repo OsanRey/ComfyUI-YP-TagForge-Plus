@@ -307,6 +307,7 @@ export class VirtualDropdownController {
             originalIndex: index
         }));
         
+        this.contentWidth = null;
         this.currentIndex = 0;
         this.startIndex = 0;
         this.endIndex = Math.min(this.visibleCount + this.bufferSize * 2 - 1, this.allItems.length - 1);
@@ -553,17 +554,44 @@ export class VirtualDropdownController {
     // ------------------------------------------
     // ドロップダウンの位置を更新
     // ------------------------------------------
+    measureContentWidth() {
+        // Measure every result, including rows outside the virtual viewport.
+        // Clones preserve fonts and pills without moving interactive originals.
+        const measure = mkEl("div");
+        measure.style.cssText = "position:fixed;left:-100000px;top:0;visibility:hidden;pointer-events:none;width:max-content";
+        const rows = this.allItems.map(({ element }) => {
+            const row = element.cloneNode(true);
+            Object.assign(row.style, { width: "max-content", maxWidth: "none", height: "auto", flexWrap: "nowrap", transition: "none" });
+            for (const child of row.children) {
+                Object.assign(child.style, { flex: "0 0 auto", width: "max-content", maxWidth: "none" });
+                if (child.classList.contains("yp-tagforge-plus-text")) child.style.minWidth = "260px";
+            }
+            return row;
+        });
+        measure.append(...rows);
+        this.dropdown.append(measure);
+        try {
+            // Include popup borders/padding and room for the vertical scrollbar.
+            return Math.ceil(Math.max(0, ...rows.map(row => row.getBoundingClientRect().width))) + 24;
+        } finally {
+            measure.remove();
+        }
+    }
+
     updateDropdownPosition(position) {
         if (!position) return;
         this.lastPosition = position;
+        // The setting is the baseline; grow only when this result list needs it.
+        this.contentWidth ??= this.measureContentWidth();
+        const desiredWidth = Math.max(this.settings.dropdownWidth || 720, this.contentWidth);
         // Width affects wrapping, so measure the related header after sizing.
-        this.dropdown.style.width = `${Math.min(this.settings.dropdownWidth || 720, Math.max(0, window.innerWidth - 20))}px`;
+        this.dropdown.style.width = `${Math.min(desiredWidth, Math.max(0, window.innerWidth - 20))}px`;
         const width = this.dropdown.clientWidth;
         this.fitRowHeights(width !== this.rowWidth);
         this.rowWidth = width;
         const headerHeight = this.dropdown.querySelector(".yp-tagforge-plus-related-heading")?.offsetHeight ?? 0;
         const layout = dropdownLayout({ position, viewportWidth: window.innerWidth, viewportHeight: window.innerHeight,
-            scrollX: window.scrollX, scrollY: window.scrollY, width: this.settings.dropdownWidth,
+            scrollX: window.scrollX, scrollY: window.scrollY, width: desiredWidth,
             headerHeight,
             contentHeight: this.allItems.length * this.itemHeight });
         this.viewport.style.height = `${layout.listHeight}px`;
