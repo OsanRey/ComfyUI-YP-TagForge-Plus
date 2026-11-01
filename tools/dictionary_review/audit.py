@@ -8,6 +8,7 @@ from pathlib import Path
 from rules import descriptive, glossary, characters, copyrights, display_original
 
 ROOT = Path(__file__).resolve().parents[2]
+EMOTICONS={":d",":o",";d",":p",":q",":t",":3",":)",":(",";)","o_o","0_0","^_^","x_x","u_u",">_<","+_+","@_@","=_=","-_-","._.","xd"}
 CATEGORIES = {"0":"general", "1":"artist", "3":"copyright", "4":"character", "5":"meta",
  "7":"general", "8":"artist", "9":"contributor", "10":"copyright", "11":"character",
  "12":"species", "14":"meta", "15":"lore"}
@@ -44,7 +45,7 @@ def run(output, apply=False):
                     status="original_name_preserved";rule="no_verified_localized_name"
                 elif category=="copyright" and label in {"",display_original(tag)}:
                     status="original_title_preserved";rule="not_a_verified_localized_title"
-                elif not re.search(r"[A-Za-zА-Яа-яЁё]",tag):
+                elif tag in EMOTICONS or not re.search(r"[A-Za-zА-Яа-яЁё]",tag):
                     status="preserve_symbol";rule="never_translate_symbol"
                 else:
                     status="needs_review" if label else "missing_translation"

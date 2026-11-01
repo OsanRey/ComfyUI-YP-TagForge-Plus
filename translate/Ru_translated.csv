@@ -607,7 +607,7 @@ formal_clothes,строгая или парадная одежда
 straddling,сидит верхом
 ?,?
 crown,корона
-cover,покрытие
+cover,изображение обложки
 black_leotard,чёрный гимнастический купальник
 clenched_teeth,стиснутые зубы
 grabbing_another's_breast,сжимает грудь другого персонажа
@@ -920,90 +920,90 @@ brown_background,коричневый фон
 smoke,дым
 purple_background,фиолетовый фон
 rifle,винтовка
-armlet,браслет на руку
+armlet,браслет выше локтя
 tentacles,щупальца
 pink_skirt,розовая юбка
 sweater_vest,вязаный жилет
 veins,вены
-clenched_hands,сжатые руки
+clenched_hands,кисти сжаты в кулаки
 frilled_apron,фартук с оборками
 :<,:<
-tsurime,цуриме
+tsurime,глаза с приподнятыми внешними уголками
 desk,письменный стол
-single_glove,одиночная любовь
+single_glove,одна перчатка
 green_bow,зелёный бант
-cum_on_breasts,сперма на грудях
-knee_up,подъем на колени
+cum_on_breasts,сперма на груди
+knee_up,одно колено поднято
 zipper,молния-застёжка
-skin_tight,облегающий кожу
+skin_tight,плотно облегает тело
 freckles,веснушки
-high_collar,высокий воротничок
-full_moon,полнолуние
+high_collar,высокий воротник
+full_moon,полная луна
 mary_janes,туфли с ремешком на подъёме
-drinking_glass,бокал для питья
+drinking_glass,стакан или бокал
 ball,мяч
 sleeves_rolled_up,закатанные рукава
-spot_color,точечный цвет
+spot_color,отдельные цветные элементы в монохромном изображении
 indie_virtual_youtuber,indie virtual youtuber
-cowgirl_position,позиция ковбойшколы
+cowgirl_position,сексуальная поза наездницы
 :p,:p
 white_pants,белые брюки
-topless_male,мужчина без топлаша
+topless_male,мужчина с обнажённым торсом
 pocket,карман
 snow,снег
-beads,бисер
+beads,бусины
 hair_scrunchie,объёмная резинка в волосах
-dual_persona,двойственная личность
-one_eye_covered,один глаз покрыт
+dual_persona,разные образы или личности одного персонажа
+one_eye_covered,один глаз закрыт предметом или частью тела
 yellow_shirt,жёлтая рубашка
-dragon_girl,девушка-дракон
+dragon_girl,девушка с драконьими чертами
 lace,кружево
-frilled_shirt_collar,воротник с оборкой на рубашке
-finger_to_mouth,палец в рот
-official_alternate_hairstyle,официальная прическа
+frilled_shirt_collar,воротник рубашки с оборками
+finger_to_mouth,палец у рта
+official_alternate_hairstyle,другая официальная причёска персонажа
 wide_hips,широкие бёдра
 gift,подарок
 lens_flare,блик объектива
-half_updo,половинное обновление
-no_headwear,без головной одежды
-track_jacket,трек -лист jacket
+half_updo,"часть волос собрана, остальные распущены"
+no_headwear,без головного убора
+track_jacket,спортивная олимпийка
 pencil_skirt,юбка-карандаш
-strap_slip,страп слип
+strap_slip,бретель соскользнула с плеча
 vertical-striped_clothes,одежда в вертикальную полоску
-high_heel_boots,ботинки на высоком каблуке
-hakama_skirt,хакамада в юбке
+high_heel_boots,сапоги на высоком каблуке
+hakama_skirt,хакама в виде юбки
 black_bowtie,чёрный галстук-бабочка
-toned,тонированный
-genderswap_(mtf),гендерный разброс(mtf)
+toned,подтянутое телосложение
+genderswap_(mtf),мужской персонаж изображён женщиной
 handgun,пистолет
 green_jacket,зелёная куртка
-clothed_female_nude_male,одетая по-мужски
+clothed_female_nude_male,женщина в одежде и обнажённый мужчина
 fate/stay_night,fate/stay night
 artoria_pendragon_(fate),артория пендрагон (судьба)
 !,!
 cake,торт
 purple_bow,фиолетовый бант
 admiral_(kancolle),адмирал(канколле)
-seiza,сейза
-heavy_breathing,тяжелое дыхание
+seiza,сидит на пятках с коленями на полу
+heavy_breathing,тяжёлое дыхание
 blue_footwear,синяя обувь
-tokin_hat,токин хат
-starry_sky,звездный ский
+tokin_hat,токин — небольшой головной убор ямабуси
+starry_sky,звёздное небо
 walking,идёт
-bikini_top_only,бикини топ онли
+bikini_top_only,из бикини надет только верх
 after_sex,после секса
-single_horn,одиночный рог
-arm_behind_back,рука за спиной
+single_horn,один рог
+arm_behind_back,одна рука за спиной
 idolmaster_shiny_colors,idolmaster shiny colors
 white_coat,белое пальто
-asymmetrical_legwear,асимметричная легкая одежда
-wading,пробирающийся
+asymmetrical_legwear,разные чулки или другие элементы одежды на ногах
+wading,идёт вброд
 reflection,отражение
 mature_male,зрелый мужчина
 high-waist_skirt,юбка с завышенной талией
 fish,рыба
 green_dress,зелёное платье
-angel_wings,крылья ангела
+angel_wings,ангельские крылья
 between_legs,между ногами
 furrowed_brow,нахмуренные брови
 robe,мантия
@@ -1011,449 +1011,449 @@ alcohol,алкоголь
 grey_jacket,серая куртка
 frilled_bikini,купальник-бикини с оборками
 duplicate,дубликат
-handjob,мастурбирует
+handjob,стимуляция пениса рукой
 mole_on_breast,родинка на груди
-clothed_sex,одетый секс
+clothed_sex,секс в одежде
 brown_jacket,коричневая куртка
-tareme,тареме
+tareme,глаза с округлой формой и опущенными уголками
 idolmaster_(classic),idolmaster (classic)
 masturbation,мастурбация
-black-framed_eyewear,верхняя одежда в черной оправе
-tray,лоток
-ribbed_sweater,полосатый свитер
+black-framed_eyewear,очки в чёрной оправе
+tray,поднос
+ribbed_sweater,свитер в рубчик
 check_translation,проверить перевод
 cross-laced_footwear,обувь с перекрёстной шнуровкой
 personification,олицетворение
-swim_ring,кольцо для плавания
+swim_ring,надувной круг для плавания
 pendant,кулон
 blood_on_face,кровь на лице
-headset,наушники
-crying_with_eyes_open,плачущий с открытыми глазами
+headset,гарнитура
+crying_with_eyes_open,плачет с открытыми глазами
 forest,лес
 spoilers,спойлеры
 brown_pantyhose,коричневые колготки
-puffy_nipples,пухлые сосочки
+puffy_nipples,припухшие соски
 long_skirt,длинная юбка
-kemonomimi_mode,кемономимный режим
+kemonomimi_mode,персонажу добавлены звериные уши
 kochiya_sanae,кочия санае
-pouch,сумка
-arm_behind_head,рука за спиной
-furry_female,пушистая женщина
-long_fingernails,длинные ногти на пальцах
+pouch,небольшая сумка или подсумок
+arm_behind_head,одна рука за головой
+furry_female,женский звероподобный персонаж
+long_fingernails,длинные ногти на руках
 white_wings,белые крылья
-turtleneck_sweater,свитер с высоким воротом
+turtleneck_sweater,свитер с высоким облегающим воротником
 konpaku_youmu,конпаку юму
-sailor_dress,матросская одежда
-santa_hat,санта-Клаус
-goggles_on_head,изумленные взгляды на голове
+sailor_dress,платье с матросским воротником
+santa_hat,колпак Санта-Клауса
+goggles_on_head,защитные очки на голове
 age_difference,разница в возрасте
 komeiji_koishi,комейджи койши
 legs_up,поднятые ноги
-halloween,хэллоуин
+halloween,Хэллоуин
 love_live!_school_idol_project,love live! school idol project
-partially_submerged,частично погруженный
+partially_submerged,частично погружён в жидкость
 @_@,@_@
 purple_skirt,фиолетовая юбка
 black_sleeves,чёрные рукава
 alice_margatroid,алиса маргатроид
 cirno,чирно
-bulge,выпуклость
+bulge,выпуклость в паху под одеждой
 rain,дождь
 white_shorts,белые шорты
-crossdressing,кроссдрессинг
+crossdressing,"одежда, традиционно связанная с другим полом"
 patchouli_knowledge,пачули знание
-spoken_ellipsis,произнесенный эллипсис
+spoken_ellipsis,многоточие в реплике
 one_piece,one piece
 raised_eyebrows,приподнятые брови
 red_hat,красная шляпа
 short_ponytail,короткий хвостик
 curly_hair,кудрявые волосы
-one-hour_drawing_challenge,одночасовой розыгрыш
-jitome,джитоме
+one-hour_drawing_challenge,рисунок в рамках часового челленджа
+jitome,"глаза с прямой верхней линией, выражающие скуку или безразличие"
 hand_in_pocket,рука в кармане
-hand_in_own_hair,взлохмаченные волосы
+hand_in_own_hair,рука в собственных волосах
 green_shirt,зелёная рубашка
 backlighting,контровой свет
 white_hairband,белый ободок
-legs_apart,раздел ног
+legs_apart,ноги разведены
 brown_skirt,коричневая юбка
-hand_on_another's_head,рука на чужой голове
+hand_on_another's_head,рука на голове другого персонажа
 yellow_flower,жёлтый цветок
 mature_female,зрелая женщина
-fake_tail,фальшивый хвост
+fake_tail,накладной хвост
 bubble,пузырь
 condom,презерватив
 persona,persona
-thong,ремень
+thong,стринги
 red_bikini,красный купальник-бикини
 futanari,футанари
-out_of_frame,выход из фрейма
-thought_bubble,мысленный пузырь
+out_of_frame,за пределами кадра
+thought_bubble,мысль в облачке
 cuffs,манжеты
 cigarette,сигарета
-animal_hands,руки животного
+animal_hands,кисти с животными чертами
 denim_shorts,джинсовые шорты
 white_bra,белый бюстгальтер
 empty_eyes,пустой взгляд
-unworn_headwear,неношеная головная одежда
+unworn_headwear,головной убор снят или не надет
 yellow_ribbon,жёлтая лента
-upskirt,верхняя юбка
-star_hair_ornament,звездное украшение для волос
-faceless_male,безликий мужчина
-top_hat,топ хат
+upskirt,ракурс снизу под юбку
+star_hair_ornament,украшение для волос в форме звезды
+faceless_male,мужчина без изображённых черт лица
+top_hat,цилиндр — головной убор
 blue_pants,синие брюки
-dress_lift,платье с подтяжкой
-belt_buckle,пряжка для ремня
+dress_lift,приподнятое платье
+belt_buckle,пряжка ремня
 blue_hat,синяя шляпа
-pauldrons,наплечники
+pauldrons,наплечники доспехов
 yakumo_yukari,якумо юкари
-flying,летающий
+flying,летит
 4boys,4 юноши
-red-framed_eyewear,верхняя одежда в красной рамке
+red-framed_eyewear,очки в красной оправе
 epaulettes,эполеты
-furry_male,пушистый самец
+furry_male,мужской звероподобный персонаж
 striped_shirt,полосатая рубашка
-gym_uniform,спортивный зал uniform
-emphasis_lines,подчеркивание линий
-fingering,аппликатура
+gym_uniform,форма для физкультуры
+emphasis_lines,"линии, подчёркивающие акцент"
+fingering,сексуальная стимуляция пальцами
 white_kimono,белое кимоно
 red_scarf,красный шарф
 light_blue_hair,голубые волосы
 broom,метла
 teacup,чайная чашка
 honkai_impact_3rd,honkai impact 3rd
-colored_eyelashes,окрашенные ресницы
+colored_eyelashes,необычный цвет ресниц
 ribbon-trimmed_sleeves,рукава с отделкой лентой
-bowl,чаша
+bowl,миска
 wide-eyed,широко раскрытые глаза
 dog_tail,собачий хвост
-6+boys,6+мальчиков
-hat_ornament,украшение для шляпы
-cumdrip,капля спермы
+6+boys,шесть и более юношей
+hat_ornament,украшение головного убора
+cumdrip,стекающая сперма
 sports_bra,спортивный бюстгальтер
 school_bag,школьная сумка
-asymmetrical_bangs,асимметричные полосы
+asymmetrical_bangs,асимметричная чёлка
 stubble,щетина
 :q,:q
 tanlines,следы загара
 head_rest,голова опирается на руку
-plump,полнеть
-tentacle_hair,волосы-щупальца
-rabbit_girl,девушка-кролик
+plump,пухлое телосложение
+tentacle_hair,волосы в виде щупалец
+rabbit_girl,девушка с кроличьими чертами
 purple_flower,фиолетовый цветок
-knees_together_feet_apart,разделяют
+knees_together_feet_apart,"колени вместе, ступни врозь"
 twins,близнецы
-holding_umbrella,удерживающий умбреллу
+holding_umbrella,держит зонт
 blue_bowtie,синий галстук-бабочка
 running,бежит
-monster,монстр
+monster,чудовище
 purple_shirt,фиолетовая рубашка
 multicolored_eyes,разноцветные глаза
-fins,ребра
-braided_ponytail,заплетенный конский хвост
-shoulder_bag,сумка на плечо
+fins,плавники
+braided_ponytail,хвост с заплетённой косой
+shoulder_bag,сумка через плечо
 winter_uniform,зимняя форма
-innertube,внутренняя труба
-rape,изнасиловать
-black_serafuku,черный сарафуку
+innertube,надувной круг
+rape,изнасилование
+black_serafuku,чёрная школьная форма с матросским воротником
 sideburns,бакенбарды
-lolita_fashion,мода на Лолиту
-drinking_straw,питьевая соломка
-competition_swimsuit,спортивный костюм для соревнований
+lolita_fashion,мода в стиле «лолита»
+drinking_straw,соломинка для напитков
+competition_swimsuit,спортивный купальник для соревнований
 hands_on_own_hips,руки на своих бёдрах
-dual_wielding,двойное управление
-mini_person,мини-персона
+dual_wielding,оружие в обеих руках
+mini_person,миниатюрная версия персонажа
 boku_no_hero_academia,boku no hero academia
-buruma,бурума
+buruma,короткие спортивные шорты японской школьной формы
 shirt_tucked_in,заправленная рубашка
 dog,собака
-bandaged_arm,перевязанная рука
-doggystyle,по-собачьи
+bandaged_arm,забинтованная рука
+doggystyle,сексуальная поза с опорой на четвереньки
 red_rose,красная роза
-sun_hat,шляпа от солнца
+sun_hat,летняя шляпа от солнца
 jeans,джинсы
-watch,часы
-doujin_cover,обложка для дуджина
-blue_one-piece_swimsuit,синий цельнокроеный спортивный костюм
-spread_pussy,раздвинутая киска
-looking_ahead,смотрящий вперед
-holding_staff,удерживающий персонал
-height_difference,разница в высоте
+watch,наручные часы
+doujin_cover,обложка додзинси
+blue_one-piece_swimsuit,синий слитный купальник
+spread_pussy,раздвинутые половые губы
+looking_ahead,смотрит прямо перед собой
+holding_staff,держит посох
+height_difference,разница в росте
 hairpin,шпилька для волос
 paper,бумага
-contrapposto,контрапосто
-asymmetrical_hair,асимметричные волосы
-wolf_girl,девушка-волк
+contrapposto,контрапост — вес тела перенесён на одну ногу
+asymmetrical_hair,асимметричная причёска
+wolf_girl,девушка с волчьими чертами
 legs_together,ноги вместе
 blurry_foreground,размытый передний план
-notice_lines,строки уведомления
+notice_lines,"линии, обозначающие привлечение внимания"
 fur_collar,меховой воротник
-reaching,достигающий
+reaching,тянется к чему-либо
 cum_in_mouth,сперма во рту
-threesome,втроем
-collared_dress,платье с воротником-стойкой
+threesome,секс втроём
+collared_dress,платье с воротником
 source_request,запрос на опознание источника
 sunset,закат
 mustache,усы
 panties_under_pantyhose,трусики под колготками
-straight-on,прямолинейный
-thighband_pantyhose,повязка на бедро пантихозе
+straight-on,вид прямо спереди
+thighband_pantyhose,колготки с тёмными полосами на бёдрах
 santa_costume,костюм Санта-Клауса
 long_dress,длинное платье
-hair_down,волосы распущены
+hair_down,распущенные волосы
 dragon_tail,драконий хвост
-garter_belt,пояс для подвязок
+garter_belt,пояс для чулок
 shameimaru_aya,шамеймару айя
-missionary,миссионерский
-hoop_earrings,обручальные кольца
+missionary,миссионерская сексуальная поза
+hoop_earrings,серьги-кольца
 neon_genesis_evangelion,neon genesis evangelion
-long_bangs,длинные полосы
-naughty_face,озорное личико
-mouth_mask,маска для рта
+long_bangs,длинная чёлка
+naughty_face,лукавое или похотливое выражение лица
+mouth_mask,"маска, закрывающая рот и нос"
 +_+,+_+
-ass_focus,фокус на заднице
-nontraditional_miko,нетрадиционный мико
+ass_focus,акцент на ягодицах
+nontraditional_miko,нетрадиционный вариант одежды мико
 torn_pantyhose,порванные колготки
-partially_fingerless_gloves,перчатки частично без пальцев
-ghost,привидение
-serious,серьезный
+partially_fingerless_gloves,перчатки с открытыми пальцами лишь частично
+ghost,призрак
+serious,серьёзное выражение
 white_leotard,белый гимнастический купальник
 league_of_legends,league of legends
 the_legend_of_zelda,the legend of zelda
-circlet,обруч
+circlet,обруч на голове
 orange_background,оранжевый фон
 pink_lips,розовые губы
-poke_ball,покербол
-under-rim_eyewear,верхняя одежда для нижнего белья-rim eyewear
+poke_ball,покебол
+under-rim_eyewear,очки с оправой только по нижнему краю
 black_bodysuit,чёрный боди
-dog_girl,собачья герл
+dog_girl,девушка с собачьими чертами
 rabbit,кролик
 shield,щит
 aged_up,персонаж изображён старше
 mug,кружка
 wooden_floor,деревянный пол
 pokemon_swsh,pokemon swsh
-machinery,механическое оборудование
+machinery,механизмы и оборудование
 bouquet,букет
 chinese_text,текст на китайском языке
-lollipop,леденец
+lollipop,леденец на палочке
 injury,травма
-2koma,2комы
+2koma,комикс из двух панелей
 short_eyebrows,короткие брови
-breastplate,нагрудник
+breastplate,нагрудник доспехов
 resolution_mismatch,разрешение не совпадает с источником
-white_outline,белая строка
+white_outline,белый контур
 mirror,зеркало
 yu-gi-oh!,yu-gi-oh!
-teddy_bear,плюшевый мишка
-blue_theme,синяя тема
+teddy_bear,плюшевый медведь
+blue_theme,синяя цветовая гамма
 lantern,фонарь
-oni,oni
+oni,они — демон японского фольклора
 skull,череп
-rock,рок
-double_v,двойник v
-impossible_clothes,невозможная одежда
-female_masturbation,женское возбуждение
+rock,камень
+double_v,жест победы обеими руками
+impossible_clothes,одежда с физически невозможной конструкцией
+female_masturbation,женская мастурбация
 brown_belt,коричневый ремень
 reisen_udongein_inaba,райзен удонгин инаба
-paw_pose,лапа позиция
+paw_pose,кисти сложены наподобие лапок
 brother_and_sister,брат и сестра
-ice,лед
+ice,лёд
 black_horns,чёрные рога
 smirk,ухмылка
-enmaided,окруженный
+enmaided,персонаж переодет горничной
 pink_jacket,розовая куртка
-bouncing_breasts,прыгающие грудки
+bouncing_breasts,колышущаяся грудь
 striped_bow,полосатый бант
 shawl,шаль
-cleft_of_venus,щель между венами
-mini_hat,мини -шляпа
-scar_across_eye,шрам кросс айе
-popsicle,фруктовое мороженое
-sheathed,вложенный в ножны
+cleft_of_venus,узкая щель между большими половыми губами
+mini_hat,миниатюрная шляпка
+scar_across_eye,"шрам, проходящий через область глаза"
+popsicle,мороженое на палочке
+sheathed,оружие в ножнах
 pajamas,пижама
-breasts_squeezed_together,груди сжимаются вместе
-open_book,открытая книга
-hand_between_legs,руки между ног
+breasts_squeezed_together,груди сжаты вместе
+open_book,раскрытая книга
+hand_between_legs,рука между ног
 fujiwara_no_mokou,фудзивара но мокоу
 =_=,=_=
 final_fantasy_xiv,final fantasy xiv
-bags_under_eyes,сумки под глазами
-abyssal_ship,корабль из бездны
-card,карта
+bags_under_eyes,мешки под глазами
+abyssal_ship,глубинный флот из Kantai Collection
+card,карта или карточка
 off-shoulder_dress,платье с открытыми плечами
 water_drop,капля воды
 v_arms,(в оружии
-toenail_polish,полироль для ногтей на ногах
-sideways_glance,боковой взгляд
-sarashi,сараши
+toenail_polish,лак на ногтях ног
+sideways_glance,косой взгляд
+sarashi,сараси — тканевая обмотка тела
 waving,машет рукой
 shiny_clothes,блестящая одежда
 final_fantasy_vii,final fantasy vii
-glint,вспышка
+glint,сверкающий блик
 third-party_source,"источник, опубликованный третьим лицом"
 crystal,кристалл
 striped_bikini,полосатый купальник-бикини
-eyebrows_hidden_by_hair,прикрытые волосами
+eyebrows_hidden_by_hair,брови скрыты волосами
 akemi_homura,акеми хомура
-arms_at_sides,руки по бокам
-fishnet_pantyhose,колготки в рыболовную сетку
+arms_at_sides,руки опущены вдоль тела
+fishnet_pantyhose,колготки в сетку
 large_penis,большой пенис
-can,мочь
+can,жестяная банка
 fur-trimmed_jacket,куртка с меховой отделкой
 :t,:t
 stud_earrings,серьги-гвоздики
 stairs,лестница
 pink_footwear,розовая обувь
-upside-down,перевернутый вверх дном
+upside-down,вверх ногами
 k-on!,k-on!
-hug_from_behind,объятия из-за спины
+hug_from_behind,объятие сзади
 dragon,дракон
 red_cape,красный плащ-накидка
 on_floor,на полу
 komeiji_satori,комейджи сатори
-snowing,идет снег
-handbag,сумка
+snowing,идёт снег
+handbag,сумочка
 light_rays,лучи света
-lab_coat,лабораторное покрытие
+lab_coat,лабораторный халат
 jpeg_artifacts,артефакты сжатия JPEG
 leash,поводок
 splatoon_(series),splatoon (series)
-blue_halo,синий ореол
-holding_flower,держащий цвет
-veiny_penis,венозный пенис
-eyeliner,карандаш для глаз
-object_insertion,объект инсерция
-heart_hair_ornament,украшение в виде сердца и волос
+blue_halo,синий нимб
+holding_flower,держит цветок
+veiny_penis,пенис с выраженными венами
+eyeliner,подводка для глаз
+object_insertion,введение предмета в тело
+heart_hair_ornament,украшение для волос в форме сердца
 pout,надутые губы
 minigirl,мини-девочка
-forehead_mark,метка на лбу
+forehead_mark,отметина на лбу
 kaname_madoka,канаме мадока
-military_hat,который
-pink_halo,розовое гало
-new_year,новый год
+military_hat,военный головной убор
+pink_halo,розовый нимб
+new_year,Новый год
 !?,!?
-sign,знак
+sign,знак или табличка
 city,город
-backless_outfit,подгонка без задней крышки outfit
+backless_outfit,одежда с открытой спиной
 black_collar,чёрный воротник
-bandaid_on_face,повязка на лице
+bandaid_on_face,лейкопластырь на лице
 fire_emblem_heroes,fire emblem heroes
 blue_skin,синяя кожа
-unworn_hat,неношеная шляпа
+unworn_hat,шляпа снята или не надета
 street_fighter,street fighter
-hand_on_another's_shoulder,рука на чужом плече
-steaming_body,пропаривание тела
+hand_on_another's_shoulder,рука на плече другого персонажа
+steaming_body,от тела поднимается пар
 korean_text,текст на корейском языке
-foot_out_of_frame,подножие выходного рамка
-meme_attire,память аттире
+foot_out_of_frame,одна ступня за пределами кадра
+meme_attire,"одежда, связанная с мемом"
 hong_meiling,хонг мейлинг
 yukata,юката
 adjusting_clothes,поправляет одежду
-sharp_fingernails,острые ногти на пальцах
+sharp_fingernails,острые ногти на руках
 spoon,ложка
-oekaki,оэкаки
+oekaki,оэкаки — рисунок в простом онлайн-редакторе
 motion_blur,размытие движения
 purple_nails,фиолетовые ногти
 ice_cream,мороженое
 chopsticks,палочки для еды
-drink,пить
-spear,копье
+drink,напиток
+spear,копьё
 sportswear,спортивная одежда
 strawberry,клубника
 sand,песок
 tiles,плитка
-arrow_(symbol),стрелка(символ)
-low_wings,низкие крылья
-hugging_object,обнимающий объект
+arrow_(symbol),символ стрелки
+low_wings,крылья расположены низко на теле
+hugging_object,обнимает предмет
 chainsaw_man,chainsaw man
-borrowed_character,заимствованный символ
-animal_hood,животный мир
+borrowed_character,персонаж другого автора
+animal_hood,капюшон со звериными чертами
 blue_gloves,синие перчатки
-holding_unworn_clothes,храню недорого одежду
+holding_unworn_clothes,держит ненадетую одежду
 jumping,прыгает
-hair_behind_ear,прическа задний год
+hair_behind_ear,волосы убраны за ухо
 red_lips,красные губы
 muscular_female,мускулистая женщина
 red_hairband,красный ободок
-animal_focus,животный фокус
+animal_focus,акцент на животном
 hands_in_pockets,руки в карманах
 protected_link,ссылка с ограниченным доступом
-mouse_ears,мышиные годы
+mouse_ears,мышиные уши
 black_cape,чёрный плащ-накидка
 lyrical_nanoha,lyrical nanoha
-single_side_bun,одинокий сайд-булочка
+single_side_bun,один пучок волос сбоку
 music,музыка
-holding_knife,сжимающий нож
-fake_horns,фальшивые рога
-foot_focus,фокус стопы
+holding_knife,держит нож
+fake_horns,накладные рога
+foot_focus,акцент на ступне
 blue_panties,синие трусики
 blue_kimono,синее кимоно
 bespectacled,в очках
-double-breasted,двубортный
+double-breasted,двубортная одежда
 goatee,козлиная бородка
 pixiv_commission,работа на заказ через Pixiv
 princess_connect!,princess connect!
-hand_on_own_cheek,раздача на посадку чеек
+hand_on_own_cheek,рука на своей щеке
 saigyouji_yuyuko,сайгюдзи ююко
 railing,перила
 chromatic_aberration,хроматическая аберрация
 layered_sleeves,многослойные рукава
 chocolate,шоколад
 fork,вилка
-front-tie_bikini_top,передняя панель-tie bikini top
+front-tie_bikini_top,верх бикини с завязкой спереди
 suzumiya_haruhi_no_yuuutsu,suzumiya haruhi no yuuutsu
-shrug_(clothing),плечи(одежда)
-sound_effects,звуковые эффекты
-hat_flower,шляпный цветок
-butt_crack,трещина в заднице
-cum_overflow,поток спермы
-butterfly_hair_ornament,украшение из волос бабочки
+shrug_(clothing),короткая накидка на плечи и руки
+sound_effects,надписи звуковых эффектов
+hat_flower,цветок на головном уборе
+butt_crack,межъягодичная складка
+cum_overflow,вытекающая наружу сперма
+butterfly_hair_ornament,украшение для волос в форме бабочки
 bow_(weapon),лук — оружие
 contemporary,современный
 mountain,гора
 nun,монахиня
 zenless_zone_zero,zenless zone zero
-outstretched_hand,протянутая рука
-drawstring,шнурок на завязках
+outstretched_hand,протянутая кисть руки
+drawstring,стягивающий шнурок
 ;),;)
-criss-cross_halter,крест-накрест хальтер
+criss-cross_halter,перекрещённые бретели с креплением на шее
 nipple_stimulation,стимуляция сосков
 purple_ribbon,фиолетовая лента
 pixel-perfect_duplicate,попиксельный дубликат
 o_o,о о
-back_bow,задний лук
-pasties,пирожки
+back_bow,бант на спине
+pasties,наклейки на соски
 toaru_majutsu_no_index,toaru majutsu no index
-yellow_ascot,желтый аскот
+yellow_ascot,жёлтый галстук-аскот
 idolmaster_million_live!,idolmaster million live!
 arm_tattoo,татуировка на руке
-visor_cap,козырек
+visor_cap,козырёк без тульи
 fence,забор
-page_number,номер страницы number
-no_nose,нет ножа
-nurse_cap,колпачок медсестры
-ofuda,офуда
+page_number,номер страницы
+no_nose,нос не изображён
+nurse_cap,шапочка медсестры
+ofuda,офуда — бумажный талисман
 straw_hat,соломенная шляпа
 branch,ветка
-tinted_eyewear,тонированная одежда
-tabard,плащ-накидка
-center_frills,центральные оборки
+tinted_eyewear,очки с тонированными линзами
+tabard,табард — накидка без рукавов с открытыми боками
+center_frills,оборки по центру одежды
 brown_dress,коричневое платье
-fighting_stance,боевая позиция
+fighting_stance,боевая стойка
 long_legs,длинные ноги
 green_ribbon,зелёная лента
 white_sweater,белый свитер
-black_one-piece_swimsuit,черный цельнокроеный спортивный костюм
-sitting_on_person,сидящий на человеке
-alternate_color,альтернативный цвет
-smoking,курение
+black_one-piece_swimsuit,чёрный слитный купальник
+sitting_on_person,сидит на другом персонаже
+alternate_color,цвета отличаются от оригинальных
+smoking,курит
 large_areolae,большие ареолы
-skirt_hold,удержание юбки
+skirt_hold,держит юбку
 grey_pants,серые брюки
-pov_hands,пов руки
-interracial,межрасовый
-black_sclera,черный склер
+pov_hands,вид от первого лица с собственными руками в кадре
+interracial,межрасовое взаимодействие
+black_sclera,чёрные белки глаз
 panties_aside,трусики рядом
 world_witches_series,world witches series
 palm_tree,пальмовое дерево
@@ -1479,7 +1479,7 @@ tress_ribbon,тресс риббон
 hime_cut,причёска химэ
 inubashiri_momiji,инубашири момиджи
 wedding_dress,свадебное платье
-holding_bag,сумка для хранения
+holding_bag,держит сумку
 hair_tie,резинка для волос
 hair_bell,колокольчик для волос
 xenoblade_chronicles_(series),xenoblade chronicles (series)
@@ -1527,7 +1527,7 @@ covered_mouth,прикрытый рот
 doll,кукла
 chibi_only,чиби онли
 black_sweater,чёрный свитер
-white_one-piece_swimsuit,белый цельнокроеный спортивный костюм
+white_one-piece_swimsuit,белый слитный купальник
 suspender_skirt,юбка на подтяжках
 sunflower,подсолнух
 kaga_(kancolle),кага(канколле)
@@ -1594,7 +1594,7 @@ partially_visible_vulva,частично видимая вульва
 shoulder_cutout,вырез на плече
 aircraft,воздушное судно
 gift_box,подарочная коробка
-holding_bottle,удерживающий бутылку
+holding_bottle,держит бутылку
 clock,часы
 folding_fan,складывающийся вентилятор
 card_(medium),карточка (средняя)
@@ -1677,25 +1677,25 @@ winter_clothes,зимняя одежда
 shimakaze_(kancolle),симаказе(канколле)
 geta,гета
 pool,бассейн
-hand_on_another's_face,рука на чужом лице
+hand_on_another's_face,рука на лице другого персонажа
 danganronpa_v3:_killing_harmony,danganronpa v3: killing harmony
 shared_bathing,совместное купание
 sailor_hat,шляпа моряка
-holding_fan,удерживающий вентилятор
+holding_fan,держит веер
 tube_top,топ без бретелей
 glass,стекло
 onsen,онсен
 bun_cover,булочка покрытие
-holding_microphone,удерживающий микрофон
+holding_microphone,держит микрофон
 claw_pose,когтистая лапа
 feather_hair_ornament,украшение из перьев и волос
 inkling,намекающий
 classroom,классная комната
 petticoat,нижняя юбка
 gangbang,групповуха
-holding_tray,удерживающий трай
+holding_tray,держит поднос
 cow_print,коровий принт
-holding_polearm,удерживающее оружие
+holding_polearm,держит древковое оружие
 halloween_costume,костюм на Хэллоуин
 half_gloves,половинки перчаток
 cheerleader,болельщица
@@ -1717,7 +1717,7 @@ yellow_neckerchief,жёлтый шейный платок
 joints,стыки
 heart_censor,сердечный цензор
 purple_gloves,фиолетовые перчатки
-hand_on_own_chin,передаю на перед чин
+hand_on_own_chin,рука на своём подбородке
 black_hoodie,чёрная толстовка с капюшоном
 reiuji_utsuho,рэйюджи утсухо
 brown_hat,коричневая шляпа
@@ -1764,11 +1764,11 @@ leg_lift,подъем ног
 highleg_one-piece_swimsuit,спортивный костюм highleg one-piece swimsuit
 saber_(fate),сабля (судьба)
 mash_kyrielight,маш кирилайт
-hands_on_own_face,руки на опущенном лице
+hands_on_own_face,руки на своём лице
 cityscape,городской пейзаж
 voiceroid,voiceroid
 bare_back,без седла
-red_halo,красный гало
+red_halo,красный нимб
 flag,флаг
 white_cape,белый плащ-накидка
 talking,говорящий
@@ -1803,7 +1803,7 @@ blue_rose,синяя роза
 cannon,пушка
 taut_clothes,обтягивающая одежда
 armored_boots,бронированные ботинки
-holding_instrument,удерживающий инструмент
+holding_instrument,держит музыкальный инструмент
 red_choker,красный чокер
 kono_subarashii_sekai_ni_shukufuku_wo!,kono subarashii sekai ni shukufuku wo!
 re:zero_kara_hajimeru_isekai_seikatsu,re:zero kara hajimeru isekai seikatsu
@@ -1872,9 +1872,9 @@ hinanawi_tenshi,хинанави тенши
 ear_ornament,украшение для ушей
 hand_on_own_head,рука на своей голове
 yellow_dress,жёлтое платье
-red_ascot,красный аскот
+red_ascot,красный галстук-аскот
 laughing,смеющийся
-black_border,черная граница
+black_border,чёрная рамка
 office_lady,офисная леди
 wide_shot,общий план
 scythe,коса
@@ -1904,7 +1904,7 @@ check_commentary,проверить комментарий автора
 lumine_(genshin_impact),люмине (Genshin Impact)
 fate/zero,fate/zero
 arm_strap,арм страп
-yellow_halo,желтое гало
+yellow_halo,жёлтый нимб
 naked_shirt,обнаженная рубашка
 lapels,лацканы
 tall_image,очень высокое изображение
@@ -1925,7 +1925,7 @@ red_thighhighs,красные чулки выше колена
 tomoe_mami,томоэ мами
 style_parody,стиль пародия
 armored_dress,бронированный костюм
-hands_on_own_chest,раздать в наличии чист
+hands_on_own_chest,руки на своей груди
 5boys,5 юношей
 triangular_headpiece,треугольный наконечник
 bridal_veil,свадебная вуаль
@@ -1934,7 +1934,7 @@ indian_style,индийский стиль
 raiden_shogun,рейден шогун
 invisible_chair,невидимый стул
 bishoujo_senshi_sailor_moon,bishoujo senshi sailor moon
-hip_focus,хип-фокус
+hip_focus,акцент на бедре
 star_print,звездный отпечаток
 shibari,шибари
 shade,тень
@@ -1990,7 +1990,7 @@ against_wall,против волла
 toaru_kagaku_no_railgun,toaru kagaku no railgun
 drunk,пьяный
 randoseru,рандосеру
-holding_bouquet,букет в руках
+holding_bouquet,держит букет
 air_bubble,воздушный пузырь
 bread,хлеб
 souryuu_asuka_langley,кислый асука английский
@@ -2034,11 +2034,11 @@ project_sekai,project sekai
 tied_shirt,завязанная рубашка
 hugging_own_legs,обнимающие друг друга ноги
 split-color_hair,двухцветные волосы
-white_ascot,белый аскот
+white_ascot,белый галстук-аскот
 one_breast_out,один брюхий выход
 oil-paper_umbrella,промасленная бумага умбрелла
 teapot,заварочный чайник
-holding_stuffed_toy,удерживающий нашитую игрушку
+holding_stuffed_toy,держит мягкую игрушку
 pink_bowtie,розовый галстук-бабочка
 red_hakama,красные хакама
 blue_scarf,синий шарф
@@ -2067,7 +2067,7 @@ hat_feather,шляпный перышко
 short_kimono,короткое кимоно
 clothes_around_waist,"одежда, завязанная вокруг талии"
 white_rose,белая роза
-rabbit_hair_ornament,украшение из кроличьей шерсти
+rabbit_hair_ornament,украшение для волос в форме кролика
 ibuki_suika,ибуки суика
 bedroom,спальня
 houshou_marine,хаушоу марин
@@ -2100,7 +2100,7 @@ rigging,такелаж
 standing_sex,постоянный секс
 idol,идол
 flat_cap,плоская крышка
-holding_plate,удерживающая пластина
+holding_plate,держит тарелку
 condom_wrapper,обертыватель для кондомов
 green_bikini,зелёный купальник-бикини
 bikini_skirt,юбка-бикини
@@ -2136,7 +2136,7 @@ leaf_hair_ornament,украшение из листьев и волос
 covering_crotch,покрывающий крот
 partially_colored,частично окрашенный
 tilted_headwear,наклоненный головной убор
-aqua_nails,акварельные ногти
+aqua_nails,бирюзовые ногти
 tail_raised,поднятый хвост
 painttool_sai_(medium),создано в PaintTool SAI
 face-to-face,лицом к лицу
@@ -2191,7 +2191,7 @@ torii,тории
 mecha_musume,механический музей
 hakama_short_skirt,хакама шорт скирта
 holding_own_hair,придерживающие волосы
-holding_fruit,удерживающий фрукт
+holding_fruit,держит фрукт
 inkling_player_character,намекающий плейер характер
 leg_ribbon,ножка риббон
 platform_footwear,обувь на платформе
@@ -2208,7 +2208,7 @@ open_kimono,открыть кимоно
 ribbon_choker,ленточный чокер
 tamamo_(fate),тамамо (судьба)
 rolling_eyes,вращающиеся глаза
-hand_on_own_thigh,рука на нижний высокий
+hand_on_own_thigh,рука на своём бедре
 bandaid_on_leg,повязка на ноге
 shimenawa,сименава
 bad_anatomy,плохая анатомия
@@ -2220,7 +2220,7 @@ blue_gemstone,голубой драгоценный камень
 old,старый
 lace-trimmed_bra,бюстгальтер с кружевной отделкой
 holding_another's_wrist,держащий в руках чужую руку
-crescent_hair_ornament,полумесяц украшения волос
+crescent_hair_ornament,украшение для волос в форме полумесяца
 akagi_(kancolle),акаги(канколле)
 imminent_kiss,неизбежный поцелуй
 kita_high_school_uniform,китай высокая школа единая
@@ -2274,7 +2274,7 @@ pokemon_dppt,pokemon dppt
 frilled_hairband,ободок для волос с оборкой
 strap,ремень
 black_capelet,черная шапочка
-aqua_necktie,аква неклетка
+aqua_necktie,бирюзовый галстук
 glowing_eye,светящийся глаз
 raglan_sleeves,рукава реглан
 striped_dress,полосатое платье
@@ -2282,7 +2282,7 @@ o-ring_bikini,уплотнительное кольцо bikini
 micro_shorts,микро шорты
 pubic_tattoo,лобковая татуировка
 facing_another,лицом к лицу с другим
-hand_on_own_knee,опущенная на колено
+hand_on_own_knee,рука на своём колене
 fur-trimmed_sleeves,рукава с меховой отделкой
 one-eyed,одноглазый
 plugsuit,штекерный костюм
@@ -2317,7 +2317,7 @@ megurine_luka,мегурина лука
 biting,едкий
 house,дом
 hu_tao_(genshin_impact),ху тао(Genshin Impact)
-holding_gift,удерживающий подарок
+holding_gift,держит подарок
 tasuki,тасуки
 animalization,анимализация
 east_asian_architecture,восточноазиатская архитектура
@@ -2398,7 +2398,7 @@ chest_hair,волосы на груди
 brick_wall,кирпичная стена
 abigail_williams_(fate),эбигейл Уильямс(судьба)
 kitsune,кицунэ
-pink_theme,розовая тема
+pink_theme,розовая цветовая гамма
 drink_can,банка для питья
 police,полиция
 !!,!!
@@ -2420,7 +2420,7 @@ bad_source,неверно указанный источник
 striped_necktie,полосатый галстук
 arm_cannon,оружейная пушка
 gym_shirt,спортивная рубашка
-holding_chopsticks,удерживающие палочки для еды
+holding_chopsticks,держит палочки для еды
 blue_sweater,синий свитер
 higurashi_no_naku_koro_ni,higurashi no naku koro ni
 cunnilingus,куннилингус
@@ -2432,15 +2432,15 @@ handheld_game_console,портативная игровая консоль
 ears_through_headwear,наушники через голову
 coat_on_shoulders,пальто на плечах
 food_focus,фокус на еде
-holding_spoon,удерживающая ложка
+holding_spoon,держит ложку
 print_thighhighs,печать высоких значений
 game_controller,игровой контроллер
 necktie_between_breasts,галстук между грудей
 ikazuchi_(kancolle),иказучи(канколле)
 folded,сложенный
-red_theme,красная тема
+red_theme,красная цветовая гамма
 stool,стул
-aqua_background,аква бэкграунд
+aqua_background,бирюзовый фон
 seductive_smile,соблазнительная улыбка
 inazuma_eleven_(series),inazuma eleven (series)
 rwby,rwby
@@ -2449,7 +2449,7 @@ peeing,писающий
 grey_gloves,серые перчатки
 fur-trimmed_gloves,перчатки с меховой отделкой
 cutoffs,отсечки
-holding_fork,удерживающая вилка
+holding_fork,держит вилку
 sunbeam,солнечный луч
 one-piece_tan,цельный тан
 red_bodysuit,красный боди
@@ -2503,7 +2503,7 @@ checkered_floor,клетчатый пол
 umineko_no_naku_koro_ni,umineko no naku koro ni
 rebuild_of_evangelion,rebuild of evangelion
 birthday,день рождения
-cross-shaped_pupils,крестообразные зрачки
+cross-shaped_pupils,зрачки в форме креста
 pee,писать
 raccoon_tail,енотовидный хвост
 no_shirt,без рубашки
@@ -2514,7 +2514,7 @@ zzz,зззз
 draph,драпировка
 pink_thighhighs,розовые чулки выше колена
 aiming,прицеливание
-holding_can,удерживающий канал
+holding_can,держит банку
 blue_hoodie,синяя толстовка с капюшоном
 fur-trimmed_cape,плащ-накидка с меховой отделкой
 dark_persona,темная личность
@@ -2541,12 +2541,12 @@ hammer,молоток
 burger,бутерброд
 huge_penis,огромный пенис
 dripping,капающий
-holding_bow_(weapon),удерживающий лук(оружие)
+holding_bow_(weapon),держит лук
 see-through_shirt,просвечивающая рубашка
 shell,ракушка
 sakuragaoka_high_school_uniform,сакурагаока высокая школа единая
 superhero_costume,костюм супергероя
-cross_hair_ornament,перекрестный корнмент волос
+cross_hair_ornament,украшение для волос в форме креста
 naked_apron,обнаженный капрон
 multiple_rings,множественные кольца
 voice_actor_connection,голосовое соединение с актером
@@ -2579,14 +2579,14 @@ solid_oval_eyes,твердые овальные глаза
 chalkboard,классная доска
 nero_claudius_(fate),неро клаудиус(судьба)
 tiger_tail,тигриный хвост
-holding_candy,держащий канди
+holding_candy,держит конфету
 police_uniform,полицейская единица
 single_sidelock,одиночная блокировка
 artist_self-insert,artist self-вставка
 power_lines,силовые линии
 cat_boy,кошачий мальчик
 macross,macross
-yellow_sclera,желтая склера
+yellow_sclera,жёлтые белки глаз
 mini_top_hat,мини топ хат
 ear_bow,ушной бантик
 green_kimono,зелёное кимоно
@@ -2608,7 +2608,7 @@ image_sample,предварительная версия изображения
 fundoshi,фундоши
 nanami_chiaki,нанами чиаки
 half_up_braid,наполовину испуганный
-purple_theme,пурпурная тема
+purple_theme,фиолетовая цветовая гамма
 pokemon_bw2,pokemon bw2
 senki_zesshou_symphogear,senki zesshou symphogear
 dirty,грязный
@@ -2619,7 +2619,7 @@ bang_dream!_it's_mygo!!!!!,bang dream! it's mygo!!!!!
 clothes_grab,одежда для грабителей
 fake_screenshot,фальшивый снимок экрана
 yae_miko,яэ мико
-holding_card,удерживающая карта
+holding_card,держит карточку
 insect_wings,крылья насекомого
 haruna_(kancolle),харуна(канколле)
 foreskin,крайняя плоть
@@ -2651,8 +2651,8 @@ jumpsuit,комбинезон
 monster_boy,мальчик-монстр
 bikini_armor,бикини-броня
 bathtub,ванна
-holding_wand,удерживающий жезл
-aqua_bow,аква боу
+holding_wand,держит волшебную палочку
+aqua_bow,бирюзовый бант
 saucer,блюдце
 kirby_(series),kirby (series)
 kamen_rider,kamen rider
@@ -2707,7 +2707,7 @@ open_vest,открытый вест
 mismatched_pupils,несовпадающие пупилы
 shy,застенчивый
 baseball_bat,бейсбольный мяч
-holding_paper,удерживающая бумага
+holding_paper,держит бумагу
 1990s_(style),1990-е(стиль)
 shouting,крики
 sheep_horns,овечьи рога
@@ -2811,7 +2811,7 @@ clipboard,буфер обмена
 battle_tendency,battle tendency
 doll_joints,кукольные соединения
 blue_sleeves,синие рукава
-holding_hat,удерживающий что
+holding_hat,держит головной убор
 sniper_rifle,снайпер рифл
 nagato_yuki,нагато юки
 book_stack,книжная стопка
@@ -2834,7 +2834,7 @@ short_necktie,короткошерстная подружка
 glaring,яркий
 flat_color,плоский цвет
 atelier_(series),atelier (series)
-holding_ball,удерживающий мяч
+holding_ball,держит мяч
 white_wrist_cuffs,белые наручники
 bandaid_on_nose,повязка на носе
 naruto,naruto
@@ -2855,7 +2855,7 @@ unworn_panties,неношеные трусики
 halter_dress,платье на бретельках
 cardboard_box,картонная коробка
 single_wing,однокрылый
-green_theme,зеленая тема
+green_theme,зелёная цветовая гамма
 green_panties,зелёные трусики
 animal_ear_headphones,наушники-вкладыши animal ear headphones
 torn_pants,порванные брюки
@@ -2889,7 +2889,7 @@ assault_lily,assault lily
 beach_umbrella,пляж умбрелла
 plaid_shirt,клетчатая рубашка
 the_pose,это предположение
-holding_pen,удерживающая ручка
+holding_pen,держит ручку
 dougi,дуги
 between_fingers,между пальцами
 pregnant,беременная
@@ -2900,7 +2900,7 @@ jester_cap,шутливый колпачок
 heart_print,отпечаток сердца
 robot_joints,робот соединения
 crack,трещина
-hand_on_own_stomach,рука об руку с собственным желудком
+hand_on_own_stomach,рука на своём животе
 tomoe_mami_(magical_girl),томоэ мами (волшебная девочка)
 striped_bowtie,полосатый галстук-бабочка
 yuudachi_kai_ni_(kancolle),юудачи кай ни(канколле)
@@ -2951,7 +2951,7 @@ frilled_hair_tubes,гофрированные волосяные трубочк�
 popped_collar,всплывающий корректор
 cropped,обрезанное изображение
 pillow_hug,подушка хаг
-holding_camera,удерживающая камера
+holding_camera,держит камеру
 print_panties,печать пантиков
 yellow_sweater,жёлтый свитер
 jiangshi,цзянши
@@ -2992,7 +2992,7 @@ linea_alba,линейный альба
 recording,запись
 mandarin_collar,мандариновый воротничок
 mismatched_gloves,несовпадающие перчатки
-anchor_hair_ornament,закрепитель украшения для волос
+anchor_hair_ornament,украшение для волос в форме якоря
 internal_cumshot,внутренний кумшот
 chain-link_fence,ограждение из звеньев цепи
 black_skin,чёрная кожа
@@ -3037,7 +3037,7 @@ miki_sayaka_(magical_girl),мики саяка (волшебная девушк�
 holding_lollipop,удерживающий оллипоп
 matoi_ryuuko,матои рюуко
 mouse_(animal),мышь(животное)
-hand_on_another's_cheek,рука на чужой щеке
+hand_on_another's_cheek,рука на щеке другого персонажа
 toramaru_shou,торамару шоу
 frilled_thighhighs,чулки выше колена с оборками
 demon_boy,мальчик-демон
@@ -3064,7 +3064,7 @@ cum_on_ass,конча он асс
 frilled_collar,воротник с оборками
 pretty_series,pretty series
 shopping_bag,сумка для покупок
-skull_hair_ornament,украшение для волос на черепе
+skull_hair_ornament,украшение для волос в форме черепа
 black_fur,чёрная шерсть
 bra_strap,бюстгальтерный ремешок
 falling_leaves,падающие листья
@@ -3090,7 +3090,7 @@ notched_lapels,зазубренные отвороты
 joseph_joestar,джозеф Джостар
 interface_headset,интерфейсный набор настроек
 forehead_protector,защита лба
-flower-shaped_pupils,лепестки в форме цветка
+flower-shaped_pupils,зрачки в форме цветка
 castle,замок
 plaid_scarf,клетчатый шарф
 covering_face,покрывающее лицо
@@ -3118,7 +3118,7 @@ purple_bra,фиолетовый бюстгальтер
 bandaged_hand,перевязанная рука
 full_armor,полная броня
 ice_cream_cone,ледяной кремовый конус
-black_ascot,черный аскот
+black_ascot,чёрный галстук-аскот
 loincloth,набедренная повязка
 multicolored_bikini,разноцветный купальник-бикини
 commissioner_upload,загружено заказчиком работы
@@ -3240,7 +3240,7 @@ purple_leotard,фиолетовый гимнастический купальн�
 scar_on_chest,шрам на груди
 gridman_universe,gridman universe
 fur-trimmed_headwear,головная одежда с меховой отделкой
-hand_on_another's_chin,рука на чужой щеке
+hand_on_another's_chin,рука на подбородке другого персонажа
 tiger_&_bunny,tiger & bunny
 lowleg_panties,трусики на низких ножках
 grey_cardigan,серый кардиган
@@ -3266,7 +3266,7 @@ kotatsu,котацу
 holding_broom,вместительная комната
 arthropod_girl,девушка-членистоногое
 sonoda_umi,сонода уми
-holding_shield,удерживающий щит
+holding_shield,держит щит
 dressing,перевязочный
 scar_on_arm,шрам на руке
 purple_pantyhose,фиолетовые колготки
@@ -3275,7 +3275,7 @@ ushio_(kancolle),ушио(канколле)
 idol_clothes,одежда идола
 pink_cardigan,розовый кардиган
 microphone_stand,подставка для микрофона
-holding_bowl,удерживающий чашу
+holding_bowl,держит миску
 murasa_minamitsu,мураса минамицу
 bra_pull,бюстгальтер pull
 kirby,кирби
@@ -3333,14 +3333,14 @@ revolver,револьвер
 back_cutout,обратный вырез
 leather_jacket,куртка из кожи
 mobile_suit,мобильный костюм
-blue_ascot,синий аскот
+blue_ascot,синий галстук-аскот
 audible_music,слышна музыка
 axis_powers_hetalia,axis powers hetalia
 blue_wings,синие крылья
 2000s_(style),2000-е годы(стиль)
 money,деньги
 atago_(kancolle),атаго(канколле)
-hands_on_own_knees,опущенные на колени
+hands_on_own_knees,руки на своих коленях
 red_buruma,ред бурума
 track_pants,дорожка панты
 ensemble_stars!,ensemble stars!
@@ -3354,7 +3354,7 @@ pussy_peek,(киска)
 red_sash,красная полоса
 pointing_at_self,указывающий на самого себя
 pole,полюс
-green_halo,зеленое сияние
+green_halo,зелёный нимб
 tail_ribbon,хвостовой гребешок
 midair,в воздухе
 on_desk,на письменном столе
@@ -3369,7 +3369,7 @@ ai-generated,создано генеративным ИИ
 tassel_hair_ornament,украшение для волос с кисточкой
 polka_dot_panties,трусики в горошек
 diagonal-striped_clothes,одежда в диагональную полоску
-cat_hair_ornament,украшение из кошачьей шерсти
+cat_hair_ornament,украшение для волос в форме кошки
 hata_no_kokoro,хата но кокоро
 demon,демон
 netorare,нетораре
@@ -3390,7 +3390,7 @@ metal_collar,металлический ошейник
 tamamo_no_mae_(fate/extra),тамамо но мае (fate/extra)
 striped_scarf,полосатый шарф
 medium_dress,средний адрес
-black_mask,черная маска
+black_mask,чёрная маска
 strap_pull,строп пулл
 female_pervert,женский извращенец
 koharu_(blue_archive),кохару (Blue Archive)
@@ -3425,7 +3425,7 @@ uneven_eyes,неровные глаза
 ibaraki_kasen,ибараки касен
 aris_(blue_archive),aris (Blue Archive)
 unworn_jacket,ненадетая рубашка
-hand_on_own_arm,рука на опущенной руке
+hand_on_own_arm,рука на своей руке
 akebono_(kancolle),акебоно (канколле)
 starfish,морская звезда
 chick,цыпленок
@@ -3487,7 +3487,7 @@ official_wallpaper,официальные обои для экрана
 marnie_(pokemon),марни(Покемон)
 to_love-ru,to love-ru
 diamond_wa_kudakenai,diamond wa kudakenai
-holding_towel,держащее ткань
+holding_towel,держит полотенце
 animal_ear_piercing,животный ир пиерсинг
 gawr_gura_(1st_costume),gawr gura (1-й костюм)
 holding_box,удерживающий ящик
@@ -3497,9 +3497,9 @@ forked_eyebrows,раздвоенные брови
 armchair,кресло
 reverse_trap,обратная ловушка
 cowlick,вихор
-red_scrunchie,красный скруток
+red_scrunchie,красная объёмная резинка для волос
 closed_umbrella,закрытая умбрелла
-holding_axe,удерживающий топор
+holding_axe,держит топор
 hydrangea,гортензия
 single_sleeve,одиночный рукав
 heart-shaped_chocolate,шоколад в форме сердечка
@@ -3566,7 +3566,7 @@ samus_aran,самус аран
 audible_speech,слышна речь
 black_robe,чёрная мантия
 nami_(one_piece),имя(one piece)
-heart-shaped_eyewear,верхняя одежда в форме сердечка
+heart-shaped_eyewear,очки в форме сердца
 green_sailor_collar,зелёный матросский воротник
 chain_necklace,цепочка неклейс
 wing_hair_ornament,украшение из крыльев и волос
@@ -3605,7 +3605,7 @@ baby,младенец
 landscape,пейзаж
 furry_with_non-furry,furry with non-пушистый
 earpiece,наушник
-holding_scythe,удерживающий скит
+holding_scythe,держит косу — оружие
 lifting_person,поднимающий человека
 hands_in_hair,руки в волосах
 snowman,снеговик
@@ -3629,14 +3629,14 @@ nishikigi_chisato,нисикиги чисато
 rensouhou-chan,ренсуху-тян
 pink_shorts,розовые шорты
 naruto_shippuuden,naruto shippuuden
-hand_on_another's_back,рука об руку с чужой спиной
+hand_on_another's_back,рука на спине другого персонажа
 alternate_universe,альтернативная вселенная
 kazusa_(blue_archive),казуса(Blue Archive)
 garreg_mach_monastery_uniform,гаррег мах монастерий униформ
 pirate_hat,пиратский хат
 letter,письмо
 imagining,воображая
-yellow_theme,желтая тема
+yellow_theme,жёлтая цветовая гамма
 soap_bubbles,мыльные пузыри
 office_chair,офисный стул
 mother_and_son,мать и сын
@@ -3671,7 +3671,7 @@ v-fin,v-образный плавник
 pubic_hair_peek,лобковые волосы пик
 leaf_print,отпечаток листа
 knees_to_chest,от коленей до груди
-grey_halo,серое гало
+grey_halo,серый нимб
 business_suit,деловой костюм
 sidelighting,отвлекающий маневр
 disgaea,disgaea
@@ -3708,7 +3708,7 @@ surgical_mask,хирургическая маска
 new_super_mario_bros._u_deluxe,new super mario bros. u deluxe
 anal_tail,анал тейл
 jeanne_d'arc_(ruler)_(fate),жанна д'арк(правительница) (судьба)
-red_sclera,красный склер
+red_sclera,красные белки глаз
 no_nipples,никаких глотков
 shop,магазин
 trench_coat,тренч
@@ -3733,7 +3733,7 @@ toilet,туалет
 macaron,макарон
 suletta_mercury,сулетта ртуть
 prinz_eugen_(kancolle),принц Евгений(канколле)
-hand_on_another's_arm,рука на руке другого человека
+hand_on_another's_arm,рука на руке другого персонажа
 deep_penetration,глубокое проникновение
 halftone_background,полутоновый фон
 wedgie,"""Подвесить за трусы"""
@@ -3787,7 +3787,7 @@ oozora_subaru,озора субару
 lemon,лимон
 goth_fashion,готическая мода
 cat_paws,кошачьи лапы
-black_halo,черный ореол
+black_halo,чёрный нимб
 angel_beats!,angel beats!
 kafka_(honkai:_star_rail),кафка(Honkai: Star Rail)
 dragon_boy,мальчик-дракон
@@ -3823,7 +3823,7 @@ assault_visor,штурмовой визор
 toe_scrunch,- скручивание пальцев
 prosthetic_arm,протезная рука
 dragon_print,отпечаток дракона
-blue_serafuku,синий сарафуку
+blue_serafuku,синяя школьная форма с матросским воротником
 taur,таур
 shore,берег
 averting_eyes,отводящий глаза
@@ -3890,7 +3890,7 @@ c.c.,c.c.
 tie_clip,зажим для галстука
 2022,2022 год
 tekken,tekken
-hands_on_another's_face,руки на лице другого человека
+hands_on_another's_face,руки на лице другого персонажа
 teamwork_(sexual),командная работа (сексуальная)
 skadi_(arknights),скади(arknights)
 yellow_panties,жёлтые трусики
@@ -3914,7 +3914,7 @@ green_coat,зелёное пальто
 library,библиотека
 anchovy_(girls_und_panzer),анчоус(girls und panzer)
 kogal,когал
-holding_dagger,удерживающий даггер
+holding_dagger,держит кинжал
 anus_peek,анус пик
 nude_cover,обнаженный покров
 rose_print,отпечаток розы
@@ -3952,11 +3952,11 @@ spacesuit,скафандр
 unsheathed,обнаженный
 hk416_(girls'_frontline),hk416 (girls' frontline)
 orange_footwear,оранжевая обувь
-hand_on_another's_chest,рука на чужой груди
+hand_on_another's_chest,рука на груди другого персонажа
 fog,туман
 ribbed_shirt,рубашка в рубчик
 leotard_aside,купальник сбоку
-blue_scrunchie,синяя крошка
+blue_scrunchie,синяя объёмная резинка для волос
 lying_on_person,лживый он персонаж
 dungeon_ni_deai_wo_motomeru_no_wa_machigatteiru_darou_ka,dungeon ni deai wo motomeru no wa machigatteiru darou ka
 egg_vibrator,вибратор для яиц
@@ -3970,7 +3970,7 @@ flower_wreath,цветочный поток
 brand_name_imitation,имитация фирменного наименования
 earth_(planet),земля (планета)
 flexible,гибкий
-diamond-shaped_pupils,ромбовидные зрачки
+diamond-shaped_pupils,зрачки в форме ромба
 bismarck_(kancolle),бисмарк(канколле)
 vegetable,овощ
 ancient_egyptian,древний Египет
@@ -3986,7 +3986,7 @@ food_on_body,пища для тела
 takao_(kancolle),такао(канколле)
 ooi_(kancolle),оои (канколле)
 leaning,наклоняющийся
-aqua_bowtie,аква бантик
+aqua_bowtie,бирюзовый галстук-бабочка
 sideless_outfit,беспроигрышный вариант
 tiger,тигр
 ??,??
@@ -4043,7 +4043,7 @@ dragon_ball_super,dragon ball super
 touqi_guaitan,touqi guaitan
 non-humanoid_robot,негуманоидный робот
 cage,клетка
-small_horns,маленькие рожки
+small_horns,маленькие рога
 amami_haruka,амами харука
 medusa_(fate),медуза(судьба)
 taihou_(azur_lane),тайхоу(azur lane)
@@ -4061,9 +4061,9 @@ pen_(medium),рисунок ручкой
 butt_plug,стыковая заглушка
 rubber_duck,резиновый утенок
 irrumatio,раздражение
-hands_on_another's_shoulders,руки на чужих плечах
+hands_on_another's_shoulders,руки на плечах другого персонажа
 deepthroat,глубокая глотка
-aqua_shirt,аква шир
+aqua_shirt,бирюзовая рубашка
 arona_(blue_archive),арона (Blue Archive)
 polka_dot_bikini,купальник-бикини в горошек
 teacher,учитель
@@ -4120,7 +4120,7 @@ kiana_kaslana,киана каслана
 higuchi_madoka,игучи мадока
 collared_coat,пальто с воротником-стойкой
 white_headband,белая повязка на голову
-holding_leash,удерживающий поводок
+holding_leash,держит поводок
 ceiling,потолок
 acheron_(honkai:_star_rail),ашерон(Honkai: Star Rail)
 aki_shizuha,аки шизуха
@@ -4142,7 +4142,7 @@ triangle,треугольник
 debris,развалины
 red_(pokemon),красный(Покемон)
 checkered_skirt,клетчатая юбка
-frilled_one-piece_swimsuit,цельный спортивный костюм с оборками
+frilled_one-piece_swimsuit,слитный купальник с оборками
 flight_deck,полетная палуба
 sanrio,sanrio
 hanako_(blue_archive),Ханако (Blue Archive)
@@ -4156,7 +4156,7 @@ spoken_interrobang,разговорный интерробанг
 animal_crossing,animal crossing
 sushi,суши
 corrupted_twitter_file,повреждённый файл из Twitter
-huge_nipples,огромные глотки
+huge_nipples,огромные соски
 milestone_celebration,знаменательный момент празднования
 updo,прическа
 shijou_takane,сидзе такане
@@ -4214,7 +4214,7 @@ reindeer_antlers,оленьи упряжки
 rooftop,крыша
 humanoid_robot,гуманоидный робот
 bikini_tan,бикини-загар
-hand_on_another's_thigh,рука на чужом высоком
+hand_on_another's_thigh,рука на бедре другого персонажа
 grey_panties,серые трусики
 staring,смотреть
 pussy_juice_trail,тропа из кошачьих соков
@@ -4266,7 +4266,7 @@ date_a_live,date a live
 burn_scar,ожог шрама
 bra_peek,бюстгальтер пик
 kasumi_(kancolle),касуми(канколле)
-black_scrunchie,черный сухарик
+black_scrunchie,чёрная объёмная резинка для волос
 skullgirls,skullgirls
 gintama,gintama
 skates,коньки
@@ -4322,14 +4322,14 @@ two-sided_jacket,двусторонняя куртка
 lifebuoy,спасательный круг
 nilou_(genshin_impact),нилоу (Genshin Impact)
 orange_gloves,оранжевые перчатки
-holding_doll,держащая доллу
+holding_doll,держит куклу
 eevee,иви
 steins;gate,steins;gate
 toki_(bunny)_(blue_archive),токи (кролик) (Blue Archive)
 finger_on_trigger,палец он триггера
 len'en,len'en
 eyepatch_bikini,повязка на глаз bikini
-white_scrunchie,белый сухарик
+white_scrunchie,белая объёмная резинка для волос
 golden_kamuy,golden kamuy
 banner,баннер
 super_saiyan,супер сайян
@@ -4348,7 +4348,7 @@ pixiv_sample,уменьшенная предварительная версия 
 momoi_(blue_archive),момои(Blue Archive)
 bird_girl,девушка-птичка
 spider_web_print,паутинная печать
-aqua_dress,аква дресс
+aqua_dress,бирюзовое платье
 wo-class_aircraft_carrier,wo-класс автомобиля карьер
 scowl,хмуриться
 thigh_belt,поясной ремень
@@ -4423,7 +4423,7 @@ nipple_rings,кольца для сосков
 single_kneehigh,высота одного колена
 formidable_(azur_lane),внушительный(azur lane)
 eastern_dragon,восточный дракон
-aqua_skirt,аква скирта
+aqua_skirt,бирюзовая юбка
 deformed,деформированный
 holding_smoking_pipe,удерживающий дымящуюся трубу
 left-handed,левша
@@ -4457,7 +4457,7 @@ exercising,осуществление
 flute,флейта
 costume,костюм
 wet_swimsuit,мокрый купальник
-holding_hammer,удерживающий молоток
+holding_hammer,держит молот
 prone_bone,передняя кость
 multi-strapped_bikini_bottom,низ бикини с несколькими ремешками
 puckered_lips,сжатые губы
@@ -4474,7 +4474,7 @@ blue_hakama,синие хакама
 covered_face,покрытое лицо
 uruha_rushia,уруха рушия
 horned_helmet,рогатый шлем
-hand_on_another's_hip,рука об руку с чужим кораблем
+hand_on_another's_hip,рука на бедре другого персонажа
 piano,пианино
 takagaki_kaede,такагаки каэде
 spade_(shape),лопата (форма)
@@ -4557,7 +4557,7 @@ white_cardigan,белый кардиган
 scar_on_forehead,шрам на волоке
 wakasagihime,вакасагихиме
 horseshoe_ornament,украшение в виде подковы
-bat_hair_ornament,украшение из волос летучей мыши
+bat_hair_ornament,украшение для волос в форме летучей мыши
 open_dress,открытый адрес
 skirt_suit,костюм-юбка
 food_on_head,еда на голове
@@ -4573,7 +4573,7 @@ purple_scarf,фиолетовый шарф
 lace_panties,кружевные трусики
 twirling_hair,вьющиеся волосы
 karyl_(princess_connect!),подключайся!)
-holding_paintbrush,удерживающая кисть
+holding_paintbrush,держит кисть для рисования
 black_apron,чёрный фартук
 looking_over_eyewear,смотрящий поверх одежды
 strappy_heels,ремешки хол
@@ -4630,7 +4630,7 @@ u_u,у у
 grenade,граната
 nakiri_ayame,накири аяме
 nightcap,стаканчик на ночь
-purple_halo,пурпурный ореол
+purple_halo,фиолетовый нимб
 matching_outfits,соответствие требованиям
 atelier_ryza,atelier ryza
 multicolored_swimsuit,разноцветный купальник
@@ -4664,14 +4664,14 @@ shikishi,шикиши
 treble_clef,тройной ключ
 pokemon_rse,pokemon rse
 fluffy,пушистый
-x-shaped_pupils,x-образные зрачки
+x-shaped_pupils,зрачки в форме буквы X
 cosmetics,косметика
 kuroki_tomoko,куроки томоко
 holding_sheath,удерживающий кожух
 roronoa_zoro,ророноа зоро
 four-leaf_clover,четырехлистный клевер
 green_bra,зелёный бюстгальтер
-pink_scrunchie,розовый скруток
+pink_scrunchie,розовая объёмная резинка для волос
 hand_grab,захват вручную
 paw_shoes,лапти обуви
 :i,:я
@@ -4745,7 +4745,7 @@ watson_cross,уотсон кросс
 ancient_egyptian_clothes,древнеегипетская одежда
 happy_valentine,счастливая Валентина
 pink_bag,розовая сумка
-red_umbrella,ред умбрелла
+red_umbrella,красный зонт
 skin_fangs,кожные клыки
 midori_(blue_archive),мидори (Blue Archive)
 mohawk,ирокез
@@ -4862,7 +4862,7 @@ shingeki_no_bahamut,shingeki no bahamut
 hooded_cape,укрытый капюшоном пейзаж
 kiryu_coco,кирю коко
 ceiling_light,потолочный светильник
-aqua_ribbon,аква риббон
+aqua_ribbon,бирюзовая лента
 black_hakama,чёрные хакама
 mega_man_(classic),mega man (classic)
 squirrel_girl,девушка-белка
@@ -4877,7 +4877,7 @@ belly_chain,цепочка для живота
 narukami_yuu,наруками юу
 holding_baseball_bat,удерживающий базовый мяч бат
 cooperative_fellatio,кооперативная дружба
-yellow_scrunchie,желтый скруток
+yellow_scrunchie,жёлтая объёмная резинка для волос
 holding_syringe,удерживающий круг
 kal'tsit_(arknights),кальцит(arknights)
 scratches,царапины
@@ -4890,7 +4890,7 @@ pendant_choker,подвеска чокер
 bowsette,боузет
 heart-shaped_pillow,подушка в форме сердечка
 abstract,абстрактный
-hands_on_own_head,руки на нижнюю голову
+hands_on_own_head,руки на своей голове
 clothed_animal,одетое животное
 shark,акула
 patterned_clothing,одежда с рисунком
@@ -4903,7 +4903,7 @@ toothbrush,зубная щётка
 carpet,ковер
 orc,орк
 feather_earrings,перьевые серьги
-orange_theme,оранжевая тема
+orange_theme,оранжевая цветовая гамма
 nanamori_school_uniform,нанамори школа единая
 light_trail,световой след
 kanzaki_ranko,канзаки ранко
@@ -4931,7 +4931,7 @@ white_bag,белая сумка
 brown_sailor_collar,коричневый матросский воротник
 wedding,свадьба
 condom_on_penis,кондом он пенис
-brown_theme,коричневая тема
+brown_theme,коричневая цветовая гамма
 zuihou_(kancolle),цзуйхоу(канколле)
 ankle_ribbon,ножной браслет
 arlecchino_(genshin_impact),арлекино(Genshin Impact)
@@ -4956,7 +4956,7 @@ restaurant,ресторан
 graffiti,граффити
 cellphone_photo,мобильный телефон фото
 fire_emblem:_path_of_radiance,fire emblem: path of radiance
-aqua_neckerchief,акварельный шейный платок
+aqua_neckerchief,бирюзовый шейный платок
 bow_bikini,лук бикини
 plantar_flexion,подошвенное сгибание
 fischl_(genshin_impact),фишл (Genshin Impact)
@@ -4968,7 +4968,7 @@ mismatched_bikini,несовпадение бикини
 sitting_on_face,сидящий на лице
 mechabare,мехабаре
 fetal_position,положение плода
-purple_umbrella,пурпурная умбрелла
+purple_umbrella,фиолетовый зонт
 sunburst,солнечный луч
 stray_pubic_hair,сбившиеся лобковые волосы
 overskirt,верхняя юбка
@@ -5002,14 +5002,14 @@ character_hair_ornament,характер украшения волос
 flame-tipped_tail,хвост с огненным наконечником
 fujishima_megumi,фудзисима мегуми
 star_wars,star wars
-white_theme,белая тема
+white_theme,белая цветовая гамма
 bento,бенто
 ghost_tail,призрачный хвост
 mating_press,спаривание пресс
 star_ocean,star ocean
 rei_no_himo,рей но химо
 fire_emblem:_the_binding_blade,fire emblem: the binding blade
-hand_on_own_leg,рука на ноге
+hand_on_own_leg,рука на своей ноге
 moss,мох
 chloe_von_einzbern,хлоя Вон Эйнцберн
 orange_neckerchief,оранжевый шейный платок
@@ -5032,7 +5032,7 @@ meitantei_conan,meitantei conan
 talisman,талисман
 desert,пустыня
 large_tail,большой хвост
-white_serafuku,белый сарафуку
+white_serafuku,белая школьная форма с матросским воротником
 american_flag_bikini,американский флаг бикини
 ichinose_shiki,ичиносе шики
 kieran_(pokemon),киран(Покемон)
@@ -5074,8 +5074,8 @@ kirigiri_kyoko,киригири кеко
 mobile_suit_gundam,mobile suit gundam
 akamatsu_kaede,акамацу каэде
 kakyoin_noriaki,какеин нориаки
-snowflake_hair_ornament,украшение для волос из снежинок
-holding_lantern,держащий фонарь
+snowflake_hair_ornament,украшение для волос в форме снежинки
+holding_lantern,держит фонарь
 yuuki_makoto_(persona_3),юки макото(persona 3)
 faux_traditional_media,искусственные традиционные медиа
 worried,взволнованный
@@ -5131,7 +5131,7 @@ doremy_sweet,дореми сладкий
 giorno_giovanna,джорно джиованна
 holding_panties,удерживающие трусики
 sekaiju_no_meikyuu,sekaiju no meikyuu
-aqua_bikini,аква бикини
+aqua_bikini,бирюзовый купальник-бикини
 fanny_pack,фанни пакет
 green_neckerchief,зелёный шейный платок
 sigh,вздыхать
@@ -5256,7 +5256,7 @@ orange_fur,оранжевая шерсть
 fairy_tail,fairy tail
 typo,опечатка
 uneven_sleeves,неровные рукава
-holding_pencil,удерживающий карандаш
+holding_pencil,держит карандаш
 caught,пойманный
 fellatio_gesture,жест фелляции
 cat_print,кошачий принт
@@ -5301,7 +5301,7 @@ narmaya_(granblue_fantasy),нармая(granblue fantasy)
 starry_sky_print,звездный ский принт
 flat_ass,плоский зад
 shimada_arisu,симадаарису
-grey_border,серая граница
+grey_border,серая рамка
 transparent_umbrella,прозрачная умбрелла
 yellow_hoodie,жёлтая толстовка с капюшоном
 paint.net_(medium),создано в Paint.NET
@@ -5336,7 +5336,7 @@ nape,затылок
 rice_bowl,миска с рисом
 cum_on_penis,кончить на пенис
 creator_connection,создатель соединения
-hands_on_another's_head,руки на голове другого человека
+hands_on_another's_head,руки на голове другого персонажа
 anal_fingering,анальный секс пальцами
 orange_hat,оранжевая шляпа
 ryuuguu_rena,рюугуу рена
@@ -5422,7 +5422,7 @@ naoetsu_high_school_uniform,naoetsu высшая школа единая
 balcony,балкон
 shirogane_naoto,широгане наото
 haikyuu!!,haikyuu!!
-hand_on_another's_neck,рука на чужой шее
+hand_on_another's_neck,рука на шее другого персонажа
 holding_stick,удерживающая палочка
 mercy_(overwatch),милосердие(overwatch)
 zombie_pose,предположение зомби
@@ -5434,7 +5434,7 @@ creature_and_personification,создание и олицетворение
 shokuhou_misaki,шокухоу мисаки
 mcdonald's,mcdonald's
 spilling,проливающийся
-fish_hair_ornament,украшение из рыбьих волос
+fish_hair_ornament,украшение для волос в форме рыбы
 fleeing,бегущий
 sun_symbol,символ солнца
 hooves,копыта
@@ -5527,7 +5527,7 @@ diluc_(genshin_impact),ослабление(Genshin Impact)
 potato_chips,картофельные чипсы
 fishnet_top,рыболовная сетка топ
 red_trim,красный край
-orange_scrunchie,апельсиновый хрустик
+orange_scrunchie,оранжевая объёмная резинка для волос
 fine_art_parody,прекрасная художественная пародия
 silver_wolf_(honkai:_star_rail),серебряный волк(Honkai: Star Rail)
 clothed_female_nude_female,одетая по-женски
@@ -5588,7 +5588,7 @@ x-men,x-men
 bird_legs,птичьи ножки
 alley,аллея
 fake_phone_screenshot,фальшивый снимок экрана с телефона
-red_one-piece_swimsuit,красный костюм из одного куска ткани
+red_one-piece_swimsuit,красный слитный купальник
 cave,пещера
 wreath,венок
 oboro_(kancolle),оборо (канколле)
@@ -5626,7 +5626,7 @@ nitocris_(fate),нитокрис (судьба)
 cousins,кузены
 evangelion:_2.0_you_can_(not)_advance,evangelion: 2.0 you can (not) advance
 tsukino_mito,цукино мито
-long_tail,длиннохвостый
+long_tail,длинный хвост
 coral,коралловый
 clothes_down,сброшенная одежда
 goat_ears,козлиные уши
@@ -5716,7 +5716,7 @@ skull_print,отпечаток черепа
 patchwork_skin,лоскутная кожа
 caustics,едкие вещества
 archived_source,архивная копия источника
-hands_on_own_thighs,опускающиеся на бедра
+hands_on_own_thighs,руки на своих бёдрах
 multicolored_shirt,разноцветная рубашка
 trick_or_treat,хитрость или лечение
 hololive_dev_is,hololive dev is
@@ -5747,7 +5747,7 @@ black_male_underwear,черное мужское нижнее белье
 cheek_pinching,пощипывание за щеку
 grey_scarf,серый шарф
 orange_choker,оранжевый чокер
-hand_on_another's_stomach,рука на чужом животе
+hand_on_another's_stomach,рука на животе другого персонажа
 single_gauntlet,одиночный гаунтлет
 holstered,засунутый в кобуру
 two-tone_bodysuit,двухцветный боди
@@ -6128,7 +6128,7 @@ face_to_breasts,от лица к груди
 fish_(food),рыба(еда)
 hidamari_sketch,hidamari sketch
 saratoga_(kancolle),саратога(канколле)
-holding_balloon,удерживающий воздушный шар
+holding_balloon,держит воздушный шар
 ushanka,ушанка
 drinking_straw_in_mouth,пьющий страву в рту
 juliana_(pokemon),джулиана(Покемон)
@@ -6139,14 +6139,14 @@ kalashnikov_rifle,автомат Калашникова
 long_shirt,длинная рубашка
 laios_touden,лайос туден
 board_game,настольная игра
-holding_pillow,удерживающая подушка
+holding_pillow,держит подушку
 omurice,омурис
 fangs_out,клыки наружу
 hatsuzuki_(kancolle),хацудзуки(канколле)
 claw_ring,кольцо когтей
 pearl_earrings,жемчужные серьги
 column_lineup,столбец линейный
-holding_leaf,удерживающий лиф
+holding_leaf,держит лист растения
 crotch_rub,растирание промежности
 prehensile_hair,цепкие волосы
 health_bar,панель управления здоровьем
@@ -6220,7 +6220,7 @@ orange_thighhighs,оранжевые чулки выше колена
 has_censored_revision,существует версия с цензурой
 erica_hartmann,эрика Хартманн
 fire_emblem_echoes:_shadows_of_valentia,fire emblem echoes: shadows of valentia
-triangle_hair_ornament,треугольник украшения волос
+triangle_hair_ornament,украшение для волос в форме треугольника
 neon_lights,неоновые огни
 taigei_(kancolle),тайгей(канколле)
 redesign,переконструировать
@@ -6271,7 +6271,7 @@ makinami_mari_illustrious,макинами мари иллюстриус
 twin_turbo_(umamusume),twin turbo (umamusume)
 orange_slice,апельсиновый ломтик
 gradient_skin,градиент скин
-aqua_jacket,аква жакет
+aqua_jacket,бирюзовая куртка
 electrokinesis,электрокинез
 shadowverse,shadowverse
 color_connection,цветовое соединение
@@ -6341,7 +6341,7 @@ lyrica_prismriver,река лирика-призма
 projected_inset,запроектированный набор
 jeanne_d'arc_alter_(swimsuit_berserker)_(fate),жанна д'арк альтер (в купальнике берсеркер) (судьба)
 yura_(kancolle),юра(канколле)
-aqua_theme,аква тема
+aqua_theme,бирюзовая цветовая гамма
 excessive_pubic_hair,чрезмерные волосы на лобке
 tippy_(gochiusa),типпи(гочиуса)
 mini-hakkero,мини-хаккеро
@@ -6413,7 +6413,7 @@ breath_weapon,дыхательное оружие
 twincest,самый близкий друг
 drop-shaped_pupils,каплевидные зрачки
 plaid_background,клетчатый фон
-blue_sclera,синий клер
+blue_sclera,синие белки глаз
 choppy_bangs,порывистые удары
 heel_up,подъем
 uneven_horns,неровные рога
@@ -6551,7 +6551,7 @@ plant_girl,девушка-растение
 pixiv_username,имя пользователя pixiv
 thick_beard,густая борода
 opening_door,открывающаяся дверь
-holding_guitar,удерживающий ключ
+holding_guitar,держит гитару
 stuffed_shark,фаршированный шарк
 index_fingers_together,индекс фингеров вместе
 dyed_bangs,окрашенные пряди
@@ -6567,7 +6567,7 @@ kagari_atsuko,кагари ацуко
 palms,ладони
 battle_axe,боевой топор
 kaga_(azur_lane),кага(azur lane)
-large_testicles,большие пробирки
+large_testicles,большие яички
 sword_girls,sword girls
 naginata,нагината
 mayano_top_gun_(umamusume),майяно топ гун (umamusume)
@@ -6591,7 +6591,7 @@ black_bridal_gauntlets,черные бридальские брючки
 poke_ball_symbol,покер бол символ
 bowl_hat,чаша хат
 kyonko,кенко
-pointy_nose,заостренный нос
+pointy_nose,заострённый нос
 macross_delta,macross delta
 forked_tongue,раздвоенный язык
 striped_kimono,полосатое кимоно
@@ -6691,7 +6691,7 @@ talking_on_phone,говорящий по телефону
 kujikawa_rise,кудзикава райз
 breasts_on_head,грудь на голове
 hooded_sweater,свитер с капюшоном
-white_halo,белый ореол
+white_halo,белый нимб
 ibaraki_douji_(fate),ибараки дуджи(судьба)
 bodice,лиф
 monokuma,монокума
@@ -6738,7 +6738,7 @@ tighnari_(genshin_impact),тигнари(Genshin Impact)
 leg_armor,ножной доспех
 fallen_down,упавший вниз
 cookie_run,cookie run
-breast_focus,фокус на груди
+breast_focus,акцент на груди
 fighter_jet,истребитель jet
 potion,зелье
 blunt_tresses,тупые актрисы
@@ -6802,7 +6802,7 @@ buttjob,мастурбация ягодицами
 kill_me_baby,kill me baby
 through_wall,сквозная стена
 palms_together,ладони вместе
-black_theme,черная тема
+black_theme,чёрная цветовая гамма
 king_halo_(umamusume),король хало (umamusume)
 benghuai_xueyuan,benghuai xueyuan
 checkerboard_cookie,шашлычный пирог
@@ -6864,11 +6864,11 @@ hoshimachi_suisei_(1st_costume),костюм хошимачи(1-й костюм)
 severed_head,отрезанная голова
 adventurer_(ff11),авантюрист (ff11)
 melusine_(fate),мелюзина(судьба)
-large_hands,большие руки
+large_hands,большие кисти рук
 girthy_penis,обхват пениса
 green_socks,зелёные носки
 deer,олень
-pink_border,розовая граница
+pink_border,розовая рамка
 striped_gloves,полосатые перчатки
 no_wings,без крыльев
 circle_skirt,круговая юбка
@@ -6878,7 +6878,7 @@ fake_mustache,фальшивые усы
 red_apron,красный фартук
 muv-luv_alternative,muv-luv alternative
 turtleneck_leotard,водолазка леотард
-blue_border,синяя граница
+blue_border,синяя рамка
 lio_fotia,lio фотия
 black_garter_belt,черный пояс для подвязки
 unworn_bikini_top,неношеный верх для бикини
@@ -6952,7 +6952,7 @@ three-dimensional_maneuver_gear,трехмерное маневровое обо
 glaceon,ледник
 dress_tug,платье туг
 single_strap,одиночный страп
-hand_on_own_shoulder,рука на собственном плече
+hand_on_own_shoulder,рука на своём плече
 holding_hose,держащий сос
 psychic,психический
 perrine_h._clostermann,перрин Х. Клостерманн
@@ -7055,7 +7055,7 @@ making-of,процесс создания
 shoebill_(kemono_friends),обувная афиша(kemono friends)
 pokemon_xy_(anime),pokemon xy (anime)
 multiple_drawing_challenge,множественный ребенок для рисования
-white_umbrella,белая умбрелла
+white_umbrella,белый зонт
 blake_belladonna,блейк белладонна
 horse_penis,лошадиный пенис
 yagasuri,ягасури
@@ -7134,7 +7134,7 @@ park,парк
 weighing_scale,весы для взвешивания scale
 leather_gloves,кожаные перчатки
 shirase_sakuya,ширасе сакуя
-hand_on_own_neck,рука на шее
+hand_on_own_neck,рука на своей шее
 battleship_princess,"боевой корабль ""принцесса"""
 kasane_teto_(sv),касане тето (sv)
 suspended_congress,отложенный конгресс
@@ -7224,7 +7224,7 @@ pointless_condom,бессмысленное состояние
 shoulder_belt,плечевой ремень
 vector_trace,векторная обводка
 orange_sailor_collar,оранжевый матросский воротник
-hand_on_another's_leg,рука на ноге другого человека
+hand_on_another's_leg,рука на ноге другого персонажа
 fur-trimmed_shorts,шорты с меховой отделкой
 sidesaddle,боковое седло
 touhou_tag_dream,touhou tag dream
@@ -7258,7 +7258,7 @@ gun_sling,стрельба из пистолета
 lace_choker,кружевной чокер
 jessie_(pokemon),джесси(Покемон)
 centaur,кентавр
-back_focus,обратный фокус
+back_focus,акцент на спине
 nachi_(kancolle),начи (канколле)
 cyno_(genshin_impact),cyno (Genshin Impact)
 komi_shouko,коми шоуко
@@ -7299,7 +7299,7 @@ takamaki_anne,такамаки анна
 di_gi_charat,di gi charat
 madotsuki,мадоцуки
 yes,да
-pink_one-piece_swimsuit,розовый спортивный костюм из одного предмета
+pink_one-piece_swimsuit,розовый слитный купальник
 yuzuki_choco,юзуки чоко
 white_lily,белая лилия
 dimitri_alexandre_blaiddyd,димитрий александр блэйддид
@@ -7489,7 +7489,7 @@ kel_(omori),кел (omori)
 narita_brian_(umamusume),нарита брайан (umamusume)
 shinonome_ena,синономе ена
 green_wings,зелёные крылья
-holding_violin,удерживающее сило
+holding_violin,держит скрипку
 crate,клеть
 fireplace,камин
 doctor,врач
@@ -7565,7 +7565,7 @@ love_plus,love plus
 sunscreen,солнцезащитный крем
 under_night_in-birth,under night in-birth
 winged_footwear,обувь с крылышками
-werewolf,оборотень
+werewolf,оборотень с чертами волка
 gundam_tekketsu_no_orphans,gundam tekketsu no orphans
 matsuno_jyushimatsu,мацуно юсимацу
 irene_(arknights),ирен(arknights)
@@ -7619,7 +7619,7 @@ yu-gi-oh!_arc-v,yu-gi-oh! arc-v
 flock,стадо
 lynette_(genshin_impact),линетт(Genshin Impact)
 extra_mouth,лишний рот
-red_border,красная граница
+red_border,красная рамка
 side_ahoge,сиде ахоге
 hanasakigawa_school_uniform,ханасакигава школа единая
 ijiranaide_nagatoro-san,ijiranaide nagatoro-san
@@ -7669,7 +7669,7 @@ elizabeth_bathory_(fate/extra_ccc),элизабет батори(fate/extra ccc)
 shihouin_yoruichi,сихоуин йоруичи
 h&k_hk416,h&k hk416
 yi_sang_(project_moon),yi sang (project moon)
-aqua_footwear,аква обувь
+aqua_footwear,бирюзовая обувь
 kirlia,кирлия
 prehensile_tail,цепкий хвост
 accidental_exposure,случайное воздействие
@@ -7726,7 +7726,7 @@ basketball_uniform,баскетбольная форма
 pokedex_number,номер покедекса
 sinoalice,sinoalice
 tama_(kancolle),тама(канколле)
-aqua_panties,аква пантики
+aqua_panties,бирюзовые трусики
 touhou_lostword,touhou lostword
 elesa_(pokemon),элеса(Покемон)
 arrow_through_heart,пронзающая сердце
@@ -7760,7 +7760,7 @@ lord_of_the_mysteries,lord of the mysteries
 finger_to_face,прикосновение пальца к лицу
 goldenglow_(arknights),золотой свет(arknights)
 orange_belt,оранжевый ремень
-purple_scrunchie,пурпурная скруточка
+purple_scrunchie,фиолетовая объёмная резинка для волос
 cetacean_tail,хвост китообразного
 adam's_apple,адамово яблоко
 giving_up_the_ghost,возвращающий к жизни призрака
@@ -7867,7 +7867,7 @@ torn_jacket,порванная куртка
 kotonoha_aoi,котоноха аои
 arthropod_limbs,конечности членистоногих
 weight_conscious,осознающий свой вес
-holding_envelope,удерживающая пеленву
+holding_envelope,держит конверт
 commander_(girls'_frontline),командир(girls' frontline)
 fur_cape,меховой колпак
 torn_scarf,порванный шарф
@@ -7883,14 +7883,14 @@ tarot_(medium),таро(среднее)
 legs_folded,ноги согнуты
 arms_around_waist,обхватывающие руки на талии
 yellow_leotard,жёлтый гимнастический купальник
-purple_ascot,пурпурный аскот
+purple_ascot,фиолетовый галстук-аскот
 natsuki_subaru,нацуки субару
 fire_emblem_warriors:_three_hopes,fire emblem warriors: three hopes
 rebecca_(cyberpunk),ребекка(киберпанк)
 untying,развязывая
 two-tone_hairband,двухцветный ободок
 karakai_jouzu_no_takagi-san,karakai jouzu no takagi-san
-purple_one-piece_swimsuit,фиолетовый комбинезон из одного куска ткани
+purple_one-piece_swimsuit,фиолетовый слитный купальник
 snail,улитка
 cursor,указатель
 kasumi_(doa),касуми(доа)
@@ -8009,7 +8009,7 @@ balancing,балансировка
 borrowed_design,заимствованный дизайн
 brushing_another's_hair,расчесываю чужие волосы
 clothes,одежда
-orange_ascot,апельсин аскот
+orange_ascot,оранжевый галстук-аскот
 kino_makoto,кино макото
 new_school_swimsuit,новый школьный костюм
 pentacle,пентакль
@@ -8150,7 +8150,7 @@ vampire_costume,костюм вампира
 kamisato_ayato,камисато аято
 haniyasushin_keiki,ханиясушин кейки
 sonoda_chiyoko,сонода чийоко
-pink_ascot,розовый аскот
+pink_ascot,розовый галстук-аскот
 northern_white-faced_owl_(kemono_friends),северянка с белым лицом(kemono friends)
 grey_wings,серые крылья
 animal_skull,череп животного
@@ -8204,7 +8204,7 @@ scarf_over_mouth,шарф поверх рта
 daitaku_helios_(umamusume),дайтаку хелиос(umamusume)
 island,остров
 fiery_horns,огненные рога
-yellow_border,желтая граница
+yellow_border,жёлтая рамка
 shoulder_holster,плечевая кобура
 minamino_kanade,минамино канаде
 sweet_lolita,сладкая Лолита
@@ -8213,7 +8213,7 @@ resident_evil_4,resident evil 4
 sobu_high_school_uniform,единая школа
 candy_wrapper,обертка для конфет
 single_thigh_boot,одиночный высокий загрузчик
-grey_theme,серая тема
+grey_theme,серая цветовая гамма
 no_testicles,никаких проб.
 huge_moon,огромная луна
 m4a1_(girls'_frontline),m4a1 (girls' frontline)
@@ -8221,7 +8221,7 @@ widowmaker_(overwatch),создатель вдов(overwatch)
 detective,детектив
 wraith_(apex_legends),призрак(apex legends)
 penis_peek,пенис пик
-hands_on_own_stomach,раздать в домашний стомач
+hands_on_own_stomach,руки на своём животе
 hospital_bed,больничная койка
 okamisty,окамистый
 kesa,кеса
@@ -8258,7 +8258,7 @@ bianca_(pokemon),бьянка(Покемон)
 deadpool_(series),deadpool (series)
 napkin,салфетка
 hooded_cardigan,кардиган в капюшоне
-black_umbrella,черная арбрелла
+black_umbrella,чёрный зонт
 half-spread_pussy,наполовину раздвинутая киска
 cinderella_series,cinderella series
 hina_(swimsuit)_(blue_archive),хина(купальник)(Blue Archive)
@@ -8439,7 +8439,7 @@ furukawa_nagisa,фурукава нагиса
 chando_(ado),чандо (адо)
 yarn,пряжа
 sendai_hakurei_no_miko,сендай хакурей но мико
-aqua_gloves,аква гловели
+aqua_gloves,бирюзовые перчатки
 diagonal-striped_bowtie,галстук-бабочка в диагональную полоску
 hoshino_ruby,хосино рубы
 ashido_mina,ашидо мина
@@ -8485,7 +8485,7 @@ playstation_portable,портативная игровая станция
 stark_(sousou_no_frieren),старк (sousou no frieren)
 ciel_(tsukihime),сиэль(tsukihime)
 pancake_stack,стопка блинов
-holding_letter,удерживающее письмо
+holding_letter,держит письмо
 gamagoori_ira,гамагури ира
 brown_leotard,коричневый гимнастический купальник
 orange_panties,оранжевые трусики
@@ -8502,7 +8502,7 @@ yuki_judai,юки юдай
 easel,мольберт
 hatsune_miku_(append),хацунэ мику(добавить)
 isoi_reiji,изои рейджи
-huge_testicles,огромные пробирки
+huge_testicles,огромные яички
 bicorne,двурогий
 funami_yui,фунами юи
 messenger_bag,сумка-мессенджер
@@ -8527,11 +8527,11 @@ guilty_gear_xx,guilty gear xx
 arms_between_legs,руки между ног
 grey_cape,серый плащ-накидка
 radio,радио
-green_sclera,зеленый склер
+green_sclera,зелёные белки глаз
 katori_(kancolle),катори(канколле)
 kousaka_reina,косака реина
 rita_rossweisse,рита россвейсе
-red_outline,красный outline
+red_outline,красный контур
 ruffling_hair,взъерошенные волосы
 grimoire,гримуар
 jeanne_d'arc_alter_(ver._shinjuku_1999)_(fate),жанна д'арк альтер (версия shinjuku 1999) (судьба)
@@ -8634,7 +8634,7 @@ cyndaquil,синдаквил
 nagisa_(blue_archive),нагиса(Blue Archive)
 coin_on_string,монета на строке
 age_regression,возрастная регрессия
-hands_on_own_breasts,сжимающие грудь
+hands_on_own_breasts,руки на своих грудях
 kourindou_tengu_costume,костюм куриндоу тенгу
 kazama_iroha_(1st_costume),казама ироха (1-й костюм)
 mysterious_heroine_x_alter_(fate),таинственная героиня х альтер(судьба)
@@ -8803,7 +8803,7 @@ pomu_rainpuff,пому раинпафф
 multiple_monochrome,мультиплеер монохромный
 living_clothes,жилая одежда
 musou_isshin_(genshin_impact),мусоу исшин(воздействие геншина)
-large_ears,большие годы
+large_ears,большие уши
 holding_legs,удерживающие ножки
 floating_weapon,плавающее оружие
 child's_drawing,детский рисунок
@@ -8859,7 +8859,7 @@ shironeko_project,shironeko project
 hard_hat,жесткий ответ
 holding_sex_toy,удерживающий секс той
 love_live!_school_idol_festival_all_stars,love live! school idol festival all stars
-grey_serafuku,серый сарафуку
+grey_serafuku,серая школьная форма с матросским воротником
 iris_(pokemon),ирис (Покемон)
 leg_wrap,обертывание для ног
 haro,харо
@@ -8934,7 +8934,7 @@ bad_food,плохая еда
 butter,сливочное масло
 reisa_(blue_archive),рейс(Blue Archive)
 sabrina_(pokemon),сабрина(Покемон)
-diamond_hair_ornament,бриллиантовое украшение для волос
+diamond_hair_ornament,украшение для волос в форме ромба
 cherry_hair_ornament,вишневое украшение для волос
 tsukishiro_yanagi,цукиширо янаги
 wading_pool,плавающий бассейн
@@ -8973,8 +8973,8 @@ hoodie_lift,худи лифтинг
 kadotani_anzu,кадотани анзу
 yellow_tank_top,жёлтый топ без рукавов
 kine,коровы
-purple_serafuku,пурпур серафуку
-brown_border,коричневая граница
+purple_serafuku,фиолетовая школьная форма с матросским воротником
+brown_border,коричневая рамка
 tatsumi_kanji,татсуми канджи
 pod_(nier:automata),pod (nier:automata)
 anchor_choker,ведущий
@@ -9158,7 +9158,7 @@ cinnamoroll,коричный рулет
 kayoko_(dress)_(blue_archive),кайоко (платье) (Blue Archive)
 mash_kyrielight_(dangerous_beast)_(cosplay),маш кирилайт (опасный зверь) (косплей)
 crt,элт
-hands_on_another's_hips,руки на руках другого человека
+hands_on_another's_hips,руки на бёдрах другого персонажа
 super_robot_wars_original_generation,super robot wars original generation
 fanning_self,любящий себя
 rocket,ракета
@@ -9187,7 +9187,7 @@ flying_kick,летающий щелчок
 fatui_coat,фатиновый слой
 vividred_operation,vividred operation
 halo_behind_head,ореол задня голова
-hands_on_another's_thighs,руки на бедрах друг друга
+hands_on_another's_thighs,руки на бёдрах другого персонажа
 tentacles_under_clothes,щупальца под одеждой
 basil_(headspace)_(omori),базилик (свободное пространство) (omori)
 blanc_(neptunia),бланко(нептуния)
@@ -9347,7 +9347,7 @@ paint_splatter_on_face,раскраска пластина на фасаде
 hospital_gown,больничный халат
 sukoya_kana,сукоя кана
 green_(pokemon),грин (Покемон)
-green_scrunchie,зеленый хрустик
+green_scrunchie,зелёная объёмная резинка для волос
 ornate_ring,богато украшенное кольцо
 war,война
 m200_(girls'_frontline),m200 (girls' frontline)
@@ -9517,7 +9517,7 @@ aile_(mega_man_zx),эйли(mega man zx)
 lighthouse,маяк
 ooshio_(kancolle),ошио(канколле)
 final_fantasy_xiii,final fantasy xiii
-black_outline,черная линия выхода
+black_outline,чёрный контур
 azura_(fire_emblem),азура(fire emblem)
 boxcutter,машина для резки ящиков
 vikala_(granblue_fantasy),викала(granblue fantasy)
@@ -9607,7 +9607,7 @@ ladybug,божья коровка
 inuyama_aoi,инуяма аои
 silence_(arknights),тишина(arknights)
 conductor_baton,дирижер батон
-aqua_hat,аква хат
+aqua_hat,бирюзовая шляпа
 aranara_(genshin_impact),аранара (Genshin Impact)
 otaku,отаку
 in_palm,в палме
@@ -9735,7 +9735,7 @@ merchandise,товар
 air_shakur_(umamusume),воздушный шакур(umamusume)
 blood_bag,мешок с кровью
 mochi_trail,мочи трейл
-aqua_kimono,аква-кимоно
+aqua_kimono,бирюзовое кимоно
 satin,атлас
 blood_on_leg,кровь на ноге
 tang_keke,танг кеке
@@ -9814,11 +9814,11 @@ bernadetta_von_varley,бернадетта вон варли
 nib_pen_(object),nib pen (объект)
 mawaru_penguindrum,mawaru penguindrum
 diona_(genshin_impact),диона(Genshin Impact)
-hand_on_own_ear,от руки до конца года
+hand_on_own_ear,рука на своём ухе
 gold_coin,золотая монета
 licking_foot,облизывание ступни
 pointy_hat,заостренный палец
-blue_umbrella,голубая умбрелла
+blue_umbrella,синий зонт
 bagged_fish,рыба в мешке
 pectoral_press,грудное прессование
 blend_s,blend s
@@ -9881,7 +9881,7 @@ ofuda_on_head,офуда на голове
 spider-man:_into_the_spider-verse,spider-man: into the spider-verse
 sequential,последовательный
 ichigo_mashimaro,ichigo mashimaro
-aqua_hairband,акварельная лента для волос
+aqua_hairband,бирюзовый ободок
 albedo_(overlord),альбедо(повелитель)
 holding_toy,удерживающий той
 kamikita_komari,камикита комари
@@ -9963,7 +9963,7 @@ bear_tail,медвежий хвост
 very_long_beard,очень длиннобородый
 wringing_clothes,отжимать белье
 yui_(angel_beats!),юи(angel beats!)
-holding_chain,удерживающая цепочка
+holding_chain,держит цепь
 cum_in_container,сперма в контейнере
 sitting_backwards,сидя спиной вперед
 pokemon_tcg,pokemon tcg
@@ -10002,7 +10002,7 @@ kako_(kancolle),како (канколле)
 platinum_(arknights),платинум (arknights)
 energy_cannon,энергетическая пушка
 facing_up,лицевая сторона вверх
-holding_cake,удерживающий кейк
+holding_cake,держит торт
 cum_inflation,кум инфляция
 finana_ryugu,финанса рюгу
 saniwa_(touken_ranbu),санива(touken ranbu)
@@ -10021,7 +10021,7 @@ liko_(pokemon),лайко(Покемон)
 skull_necklace,шнурок на шее черепа
 takakura_ken_(dandadan),такакура кен (dandadan)
 kaleidostick,калейдоскоп
-pink_umbrella,розовая умбрелла
+pink_umbrella,розовый зонт
 ifrit_(arknights),ифриты(arknights)
 frankenstein's_monster_(fate),чудовище Франкенштейна(судьба)
 yukoku_kiriko,юкоку кирико
@@ -10061,8 +10061,8 @@ sekai_seifuku:_bouryaku_no_zvezda,sekai seifuku: bouryaku no zvezda
 crystalfly_(genshin_impact),crystalfly (Genshin Impact)
 radish,редис
 sugimoto_saichi,сугимото саичи
-blue_outline,синяя линия выхода
-hand_on_another's_ear,рука на чужом сердце
+blue_outline,синий контур
+hand_on_another's_ear,рука на ухе другого персонажа
 gakkou_gurashi!,gakkou gurashi!
 reptile_girl,девушка-рептилия
 lux_(league_of_legends),люкс (league of legends)
@@ -10218,7 +10218,7 @@ net,сеть
 kuji-in,кудзи-ин
 giant_monster,гигантский монстр
 arm_cutout,arm обрезка
-aqua_halo,аква хало
+aqua_halo,бирюзовый нимб
 garnet_til_alexandros_xvii,гранат тиль александрос xvii
 airship,воздушный корабль
 covered_testicles,покрытые тестикулами
@@ -10290,7 +10290,7 @@ splatoon_2:_octo_expansion,splatoon 2: octo expansion
 shimokitazawa_high_school_uniform,симокитазава высокая школьная форма
 apron_lift,фартук лифт
 katou_megumi,катоу мегуми
-star-shaped_eyewear,верхняя одежда в форме звездочки
+star-shaped_eyewear,очки в форме звезды
 dream_c_club,dream c club
 yu_yu_hakusho,yu yu hakusho
 implied_kiss,подразумеваемый поцелуй
@@ -10322,7 +10322,7 @@ scar_on_hand,шрам на руке
 plap,хлоп
 shigure_kai_san_(kancolle),сигуре кай сан (канколле)
 joestar_birthmark,знак рождения Джостара
-aqua_bra,аква бра
+aqua_bra,бирюзовый бюстгальтер
 plastic_bottle,пластиковая бутылка
 green_feathers,зелёные перья
 yuuki_(sao),юки(Сан-Франциско)
@@ -10369,7 +10369,7 @@ odin_sphere,odin sphere
 mahou_shoujo_ikusei_keikaku,mahou shoujo ikusei keikaku
 white_day,белый день
 falchion_(fire_emblem),фальшион (огненный символ)
-green_one-piece_swimsuit,зеленый костюм из одного куска ткани
+green_one-piece_swimsuit,зелёный слитный купальник
 milky_way,млечный путь
 yorumi_rena,йоруми рена
 izayoi_aki,изайои аки
@@ -10504,7 +10504,7 @@ kidou_senkan_nadesico,kidou senkan nadesico
 female_goblin,женский гоблин
 penguin_hood,детство пингвина
 roma_(kancolle),рома(канколле)
-two-tone_one-piece_swimsuit,двухцветный однотонный спортивный костюм
+two-tone_one-piece_swimsuit,двухцветный слитный купальник
 arm_around_back,обращенная назад
 untied_footwear,развязанная обувь
 camouflage_headwear,камуфляжная головная одежда
@@ -10539,7 +10539,7 @@ ingrid_brandl_galatea,ингрид брандл галатея
 fur_jacket,меховая куртка
 dota_(series),dota (series)
 merman,водяной
-polka_dot_scrunchie,в горошек скрути
+polka_dot_scrunchie,объёмная резинка для волос в горошек
 corrin_(male)_(fire_emblem),коррин (мужчина) (fire emblem)
 pagoda,пагода
 kasumi_(blue_archive),касуми(Blue Archive)
@@ -10660,7 +10660,7 @@ araragi_karen,арараги карен
 shoulder_blush,румянец на плечах
 vergil_(devil_may_cry),вергилий(devil may cry)
 easter,пасха
-aqua_leotard,аква леотард
+aqua_leotard,бирюзовый гимнастический купальник
 altaria,алтарь
 materia,материя
 ring_gag,кольцо гаг
@@ -10786,7 +10786,7 @@ himejima_akeno,химеджима акено
 saijo_juri,сайджо юри
 miia_(monster_musume),miia (monster musume)
 sanageyama_uzu,санагеяма узу
-striped_one-piece_swimsuit,полосатый цельнокроеный спортивный костюм
+striped_one-piece_swimsuit,полосатый слитный купальник
 araki_hirohiko_(style),араки хирохико(стиль)
 takane_lui_(1st_costume),такане луи(1-й костюм)
 sakura_bakushin_o_(umamusume),сакура бакушин о (umamusume)
@@ -10950,7 +10950,7 @@ protecting,защищающий
 playing_guitar,играющий гитарист
 huge_dildo,огромный дильдо
 eva_02,ева 02
-yellow_outline,желтая страница
+yellow_outline,жёлтый контур
 madou_monogatari,madou monogatari
 yellow_pantyhose,жёлтые колготки
 capcom,capcom
@@ -10983,7 +10983,7 @@ marking_on_cheek,пометка на чеек
 nihonga,нихонга
 commentary_typo,опечатка в комментарии автора
 hanami_ume,ханами уме
-pink_outline,розовая страница
+pink_outline,розовый контур
 keep_out,контрольный пункт
 bianca_(dq5),бьянка(dq5)
 himemushi_momoyo,химемуши мойо
@@ -11032,7 +11032,7 @@ bandaid_on_thigh,бандаж на высоте
 folder,папка
 starry_hair,звездные волосы
 pyra_(pro_swimmer)_(xenoblade),пира (pro swimmer) (ксеноблейд)
-hands_on_another's_chest,руки на чужой груди
+hands_on_another's_chest,руки на груди другого персонажа
 handsfree_paizuri,паизури с громкой связью
 kazusa_(band)_(blue_archive),казуса(группа) (Blue Archive)
 yotsuba_alice,йоцуба алис
@@ -11065,7 +11065,7 @@ two-tone_sweater,двухцветный свитер
 kami_jigen_game_neptune_v,kami jigen game neptune v
 wakan_tanka,вакан танка
 triplets,тройняшки
-green_border,зеленая граница
+green_border,зелёная рамка
 lord_el-melloi_ii,лорд эл-меллои ии
 presenting_breasts,преподносящие брюшки
 multicolored_leotard,разноцветный гимнастический купальник
@@ -11236,9 +11236,9 @@ chabashira_tenko,хабашира тенко
 medieval,средневековый
 hoshimachi_suisei_(casual),костюм хошимачи(повседневный)
 two-tone_necktie,двухцветный галстук
-holding_key,удерживающий ключ
+holding_key,держит ключ
 season_connection,сезонное соединение
-green_ascot,зеленый аскот
+green_ascot,зелёный галстук-аскот
 naked_tabard,обнаженный табард
 natsuiro_matsuri_(1st_costume),нацуиро матсури (1-й костюм)
 shirogane_noel_(casual),широгане ноэль(повседневный)
@@ -11435,7 +11435,7 @@ hozuki_kaede,хозуки каэде
 sparkle_hair_ornament,блестящее украшение для волос
 hashtag,хэштег
 shiratsuyu_kai_ni_(kancolle),ширацую кай ни(канколле)
-aqua_thighhighs,аква высокие высоты
+aqua_thighhighs,бирюзовые чулки выше колена
 top_wo_nerae!_(series),top wo nerae! (series)
 ikuno_dictus_(umamusume),икуно диктус (umamusume)
 kurokawa_eren,курокава ерен
@@ -11541,8 +11541,8 @@ fujimaru_ritsuka_(female)_(polar_chaldea_uniform),фудзимару ритсу�
 one-piece_thong,цельнокроеное платье
 long_toenails,длинные ногти на ногах
 nyarlathotep_(nyaruko-san),ньярлатхотеп(ньяруко-сан)
-hexagon_hair_ornament,шестиугольник украшения для волос
-holding_trident,удерживающий тридент
+hexagon_hair_ornament,украшение для волос в форме шестиугольника
+holding_trident,держит трезубец
 stiletto_(weapon),стилет(оружие)
 kitakami_kai_ni_(kancolle),китаками кай ни(канколле)
 grey_bag,серая сумка
@@ -11601,7 +11601,7 @@ mitsudomoe_(manga),mitsudomoe (manga)
 mutton_chops,бараньи отбивные
 body_switch,телесный переключатель
 one_piece_card_game,one piece card game
-aqua_shorts,аква шорты
+aqua_shorts,бирюзовые шорты
 musaigen_no_phantom_world,musaigen no phantom world
 color_trace,цветовая трасса
 elesis_(elsword),elesis (elsword)
@@ -11889,7 +11889,7 @@ saionji_hiyoko,сайондзи хийоко
 sirius_(azure_horizons)_(azur_lane),сириус (азурские горизонты) (azur lane)
 colored_speech_bubble,окрашенный язык пузыря
 panther_tail,хвост пантеры
-aqua_skin,аквакожа
+aqua_skin,бирюзовая кожа
 toyota,Тойота
 motosu_school_uniform,мотошкола uniform
 italian_text,текст на итальянском языке
@@ -11968,8 +11968,8 @@ blue_visor,синий визор
 atelier_ryza_2,atelier ryza 2
 dragon_ears,драконьи уши
 hypnosis_mic,hypnosis mic
-purple_border,пурпурная граница
-aqua_flower,аква флауэр
+purple_border,фиолетовая рамка
+aqua_flower,бирюзовый цветок
 2005,2005 год
 star_fox,star fox
 interior,интерьер
@@ -12055,7 +12055,7 @@ male_on_futa,мужской пол он фута
 resident_evil_4_(remake),resident evil 4 (remake)
 frilled_armband,повязка с оборкой на запястье
 izayoi_liko,изайои лико
-brown_ascot,браун аскот
+brown_ascot,коричневый галстук-аскот
 miyanaga_saki,миянага саки
 pan_(dragon_ball),пан (dragon ball)
 genshiken,genshiken
@@ -12138,7 +12138,7 @@ kamen_rider_w,kamen rider w
 mane,грива
 bun_with_braided_base,пучок с плетеной основой
 uta_(one_piece),ута (one piece)
-aqua_sleeves,акварельные рукава
+aqua_sleeves,бирюзовые рукава
 7th_dragon,7th dragon
 oar,весло
 finger_sucking,сосание пальцами
@@ -12160,7 +12160,7 @@ bipod,сошки
 riza_hawkeye,риза хокий глаз
 li_yuting_(female),ли ютинг (женщина)
 tolkien's_legendarium,tolkien's legendarium
-black_tiara,черная тиара
+black_tiara,чёрная тиара
 annotation_request,запрос на опознание содержимого изображения для аннотации
 van_gogh_(fate),ван гог (судьба)
 magic_knight_rayearth,magic knight rayearth
@@ -12189,7 +12189,7 @@ kiana_kaslana_(herrscher_of_flamescion),"киана Каслана(героин�
 amusement_park,парк аттракционов
 shuro_(blue_archive),шуро (Blue Archive)
 holding_torch,удерживающий факел
-holding_flute,удерживающая флейта
+holding_flute,держит флейту
 wheat_field,пшеничное поле
 female_sensei_(blue_archive),женский разум(Blue Archive)
 merchandise_available,существуют товары с этим изображением
@@ -12197,7 +12197,7 @@ takanashi_kiara_(casual),таканаси киара (повседневная �
 ikusaba_mukuro,икусаба мукуро
 anegasaki_nene,анегасаки нене
 paint_can,банка с краской
-yellow_one-piece_swimsuit,желтый цельнокроеный спортивный костюм
+yellow_one-piece_swimsuit,жёлтый слитный купальник
 iris_black_games,iris black games
 rei_(pokemon),рей (Покемон)
 bird_on_arm,птичья на руке
@@ -12340,7 +12340,7 @@ mechanic,механик
 corsage,корсаж для волос
 playground,игровая площадка
 red_shawl,ред шоул
-orange_halo,оранжевое гало
+orange_halo,оранжевый нимб
 game_screenshot_inset,набор игровых скриншотов inset
 sailor_swimsuit_(idolmaster),костюм моряка(idolmaster)
 weights,веса
@@ -12451,7 +12451,7 @@ roxie_(pokemon),рокси(Покемон)
 fast_food_uniform,фастфуд униформный
 keizoku_school_uniform,школьная форма
 circle_formation,формирование окружности
-grey_ascot,серый аскот
+grey_ascot,серый галстук-аскот
 sylvain_jose_gautier,сильвен жозе готье
 kagemori_michiru,кагемори мичиру
 hinatsuru_ai,хинацуру ай
@@ -12542,7 +12542,7 @@ elizabeth_rose_bloodflame,элизабет роза пламя крови
 nijisanji_id,nijisanji id
 lance_of_longinus_(evangelion),ланцет длинноногий(евангелион)
 pendant_collar,подвесной ошейник
-hands_on_own_legs,руки - на -нижних легах
+hands_on_own_legs,руки на своих ногах
 zuikaku_(azur_lane),зуйкаку(azur lane)
 marill,марилл
 yellow_sailor_collar,жёлтый матросский воротник
@@ -12556,7 +12556,7 @@ fu_hua_(azure_empyrea),фу хуа (лазурная империя)
 hyakumantenbara_salome_(1st_costume),хякумантенбара саломе (1-й костюм)
 adaman_(pokemon),адаман(Покемон)
 whip_sword,хлыстовый меч
-holding_crossbow,удерживающий арбалет
+holding_crossbow,держит арбалет
 popsicle_stick,фруктовое мороженое на палочке
 zooey_(granblue_fantasy),зоуи(granblue fantasy)
 hanasato_minori,ханасато минори
@@ -12571,7 +12571,7 @@ aura_(sousou_no_frieren),аура(sousou no frieren)
 himesaka_noa,химесака ноа
 anal_only,только для анала only
 chastity_cage,клетка целомудрия
-holding_rope,удерживающий канат
+holding_rope,держит верёвку
 fukuda_haru,фукуда хару
 hedgehog_girl,девочка-ежик
 see-through_panties,просвечивающие трусики
@@ -12778,7 +12778,7 @@ limiter_(tsukumo_sana),ограничитель (цукумо сана)
 mahou_shoujo_lyrical_nanoha_the_movie_1st,mahou shoujo lyrical nanoha the movie 1st
 party,вечеринка
 scheherazade_(fate),шахерезада(судьба)
-holding_candle,удерживающая свеча
+holding_candle,держит свечу
 zorua,зоруа
 hirose_koichi,хиросе коичи
 scale_armor,масштабная броня
@@ -12986,7 +12986,7 @@ sora_(arknights),сора (arknights)
 yinlin_(wuthering_waves),иньлинь(wuthering waves)
 unicorn_overlord,unicorn overlord
 ayatsuji_tsukasa,аяцудзи цукаса
-hands_on_own_chin,раздать в а н и чин
+hands_on_own_chin,руки на своём подбородке
 sixteenth_note,шестнадцатая заметка
 belldandy,беллданди
 anti-aircraft_gun,зенитное ружье
@@ -13167,7 +13167,7 @@ stitched_leg,сшитая нога
 flying_button,летающая кнопка
 dollchestra,кукольный театр
 klara_(pokemon),клара(Покемон)
-pink_sclera,розовая склера
+pink_sclera,розовые белки глаз
 poison_(final_fight),яд (final fight)
 shimada_chiyo,симада чийо
 octopath_traveler,octopath traveler
@@ -13212,7 +13212,7 @@ orange_cat,оранжевый кот
 stahlhelm,стальной шлем
 felyne,фелин
 hand_over_another's_mouth,передача из рук в руки чужого рта
-grey_one-piece_swimsuit,серый костюм из одной детали
+grey_one-piece_swimsuit,серый слитный купальник
 hat_over_eyes,шляпа поверх глаз
 negev_(girls'_frontline),негев(girls' frontline)
 pixiv_fantasia_t,pixiv fantasia t
@@ -13302,7 +13302,7 @@ ishuzoku_reviewers,ishuzoku reviewers
 tsujino_akari,цудзино акари
 uehara_himari,уэхара химари
 heart-shaped_buckle,застежка в форме сердечка
-holding_blanket,холдинговая салфетка
+holding_blanket,держит одеяло
 amuro_tooru,амуро туруу
 yellow_headband,жёлтая повязка на голову
 drum_magazine,drum магазин
@@ -13322,7 +13322,7 @@ mikumikudance_(medium),создано в MikuMikuDance
 leggings_under_shorts,леггинсы под шортами
 screenshot_background,фоновый снимок экрана
 compression_shirt,компрессионная рубашка
-hands_on_another's_back,рукопожатие на отзыв друга
+hands_on_another's_back,руки на спине другого персонажа
 double_exposure,двойная экспозиция
 eizouken_ni_wa_te_wo_dasu_na!,eizouken ni wa te wo dasu na!
 comiket_100,comiket 100
@@ -13450,7 +13450,7 @@ turtwig,черепаха
 stocks,запасы
 dry_humping,сухой прыжок
 christmas_wreath,рождественская гроза
-orange_sclera,оранжевая клера
+orange_sclera,оранжевые белки глаз
 team_magma,команда магма
 inteleon,интеллектеон
 persimmon,хурма
@@ -13624,7 +13624,7 @@ side-tie_skirt,юбка с завязками сбоку
 nanashi_mumei_(emo),нанаши мумей(эмо)
 akatsuki_uniform,акацуки - единый
 film_strip,диафильмовая лента
-aqua_sailor_collar,аква сайлорский воротничок
+aqua_sailor_collar,бирюзовый матросский воротник
 miraculous_ladybug,miraculous ladybug
 renkin_san-kyuu_magical_pokaan,renkin san-kyuu magical pokaan
 selvaria_bles,сельвария блесы
@@ -13637,7 +13637,7 @@ school_of_fish,косяк фишей
 sitting_on_water,сидящий на воде
 clothed_robot,одетый робот
 hasegawa_kobato,хасегава кобато
-hand_on_another's_knee,рука на чужом колене
+hand_on_another's_knee,рука на колене другого персонажа
 glands_of_montgomery,железа из монтгомери
 drain_(object),drain (объект)
 minase_nayuki,минасе наюки
@@ -13756,7 +13756,7 @@ fujinami_(kancolle),фудзинами(канколле)
 lin_(arknights),лин(arknights)
 mega_man_x_dive,mega man x dive
 multicolored_necktie,разноцветный галстук
-orange_border,оранжевая граница
+orange_border,оранжевая рамка
 hijiri_ageha,хиджири агеха
 chicken_leg,куриная ножка
 aroused_nosebleed,вызвало сильное кровотечение
@@ -14022,7 +14022,7 @@ waffle,вафельный
 suzuki_jun,сузуки юнь
 silent_hill_2,silent hill 2
 trowel,мастерок
-yellow_umbrella,желтая умбрелла
+yellow_umbrella,жёлтый зонт
 jibril_(no_game_no_life),джибриль(no game no life)
 train_station_platform,платформа train station platform
 stuffed_unicorn,фаршированная кукуруза
@@ -14085,7 +14085,7 @@ ejaculation_under_clothes,эякуляция под одеждой
 problem_solver_68_(blue_archive),problem solver 68 (синий архив)
 ninomae_ina'nis_(casual),ниномаэ ина'нис (повседневная)
 yuuno_scrya,юуно скря
-green_outline,зеленая линия выхода
+green_outline,зелёный контур
 brock_(pokemon),брокк(Покемон)
 sailor_uranus,моряк уран
 miquella_(elden_ring),микелла(elden ring)
@@ -14115,7 +14115,7 @@ imitating,имитирующий
 hiiragi_yuzu,хиираги юзу
 sonohara_anri,сонохара анри
 morgiana,морджиана
-see-through_one-piece_swimsuit,прозрачный цельный спортивный костюм
+see-through_one-piece_swimsuit,просвечивающий слитный купальник
 dog_hair_ornament,украшение из собачьей шерсти
 polearm_behind_back,древко задня бэк
 super_pochaco,супер почако
@@ -14188,7 +14188,7 @@ alice_carroll,элис кэрролл
 zenra,зенра
 mikazuki_yozora,микадзуки одзора
 clara_(girls_und_panzer),клара(girls und panzer)
-aqua_pants,аква панты
+aqua_pants,бирюзовые брюки
 cum_on_floor,сперма на полу
 pee_stain,пи стейн
 lace-trimmed_headwear,головной убор с кружевной отделкой
@@ -14196,7 +14196,7 @@ viper_(series),viper (series)
 eas_(fresh_precure!),легко(fresh precure!)
 surtr_(colorful_wonderland)_(arknights),сюртр (красочная страна чудес) (arknights)
 jingwei_(bird),цзинвэй(птица)
-aqua_vest,аква вест
+aqua_vest,бирюзовый жилет
 symmetrical_pose,симметричное положение
 totooria_helmold,тотоориа хельмолд
 queen's_gate,queen's gate
@@ -14207,7 +14207,7 @@ ikaruga_luca,икаруга лука
 juufuutei_raden,juufuutei раден
 very_hairy,очень волосатые
 kazemaru_ichirouta,каземару ичирута
-aqua_scarf,аква скарф
+aqua_scarf,бирюзовый шарф
 kirby_and_the_forgotten_land,kirby and the forgotten land
 white_hakama,белые хакама
 scanlines,линии развертки
@@ -14296,14 +14296,14 @@ gorilla,горилла
 bead_choker,бисероплетатель
 arm_sling,арм слинг
 green_pajamas,зеленые пижамы
-brown_serafuku,коричневый сарафуку
+brown_serafuku,коричневая школьная форма с матросским воротником
 gundam_age,gundam age
 fio_germi,фио герми
 front-to-back,спереди-назад
 saori_(dress)_(blue_archive),саори (платье) (Blue Archive)
 psycho-pass,psycho-pass
 pectoral_docking,удар по грудной клетке
-purple_sclera,пурпурная склера
+purple_sclera,фиолетовые белки глаз
 crown_hair_ornament,украшение для волос на макушке
 jacket_over_shoulder,куртка поверх плеча
 spines,шипы
@@ -14347,7 +14347,7 @@ lei,леи
 shinguji_korekiyo,шингуджи корекий
 kagura_suzu,кагура сузу
 elly_(touhou),элли(Touhou Project)
-multicolored_halo,разноцветный гало
+multicolored_halo,разноцветный нимб
 heavenly_boat_maanna,небесный боат маанна
 heart_straw,сердечная соломинка
 markings,маркировка
@@ -14395,7 +14395,7 @@ touhoku_itako,тоухоку итако
 koiwai_yotsuba,койваи йоцуба
 alternate_facial_hair,смена волос на лице
 luvdisc,(любимый диск)
-long_fingers,длинные пальцы
+long_fingers,длинные пальцы рук
 a_(phrase),a (фраза)
 leopard_girl,девушка-леопард
 two-tone_veil,двухцветная вуаль
@@ -14473,7 +14473,7 @@ shadows_house,shadows house
 yatai,ятай
 mipha,мифа
 cum_on_fingers,кончаю на пальцы
-grey_sclera,серый клер
+grey_sclera,серые белки глаз
 blue_petals,синие лепестки
 holding_club,холдинговый клуб
 russian_flag,русский флаг
@@ -14633,7 +14633,7 @@ dsr-50_(girls'_frontline),dsr-50 (girls' frontline)
 two-tone_panties,двухцветные трусики
 shermie_(kof),шерми(кофемолка)
 sailor_neptune,моряк нептун
-grey_outline,серая линия выхода
+grey_outline,серый контур
 laundry_dragonmaid,прачка-дракониха
 columbina_(genshin_impact),колумбия (Genshin Impact)
 kousaka_umi,косака уми
@@ -14650,7 +14650,7 @@ poppy_(pokemon),поппи(Покемон)
 baba_konomi,баба кономи
 nemophila_(flower),немофила(цветок)
 wakana_shiki,вакана шики
-black_headphones,черные наушники
+black_headphones,чёрные наушники
 nakatani_iku,накатанику
 shishiro_botan_(button-down),шиширо ботан(застегивается на пуговицы)
 soccer_spirits,soccer spirits
@@ -14857,7 +14857,7 @@ training,обучение
 shez_(female)_(fire_emblem),она (женщина) (fire emblem)
 motoyui,мотоюи
 tiefling,тифлинг
-triangle-shaped_pupils,треугольные зрачки
+triangle-shaped_pupils,зрачки в форме треугольника
 nico_nico_nii,нико нико нии
 princess_serenity,принцесса серьезность
 fukuyama_mai,фукуяма май
@@ -14928,7 +14928,7 @@ fortnite,fortnite
 tanaka_asuka,танака асука
 inner_senshi,внутренний смысл
 polka_dot_bowtie,галстук-бабочка в горошек
-green_serafuku,зеленый серафуку
+green_serafuku,зелёная школьная форма с матросским воротником
 machamp,мачамп
 queen,королева
 bae_minah_(chaesu),баэминах(чаесу)
@@ -15024,7 +15024,7 @@ rumi_(blue_archive),rumi (Blue Archive)
 furious,яростный
 meteion,метеор
 seikan_hikou,сейкан хику
-aqua_lips,аква липы
+aqua_lips,бирюзовые губы
 blue_scales,синяя чешуя
 fuura_kafuka,фуура кафука
 hockey_mask,хоккейная маска
@@ -15276,7 +15276,7 @@ beam_cannon,лучевая пушка
 devil_summoner_(series),devil summoner (series)
 hirschgeweih_antennas,гиршгевейх антенны
 character-themed_food,еда с тематикой персонажа
-hands_on_another's_stomach,руки на животе другого человека
+hands_on_another's_stomach,руки на животе другого персонажа
 uzuki_(cookie),узуки(печенье)
 kushieda_minori,кусиеда минори
 starfighter,звездный истребитель
@@ -15319,7 +15319,7 @@ high_elf_archer_(goblin_slayer!),верховный эльф-охотник (gob
 dragonslayer_(sword),истребитель драконов(меч)
 kobayakawa_yutaka,кобаякава ютака
 completion_time,указано время создания
-aqua_scrunchie,аква скрути
+aqua_scrunchie,бирюзовая объёмная резинка для волос
 boomerang,бумеранг
 yellow_bandana,желтая бандана
 gabriel_tenma_white,габриэль тенма белый
@@ -15766,7 +15766,7 @@ blazblue:_central_fiction,blazblue: central fiction
 kirby_64,kirby 64
 sophia_(fire_emblem),софия(fire emblem)
 stuffed_whale,фаршированный кит
-aqua_pantyhose,аква пантихозе
+aqua_pantyhose,бирюзовые колготки
 picking_up,сборщик
 sleeveless_duster,безрукавка
 victorica_de_blois,викторика де блойс
@@ -16162,7 +16162,7 @@ see-through_shawl,прозрачная шаль
 zoya_petrovna_vecheslova,зоя Петровна вечеслова
 essex_(azur_lane),эссекс(azur lane)
 iris_heart,ирис харт
-purple_outline,пурпурный отвод
+purple_outline,фиолетовый контур
 fuwa_kokone,фува коконе
 subarashiki_hibi,subarashiki hibi
 mp7_(girls'_frontline),mp7 (girls' frontline)
@@ -16323,7 +16323,7 @@ yoga,йога
 starting_block,начальный блок
 multicolored_shorts,разноцветные шорты
 white_album_(series),white album (series)
-aqua_pupils,аквапупилы
+aqua_pupils,бирюзовые зрачки
 lifeline_(apex_legends),линия жизни(apex legends)
 nea_(chihuri),неа(чихури)
 serena_(yu-gi-oh!),серена(yu-gi-oh!)
@@ -16504,7 +16504,7 @@ looking_at_flowers,смотрю на цветы
 dokibird_(vtuber)_(retro_doki),докибирь (vtuber) (ретро доки)
 otome_game_no_hametsu_flag_shika_nai_akuyaku_reijou_ni_tensei_shite_shimatta,otome game no hametsu flag shika nai akuyaku reijou ni tensei shite shimatta
 disneyland,disneyland
-aqua_horns,акварельные рога
+aqua_horns,бирюзовые рога
 shino_to_ren,shino to ren
 subway,метро
 tickle_torture,пытка щекоткой
@@ -16620,7 +16620,7 @@ tiffania_westwood,тиффания вествуд
 catfight,кошачья драка
 ashley_graves,эшли грейвз
 ring_box,коробка для колец
-hands_on_own_knee,руки опускаются на колени
+hands_on_own_knee,руки на своём колене
 orange_sash,оранжевый саш
 holding_orb,удерживающий орб
 medium5,medium5
@@ -16663,7 +16663,7 @@ omamori,омамори
 scientist,ученый
 pinky_ring,розовое кольцо
 kiyama_hiroto,кияма хирото
-aqua_choker,аква чокер
+aqua_choker,бирюзовый чокер
 holding_sponge,удерживающая губка
 craft_essence_(fate),ремесленная сущность(судьба)
 delphox,дельфокс
@@ -16696,7 +16696,7 @@ shigure_ui_(vtuber)_(young),сигуре уи (vtuber) (молодой)
 railgun,рельсотрон
 sakura_taisen_iii,sakura taisen iii
 marble_(toy),мрамор(игрушка)
-hand_on_own_foot,рука на ноге
+hand_on_own_foot,рука на своей ступне
 growlithe,рычащий
 sawatari_makoto,саватари макото
 numbered_panels,пронумерованные панели
@@ -16899,7 +16899,7 @@ cuddling_handjob,ласковые ручки в обнимку
 brick_road,кирпичная дорога
 mouri_ran,траури ран
 plaid_sleeves,клетчатые рукава
-aqua_wings,аквакрылы
+aqua_wings,бирюзовые крылья
 piper_wheel,волнистое колесо
 sword_of_the_creator,меч из дателя
 paint_roller,раскрашивающий ролик
@@ -16989,7 +16989,7 @@ astel_leda,астель леда
 hinoka_(fire_emblem),хинока(fire emblem)
 hugging_another's_tail,обнимаю другого хвоста
 kudou_shin'ichi,кудоу син'ичи
-green_umbrella,зеленая умбрелла
+green_umbrella,зелёный зонт
 yorick_(shiori_novella),йорик (шиори новелла)
 red_car,красный автомобиль
 evolution,эволюция
@@ -17047,7 +17047,7 @@ matches,спички
 canned_food,консервированные продукты
 peanuts_(comic),peanuts (comic)
 dragon_claw,коготь дракона
-hands_on_another's_neck,руки на шее другого человека
+hands_on_another's_neck,руки на шее другого персонажа
 miso_soup,мисо суп
 jackal_tail,шакальий хвост
 agent_(girls'_frontline),агент (girls' frontline)
@@ -17229,7 +17229,7 @@ holding_calligraphy_brush,удерживающий каллиграфическ�
 grey_lips,серые губы
 prisoner,заключенный
 arisaka,арисака
-brown_halo,коричневое гало
+brown_halo,коричневый нимб
 memcho,мемчо
 standing_on_object,стоящий на объекте
 strawberry_parfait,клубничный парфе
@@ -17442,14 +17442,14 @@ cowgirl_(western),ковбойша(вестерн)
 kei_(m_k),ключ (m k)
 breast_contest,тест на грудное вскармливание
 miru_tights,miru tights
-aqua_one-piece_swimsuit,аква однополый костюм
+aqua_one-piece_swimsuit,бирюзовый слитный купальник
 shizuru_(princess_connect!),подключайся!)
 mashle,mashle
 hamaguchi_ayame,хамагучи аяме
 hosomi_shizuko,хосоми шизуко
 reuniclus,воссоединение
 blossom_(ppg),цветок(ppg)
-aqua_sweater,аква свитер
+aqua_sweater,бирюзовый свитер
 whisper_(youkai_watch),шепот(youkai watch)
 noah_(xenoblade),ноах (ксеноблейд)
 two-tone_tail,двухцветный хвост
@@ -17541,7 +17541,7 @@ lowleg_pantyhose,lowleg пантихозе
 juuban_middle_school_uniform,- школьная форма
 bishoujo_mangekyou_(series),bishoujo mangekyou (series)
 on_pillow,на подушке
-orange_outline,оранжевый провод
+orange_outline,оранжевый контур
 hod_(project_moon),ход (project moon)
 doomguy,парень рока
 floating_head,плавающая головка
@@ -17800,7 +17800,7 @@ truss,ферма
 hinatsuki_mikan,хинацуки микан
 final_fantasy_i,final fantasy i
 shoshinsha_mark,шошинша марк
-aqua_cape,аквапарк
+aqua_cape,бирюзовый плащ-накидка
 archetype_earth,архетип земли
 till_(alien_stage),до (alien stage)
 plaid_shawl,плед шавель
@@ -18136,7 +18136,7 @@ v-bangs,v-образная челка
 puniru_(puniru_wa_kawaii_slime),пуниру (puniru wa kawaii slime)
 ahiru_(princess_tutu),ахиру(princess tutu)
 persona_4_the_golden,persona 4 the golden
-hands_on_another's_shoulder,руки на плечах друг друга
+hands_on_another's_shoulder,руки на плече другого персонажа
 striped_suit,полосатый костюм
 adachi_sakura,адачи сакура
 tifa_lockhart_(refined_dress),tifa lockhart (уточненный адрес)
@@ -18393,7 +18393,7 @@ fire_emblem:_shadow_dragon,fire emblem: shadow dragon
 taiyou_(kancolle),тайю(канколле)
 ;t,;t
 ellee-chan,элли-тян
-yellow_petals,желтые лепестки
+yellow_petals,жёлтые лепестки
 kuroo_tetsurou,куроо тецуроу
 gear_hair_ornament,зубчатое украшение для волос
 idia_shroud,idia шрауд
@@ -18855,7 +18855,7 @@ flying_whale,летающий кит
 ryuuzaki_umi,рюузаки уми
 m14_(girls'_frontline),m14 (girls' frontline)
 frilled_babydoll,детская сорочка с оборками
-aqua_hoodie,аква художник
+aqua_hoodie,бирюзовая толстовка с капюшоном
 genshin_impact_sticker_redraw_(meme),genshin impact sticker redraw (мем)
 alastor_(hazbin_hotel),"ресторан ""аластор""(hazbin hotel)"
 yukikaze_(azur_lane),юкикадзе(azur lane)
@@ -18906,7 +18906,7 @@ shoejob,чистка обуви
 no_coat,без покрытия
 iosys,iosys
 striped_tank_top,полосатый топ без рукавов
-orange_one-piece_swimsuit,оранжевый цельнокроеный спортивный костюм
+orange_one-piece_swimsuit,оранжевый слитный купальник
 araki_hina,араки хина
 male_with_breasts,мужчина с грудью
 tabitha_(zero_no_tsukaima),табита(zero no tsukaima)
@@ -19002,7 +19002,7 @@ nearl_the_radiant_knight_(arknights),рядом с лучевым рыцарем
 third_eye_on_chest,третий глаз на чистоту
 crew_neck,член экипажа
 anchorage_(azur_lane),якорная стоянка (azur lane)
-aqua_coat,аквакрасочное покрытие
+aqua_coat,бирюзовое пальто
 wooden_ceiling,деревянный потолок
 the_simpsons,the simpsons
 creamer_(vessel),сливочник (емкость)
@@ -19065,7 +19065,7 @@ nippon_ichi,nippon ichi
 sakurakoji_kinako,сакуракодзи кинако
 anatomical_nonsense,анатомический смысл
 yamcha_pose_(meme),ямча позиция(мем)
-brown_scrunchie,брауншпигель
+brown_scrunchie,коричневая объёмная резинка для волос
 stalking,преследующий
 stew,тушить
 banzoin_hakka,банзоин хакка
@@ -19217,7 +19217,7 @@ tan_yang_(kancolle),таньянг(канколле)
 doukyuusei_2,doukyuusei 2
 shinigami_(rain_code),синигами(код дождя)
 greek_text,текст на греческом языке
-aqua_socks,носки aqua socks
+aqua_socks,бирюзовые носки
 mother_and_child,мать и ребенок
 swordsman_(ragnarok_online),мечник(ragnarok online)
 yellow_sports_bra,желтая спортивная бра
@@ -19299,7 +19299,7 @@ supergirl,супергерл
 sayaka_(saru_getchu),саяка(saru getchu)
 a.b.a,a.b.a
 twister,смерч
-thigh_focus,фокус на бедрах
+thigh_focus,акцент на бедре
 white_rabbit_(alice_in_wonderland)_(cosplay),белый кролик (Алиса в стране чудес)(косплей)
 grasshopper,кузнечик
 t-pose,т-образная поза
@@ -19476,7 +19476,7 @@ raboot,рабут
 disgaea_rpg,disgaea rpg
 rattata,раттата
 newtype_flash,новый тип flash
-hands_on_another's_arms,руки на руках другого человека
+hands_on_another's_arms,руки на руках другого персонажа
 rabbit_mask,маска кролика
 lucifer_(umineko),люцифер(уминеко)
 battle_girl_high_school,battle girl high school
@@ -20807,7 +20807,7 @@ panties_in_mouth,трусики во рту
 pants_under_shorts,брюки под шортами
 saturated,насыщенный
 tasmanian_devil_ears,тасманийские дьявольские годы
-aqua_belt,аквапояс
+aqua_belt,бирюзовый ремень
 ekko_(league_of_legends),экко(league of legends)
 sewing_machine,швейная машина
 shiokko_(murasaki_shion),шиокко (мурасаки шион)
@@ -22610,7 +22610,7 @@ fujioka_haruhi,фудзиока харухи
 steam_from_mouth,поток пара изо рта
 syuen_(nikke),сюен(никке)
 pauline_(mario),паулина(Марио)
-pink_serafuku,розовый сарафуку
+pink_serafuku,розовая школьная форма с матросским воротником
 chocolate_doughnut,шоколадный пончик
 black_car,черный автомобиль
 makoto_(genshin_impact),макото(Genshin Impact)
@@ -23265,7 +23265,7 @@ fatherly,отеческий
 blood_on_gloves,кровь на перчатках
 saya_(scabbard),сая (ножны)
 stellar_loussier,звездный люссер
-aqua_rose,аква роза
+aqua_rose,бирюзовая роза
 murata_ugetsu,мурата угецу
 super_robot_wars_z,super robot wars z
 hololive_gamers,hololive гей-меры
@@ -23989,7 +23989,7 @@ mitsukoshi_(department_store),mitsukoshi(универсальный магази
 project_bunny,проект bunny
 shimizu_kiyoko,симидзу кийоко
 mayoi_neko_overrun!,mayoi neko overrun!
-hands_on_another's_knees,руки на коленях другого человека
+hands_on_another's_knees,руки на коленях другого персонажа
 gundam_exia,гандам ексия
 viridi,вириди
 kyururu_(kemono_friends),кюруру (kemono friends)
@@ -24050,7 +24050,7 @@ canadian_flag,канадский флаг
 aizawa_sakuya,айзава сакуя
 satan_(umineko),сатана(уминеко)
 love_train,любовный тренинг
-striped_scrunchie,полосатый хруст
+striped_scrunchie,полосатая объёмная резинка для волос
 solaria_(ebonyxh),солярия (ebonyxh)
 sawaguchi_mai,савагучи май
 inverted_pentagram,перевернутая пентаграмма
@@ -24237,7 +24237,7 @@ tsuzumi,цузуми
 in_basket,в корзине
 sideroca_(light_breeze)_(arknights),сидерока (легкий ветерок) (arknights)
 yandere_simulator,yandere simulator
-aqua_cardigan,аква кардиган
+aqua_cardigan,бирюзовый кардиган
 lucy_(elfen_lied),люси(elfen lied)
 kyoka_(halloween)_(princess_connect!),подключайся!)
 naruse_mio,нарусе мио
@@ -24668,7 +24668,7 @@ holding_kettle,удерживающий кеттл
 miyamae_shiho_(jack_dempa),миямаэ шихо (джек демпа)
 prehistoric_animal,доисторическое животное
 wonderlands_x_showtime_miku,страна чудес x showtime miku
-aqua_headband,повязка на голову aqua headband
+aqua_headband,бирюзовая повязка на голову
 kisaragi_ren_(vtuber),кисараги рен (vtuber)
 sakamata_chloe_(gyarumata),сакамата хлое(гьярумата)
 gundam_00_a_wakening_of_the_trailblazer,gundam 00 a wakening of the trailblazer
@@ -24719,7 +24719,7 @@ stepping_stones,ступенчатые камни
 kiroranke,кироранке
 brown_camisole,коричневая майка на тонких бретелях
 khiara_(personal_ami),хиара (персональный ами)
-hands_on_another's_leg,руки на ноге другого человека
+hands_on_another's_leg,руки на ноге другого персонажа
 panda_print,панда принт
 bodystocking_only,только для бодистокинга
 hiiragi_tsubomi,хиираги цубоми
@@ -24775,7 +24775,7 @@ rifle_cartridge,винтовочный патрон
 hololive_summer_2022_swimsuit,спортивный костюм hololive summer 2022
 dana_zane,дана зане
 domyoji_karin,домой карин
-brown_sclera,коричневая клера
+brown_sclera,коричневые белки глаз
 life_vest,жизнь вест
 watashi_no_oshi_wa_akuyaku_reijou,watashi no oshi wa akuyaku reijou
 moco_(fushigi_na_neko_no_machi_meltier),моко(fushigi na neko no machi meltier)
@@ -24807,7 +24807,7 @@ lust_(fma),вожделение(fma)
 lanxi_zhen,lanxi zhen
 minerva_(fire_emblem),минерва(fire emblem)
 yuuhi_(cookie),юхи(печенье)
-purple_petals,пурпурные цветки
+purple_petals,фиолетовые лепестки
 kugimiya_rie,кугимия рие
 nanaya_shiki,наная шики
 sakimori_toji,сакимори тодзи
@@ -25066,7 +25066,7 @@ dokibird_(vtuber)_(bounty_hunter),докибирд(vtuber)(охотник за �
 butterfly_hat_ornament,украшение из бабочки-шляпы
 fake_transparency,фальшивая прозрачность
 sakurada_yuuta,сакурада юта
-black_crown,черная корона
+black_crown,чёрная корона
 whale_girl,девушка-кит
 model_w_(mega_man),модель w (мега человек)
 honest_axe,honest axe
@@ -25180,7 +25180,7 @@ thunder,гром
 doll_(ib),кукла(ib)
 mega_man_x:_command_mission,mega man x: command mission
 opening_eyes,открывающиеся глаза
-brown_outline,коричневая линия выхода
+brown_outline,коричневый контур
 sage_(sonic),мудрец(звуковой)
 incoming_call,входящий вызов
 setanta_(fate),сетанта(судьба)
@@ -25340,7 +25340,7 @@ faust_(arknights),фауст(arknights)
 silence_suzuka_(emerald_on_the_waves)_(umamusume),тишина сузуки (изумрудный на волнах)(umamusume)
 shuten_douji_(fate)_(cosplay),шутен дуджи(судьба)(косплей)
 kaitou_tenshi_twin_angel,kaitou tenshi twin angel
-hands_on_own_neck,руки на шее
+hands_on_own_neck,руки на своей шее
 kamikoshi_sorawo,камикоши сораво
 raven_(honkai_impact),ворон(honkai impact)
 slave_brand,рабское клеймо
@@ -25624,7 +25624,7 @@ hastur_(nyaruko-san),спешка(няруко-сан)
 rpk-16_(renate)_(girls'_frontline),рпк-16 (Рената) (girls' frontline)
 yayaka,яяка
 wendy_(wendy's),венди(wendy's)
-hands_on_own_leg,руки на нижней ноге
+hands_on_own_leg,руки на своей ноге
 maki_oze,маки озе
 mephistopheles_(fate),мефистофель(судьба)
 hayase_ruriko_(yua),хаясе рурико (юа)
@@ -25966,7 +25966,7 @@ vivian_(paper_mario),вивиан(paper mario)
 tuba,туба
 queen_draco_(second_ascension)_(fate),королева драконы (второе вознесение) (судьба)
 1960s_(style),1960-е годы(стиль)
-hands_on_another's_arm,руки на руке другого человека
+hands_on_another's_arm,руки на руке другого персонажа
 naruse_yuu,нарусе юу
 miyamoto_rei,миямото рей
 kurokawa_chiaki,курокава чиаки
@@ -26049,7 +26049,7 @@ durga_(fate),дурга(судьба)
 atlantic_puffin_(kemono_friends),атлантик паффин (kemono friends)
 arabian_oryx_(kemono_friends),арабия орикс (kemono friends)
 extreme_dangling,экстремальное запутывание
-green_mask,зеленая маска
+green_mask,зелёная маска
 bumping,натыкаясь
 itsuwa,ицува
 seto_sun,сето сун
@@ -26152,7 +26152,7 @@ ayame_(gundam_build_divers),аяме (gundam build divers)
 encore_(wuthering_waves),на бис(wuthering waves)
 red_snake,красная змея
 marigold,календула
-red_serafuku,красный сарафуку
+red_serafuku,красная школьная форма с матросским воротником
 misato_(princess_connect!),подключайся!)
 princess_peach_(cosplay),принцесса Пич(косплей)
 kmnz,kmnz
@@ -26644,7 +26644,7 @@ scar_on_chin,шрам он чин
 tsunomaki_watame_(street_casual),цуномаки ватаме(уличный)
 sims_(azur_lane),симы(azur lane)
 king_(one_piece),король (one piece)
-aqua_border,аквабордер
+aqua_border,бирюзовая рамка
 ryuujou_kai_ni_(kancolle),рюдзю кай ни(канколле)
 diabellze_the_original_sinkeeper,диабелльзе оригинальный поглотитель
 mascot_head,голова талисмана
@@ -27119,7 +27119,7 @@ milk_churn,молочная каша
 yuuki_sakuna,юки сакуна
 firelight_ekko,огненный огонек екко
 censored_anus,подвергнутый цензуре анус
-x-shaped_eyewear,х-образная верхняя одежда
+x-shaped_eyewear,очки в форме буквы X
 fox_costume,костюм лисы
 lava_the_purgatory_(arknights),лава хирургическая(arknights)
 hatsuseno_alpha,хацусено альфа
@@ -27276,7 +27276,7 @@ korekara_no_someday,корейкара но сегодня
 waka_(yuuhagi_(amaretto-no-natsu)),вака (юхаги(амаретто-но-нацу))
 cat_paw,кошачья лапка
 backflip,сальто назад
-brown_one-piece_swimsuit,коричневый цельный спортивный костюм
+brown_one-piece_swimsuit,коричневый слитный купальник
 cure_spicy,лечебный спайс
 love_lab_(manga),love lab (manga)
 noivern,нойверн
@@ -27592,7 +27592,7 @@ overflowing,переполненный
 sitting_on_ball,сидящий на мяче
 hanayamata,hanayamata
 kurata_mashiro,курата маширо
-aqua_ascot,аква аскот
+aqua_ascot,бирюзовый галстук-аскот
 carrot_pin,морковный пин
 projector,проектор
 marine_nemo_(fate),марине немо (судьба)
@@ -27933,7 +27933,7 @@ palace,дворец
 shinsengumi_(gintama),синсенгуми(гинтама)
 muscular_child,мускулистый ребенок
 armored_trooper,бронированный солдат
-orange_umbrella,апельсин умбрелла
+orange_umbrella,оранжевый зонт
 soccer_field,футбольное поле
 sapling,молодое деревце
 master_crown,мастер корона
@@ -28228,7 +28228,7 @@ xuhuai_(the_legend_of_luoxiaohei),сюйхуай(легенда о луокси�
 serval_(kemono_friends)_(cosplay),сервал (друзья кемоно ) (косплей)
 bb_(bb_shot!)_(fate),бб (бб шот!) (судьба)
 wa-class_transport_ship,wa-класс транспорта
-polka_dot_umbrella,в горошек умбрелла
+polka_dot_umbrella,зонт в горошек
 negai_wa_itsuka_asa_wo_koete_(project_sekai),отрицание в ицука аса во коэте(проект секай)
 objection,возражение
 elira_pendora_(2nd_costume),элира пендора (2-й костюм)
@@ -28538,7 +28538,7 @@ check_clothing,проверить определение одежды
 ashlock_(arknights),эшлок(arknights)
 cardigan_partially_removed,кардиган частично снят
 zuo_le_(arknights),зуо ле (arknights)
-hands_on_own_shoulders,руки на собственных плечах
+hands_on_own_shoulders,руки на своих плечах
 tsuka-ito,цука-ито
 phineas_and_ferb,phineas and ferb
 laplace_(nikke),лаплас(никке)
@@ -28800,7 +28800,7 @@ finch,зяблик
 hermes_(ff14),гермес (ff14)
 ouro_kronii_(4th_costume),наш крони (4-й костюм)
 mega_absol,мега абсол
-leg_focus,фокус на ноге
+leg_focus,акцент на ноге
 quaquaval,квакаваль
 houshou_hanon,хаушоу анон
 chuchu_(pokemon),чучу(Покемон)
@@ -28883,7 +28883,7 @@ himeyuri_ruri,химеюри рури
 toxtricity_(amped),токсичность(усиленная)
 void_(guilty_crown),пустота (виноватая корона)
 mahou_no_tenshi_creamy_mami,mahou no tenshi creamy mami
-two-tone_halo,двухцветный ореол
+two-tone_halo,двухцветный нимб
 larvesta,ларвеста
 san-x,san-x
 tatl,татл
@@ -29538,7 +29538,7 @@ shamisen_(suzumiya_haruhi),шамисен (судзумия харухи)
 justine_(persona_5),джастин (persona 5)
 grand_chase,grand chase
 kizuna_ai_(a.i._games),кизуна ай (он же игры )
-aqua_collar,аква коллар
+aqua_collar,бирюзовый воротник
 uzaki_yanagi,узаки янаги
 lenora_(pokemon),ленора(Покемон)
 harukanaru_toki_no_naka_de,harukanaru toki no naka de
@@ -29633,7 +29633,7 @@ dark_willow,темная ива
 helel_ben_shalem,хелел бен шалем
 mimori_(swimsuit)_(blue_archive),мимори (купальник) (Blue Archive)
 siesta_(tantei_wa_mou_shindeiru),сестра (tantei wa mou shindeiru)
-long_toes,длинные пальцы
+long_toes,длинные пальцы ног
 arima_senka,арима сенька
 homeko,хоумеко
 noble_phantasm_(fate),благородный фантазм (судьба)
@@ -30174,7 +30174,7 @@ more_more_jump!_miku,еще один прыжок! мику
 kinoko_no_yama,киноко но яма
 shioriha_ruri,шиориха рури
 are_you_my_master,ты - мой мастер
-grey_umbrella,серая амбрелла
+grey_umbrella,серый зонт
 ruthenium77's_character,ruthenium77 характер
 shiny_pantyhose,блестящий пантихозе
 plant_wings,крылья растений
@@ -30520,7 +30520,7 @@ unworn_hoodie,неношеная одежда
 purple_tube_top,фиолетовый топ без бретелей
 sakayanagi_arisu,сакаянагиарису
 azusagawa_tsukino,азусагава цукино
-aqua_fur,аквафур
+aqua_fur,бирюзовая шерсть
 bandaid_on_ear,повязка на год
 soup_ladle,суп ладле
 poland_(hetalia),польша(hetalia)
@@ -30921,7 +30921,7 @@ espio_the_chameleon,особенный хамелеон
 sakura_no_toki,sakura no toki
 jayce_(league_of_legends),Джейс(league of legends)
 duosion,дуозион
-aqua_tail,аквахвост
+aqua_tail,бирюзовый хвост
 kitchen_hood,кухонное хозяйство
 greavard,гривард
 distracted_boyfriend_(meme),отвлеченный друг(мем)
@@ -31340,7 +31340,7 @@ holding_feet,удерживающие ноги
 security_guard,охранник безопасности
 nameless_bard_(genshin_impact),безымянный бард(Genshin Impact)
 perfect_blue,perfect blue
-small_testicles,маленькие пробирки
+small_testicles,маленькие яички
 tamacolle,tamacolle
 yukikaze_(swimsuit_mode)_(kancolle),юкикадзэ (купальник модный) (канколле)
 mexican_dress,мексиканское платье
@@ -31582,8 +31582,8 @@ fishing_lure,рыболовная приманка
 watamate,ватамате
 lollipop_chainsaw,lollipop chainsaw
 terakomari_gandezblood,теракомари гандезблуд
-aqua_apron,аква апрон
-aqua_outline,аквапарк outline
+aqua_apron,бирюзовый фартук
+aqua_outline,бирюзовый контур
 buzzwole,жужжащая дыра
 ro635_(mod3)_(girls'_frontline),ro635 (mod3) (girls' frontline)
 senpai-san_(douki-chan),сэмпай-сан(доуки-тян)
@@ -32781,7 +32781,7 @@ soot,сажа
 ghostly_field_club,ghostly field club
 escalayer,эскалаторный слой
 pearl_anklet,жемчужный браслет
-yellow_crown,желтая корона
+yellow_crown,жёлтая корона
 cross_of_prontera,кросс оф пронтера
 genis_sage,генис саж
 gabi_braun,габи браун
@@ -33022,7 +33022,7 @@ vortex,вихревой
 hokma_(project_moon),хокма (project moon)
 kill_bill,kill bill
 jukebox,музыкальная шкатулка
-yellow_serafuku,желтый сарафуку
+yellow_serafuku,жёлтая школьная форма с матросским воротником
 conservatory,зимний сад
 shibafu_(glock23)_(style),шибафу (glock23) (стиль)
 vittorio_veneto_(the_flower_of_la_spezia)_(azur_lane),витторио венето(цветок ласпеции)(azur lane)
@@ -33475,7 +33475,7 @@ gastrodon_(west),гастродон(западный)
 set_square,установить квадрат
 otogari_adonis,отогари адонис
 yoshioka_saki,есиока саки
-ear_focus,фокус внимания на ухе
+ear_focus,акцент на ухе
 mao_(darker_than_black),чем чернее)
 matou_byakuya,матоу бякуя
 ichiban_ushiro_no_daimaou,ichiban ushiro no daimaou
@@ -33672,7 +33672,7 @@ marnie_(summer_2021)_(pokemon),марни(лето 2021)(Покемон)
 hero_(dq7),герой(dq7)
 tamamo_no_mae_(fate/extra)_(cosplay),тамамо но мае (судьба/экстра) (косплей)
 sonic_generations,sonic generations
-multicolored_umbrella,разноцветный умбрелла
+multicolored_umbrella,разноцветный зонт
 kuma_kai_ni_(kancolle),кума кай ни (канколле)
 kaburaki_roco,кабураки роко
 maractus,марактус
@@ -33771,7 +33771,7 @@ frilled_sweater,свитер с оборками
 wrist_tattoo,татуировка на запястье
 mare_bello_fiore,маре белло фиоре
 donatello_(tmnt),донателло(tmnt)
-small_hands,маленькими ручками
+small_hands,маленькие кисти рук
 necktie_on_head,галстук на голове
 hentai_kamen,hentai kamen
 chijo,чиджо
@@ -33781,7 +33781,7 @@ jack_van_burace,джек ван бурасе
 rpk-16,рпк-16
 howa_type_64,как тип 64
 checkmark,галочка
-gold_border,золотая граница
+gold_border,золотая рамка
 kneeling_on_liquid,преклонение коленей перед жидкостью
 paradise_lost_(e.g.o),)
 angeling,наклоняясь под углом
@@ -33931,7 +33931,7 @@ emma_(nikke),эмма(никке)
 francisca_(kirby),франциска(Кирби)
 duck_(duck_hunt),утиная охота(duck hunt)
 tuye_(arknights),туйе(arknights)
-multicolored_scrunchie,разноцветный скруток
+multicolored_scrunchie,разноцветная объёмная резинка для волос
 monokini,монокини
 yennefer_of_vengerberg,йеннефер оф венгерберг
 manticore_(under_a_veil)_(arknights),мантикора (под покровом ночи) (arknights)
@@ -34499,7 +34499,7 @@ hisabisa_ni_atta_osananajimi_ga_iroiro_to_seichou_shiteirunoni_nounai_dake_seich
 dj_octavio,(диджей Октавио)
 forced_kiss,принудительный поцелуй
 lightning_background,молния на заднем плане
-aqua_tank_top,столешница для аквариума
+aqua_tank_top,бирюзовый топ без рукавов
 bound_leg,связанная нога
 doko_demo_issho,doko demo issho
 fuuto_tantei,fuuto tantei
@@ -35068,7 +35068,7 @@ libeccio_(swimsuit_mode)_(kancolle),libeccio (купальник модный) (
 pottery,керамика
 monster_hunter_stories_2,monster hunter stories 2
 twin-lens_reflex_camera,зеркальная камера с двумя объективами
-brown_umbrella,коричневая умбрелла
+brown_umbrella,коричневый зонт
 wet_pants,мокрые брюки
 dobrynya_nikitich_(second_ascension)_(fate),добрыня никитич (второе вознесение) (судьба)
 gamers!,gamers!
@@ -35199,7 +35199,7 @@ ribbon-trimmed_vest,жилет с отделкой лентой
 kotora_(toranoana),котора (toranoana)
 bag_on_lap,сумка на застежке
 lemres_(puyopuyo),лемрес(puyopuyo)
-aqua_bodysuit,аква костюм
+aqua_bodysuit,бирюзовый боди
 family_guy_death_pose_(meme),семейный гуй деятель(мем)
 yatagarasu,ятагарасу
 yellow_haori,жёлтое хаори
@@ -35709,7 +35709,7 @@ shuto_aoi,шуто аои
 glowworm_(warship_girls_r),светлячок(warship girls r)
 black_moon_clan,племя черной луны
 jindai_high_school_uniform,джиндай высокая школа единая
-hands_on_own_feet,движения рук и ног
+hands_on_own_feet,руки на своих ступнях
 oz_vessalius,оз вессалий
 dominica_s._gentile,доминика с. гентиль
 nohara_misae,ногара мисе
@@ -36373,7 +36373,7 @@ dog_child_(doitsuken),собачий ребенок(дойцукен)
 another_eden,another eden
 unownglyphics,неизвестные иероглифы
 carnival,карнавал
-aqua_sclera,аква склера
+aqua_sclera,бирюзовые белки глаз
 wet_bikini,мокрый купальник-бикини
 mousse_(food),мусс(пищевой)
 google_chrome,google chrome
@@ -36454,7 +36454,7 @@ time_patrol_(dragon_ball),тайм патроль (драконий мяч)
 inami_anju,инами анжу
 dummy,манекен
 rhyhorn,райхорн
-grey_scrunchie,серый хрустящий
+grey_scrunchie,серая объёмная резинка для волос
 takashima_zakuro,такашима закуро
 sparse_ass_hair,редкие волосы
 suzuya_(kancolle)_(cosplay),сузуя(канколле)(косплей)
@@ -36549,7 +36549,7 @@ the_moon_(tarot),лунный день(таро)
 dodgeball,вышибалы
 astesia_(starseeker)_(arknights),астезия (искательница звезд) (arknights)
 pop-up_book,всплывающая книга
-two-tone_umbrella,двухцветная умбрелла
+two-tone_umbrella,двухцветный зонт
 masturbation_day,день мастурбации
 open_happi,открывай хаппи
 oyama_mahiro_(cosplay),ояма махиро (косплей)
@@ -36692,7 +36692,7 @@ kakura_kurumi,какура куруми
 moero!_justice_gakuen,moero! justice gakuen
 baltimore_(muse)_(azur_lane),балтимор (муза) (azur lane)
 tao_pai_pai,тао пай пай
-neck_focus,фокус на шее
+neck_focus,акцент на шее
 seulgi_(red_velvet),сыльги(красный бархат)
 hoshigaki_kisame,хошигаки кисаме
 single_arm_hug,одиночный захват
@@ -37217,9 +37217,9 @@ rita_rossweisse_(phantom_iron),рита россвейсе(фантом ирон
 no_tattoo,нет татуировки
 bilibili_logo,билибили лого
 smack,хлопать
-gold_one-piece_swimsuit,золотой цельнокроеный спортивный костюм
+gold_one-piece_swimsuit,золотой слитный купальник
 taboo_japan_disentanglement,taboo japan disentanglement
-silver_necklace,серебряное кружево на шее
+silver_necklace,серебряное ожерелье
 lear_(pokemon),ученик(Покемон)
 tamama,тамама
 umapyoi_(phrase),umapyoi (фраза)
@@ -37624,7 +37624,7 @@ jimihen,джимихен
 sogna,sogna
 kindaichi_shounen_no_jikenbo,kindaichi shounen no jikenbo
 class_card_(prisma_illya),классная карточка (призма илля)
-fish-shaped_pupils,зрачки в форме рыбок
+fish-shaped_pupils,зрачки в форме рыбы
 goro_nomoru,горо номору
 gweon_sua,гвеон суа
 mozaik_role_(vocaloid),mozaik role (vocaloid)
@@ -37781,7 +37781,7 @@ candeloro,канделоро
 isla_(kof),исла (коф)
 fujiwara_aya,фудзивара айя
 datehyogo,дата начала
-multicolored_border,разноцветная граница
+multicolored_border,разноцветная рамка
 dental_gag,стоматолог гаг
 haibara_yu,хайбара ю
 sheeeh!,ш-ш-ш!
@@ -38338,7 +38338,7 @@ microphone_cord,микрофонный шнур
 female_majin,женский маджин
 miyazawa_fuuka,миядзава фуука
 amira_(shingeki_no_bahamut),амира(shingeki no bahamut)
-aqua_camisole,аква камизоль
+aqua_camisole,бирюзовая майка на тонких бретелях
 king_kong,король конг
 kraken,кракен
 bevor,бевор
@@ -38856,7 +38856,7 @@ book_to_mouth,обращенная ко рту
 wallachia,валахия
 tsurugi_hina,цуруги хина
 seiten_ragnarok,seiten ragnarok
-plaid_ascot,плед аскот
+plaid_ascot,клетчатый галстук-аскот
 uranus_(planet),уран(планета)
 hagane_miku,хагане мику
 heroine_(amnesia),героиня(амнезия)
@@ -40503,3 +40503,608 @@ onomatopoeia,звукоподражательные надписи
 pink_areola,розовая ареола
 overweight_female,женский персонаж с избыточным весом
 raised_leg,поднятая нога
+incest_(lore),инцест (по сюжету)
+sibling_(lore),брат или сестра (по сюжету)
+parent_(lore),родитель (по сюжету)
+parent_and_child_(lore),родитель и его ребёнок (по сюжету)
+brother_(lore),брат (по сюжету)
+sister_(lore),сестра (по сюжету)
+trans_(lore),трансгендерный персонаж (по сюжету)
+mother_(lore),мать (по сюжету)
+son_(lore),сын (по сюжету)
+parent_and_son_(lore),родитель и сын (по сюжету)
+mother_and_child_(lore),мать и её ребёнок (по сюжету)
+father_(lore),отец (по сюжету)
+father_and_child_(lore),отец и его ребёнок (по сюжету)
+brother_and_sister_(lore),брат и сестра (по сюжету)
+trans_woman_(lore),трансгендерная женщина (по сюжету)
+male_(lore),персонаж мужского пола (по сюжету)
+daughter_(lore),дочь (по сюжету)
+parent_and_daughter_(lore),родитель и дочь (по сюжету)
+nonbinary_(lore),небинарный персонаж (по сюжету)
+brothers_(lore),братья (по сюжету)
+sisters_(lore),сёстры (по сюжету)
+mother_and_son_(lore),мать и сын (по сюжету)
+father_and_son_(lore),отец и сын (по сюжету)
+female_(lore),персонаж женского пола (по сюжету)
+trans_man_(lore),трансгендерный мужчина (по сюжету)
+mother_and_daughter_(lore),мать и дочь (по сюжету)
+twins_(lore),близнецы (по сюжету)
+father_and_daughter_(lore),отец и дочь (по сюжету)
+adult_(lore),совершеннолетний персонаж (по сюжету)
+cousins_(lore),двоюродные братья или сёстры (по сюжету)
+adopted_(lore),усыновлённый или удочерённый персонаж (по сюжету)
+uncle_(lore),дядя (по сюжету)
+nephew_(lore),племянник (по сюжету)
+young_(lore),юный персонаж (по сюжету)
+grandparent_(lore),дедушка или бабушка (по сюжету)
+intersex_(lore),интерсекс-персонаж (по сюжету)
+uncle_and_nephew_(lore),дядя и племянник (по сюжету)
+niece_(lore),племянница (по сюжету)
+grandchild_(lore),внук или внучка (по сюжету)
+aunt_(lore),тётя (по сюжету)
+grandparent_and_grandchild_(lore),бабушка/дедушка и внук/внучка (по сюжету)
+adopted_son_(lore),приёмный сын (по сюжету)
+grandmother_(lore),бабушка (по сюжету)
+adoptive_father_(lore),приёмный отец (по сюжету)
+grandson_(lore),внук (по сюжету)
+grandfather_(lore),дедушка (по сюжету)
+uncle_and_niece_(lore),дядя и племянница (по сюжету)
+grandfather_and_grandchild_(lore),дедушка и внук/внучка (по сюжету)
+mother_and_father_(lore),мать и отец (по сюжету)
+adoptive_sibling_(lore),приёмный брат или сестра (по сюжету)
+aunt_and_nephew_(lore),тётя и племянник (по сюжету)
+triplets_(lore),тройняшки (по сюжету)
+grandmother_and_grandchild_(lore),бабушка и внук/внучка (по сюжету)
+stepsibling_(lore),сводный брат или сестра (по сюжету)
+aunt_and_niece_(lore),тётя и племянница (по сюжету)
+adopted_daughter_(lore),приёмная дочь (по сюжету)
+adoptive_mother_(lore),приёмная мать (по сюжету)
+grandfather_and_grandson_(lore),дедушка и внук (по сюжету)
+stepparent_(lore),отчим или мачеха (по сюжету)
+stepbrother_(lore),сводный брат (по сюжету)
+granddaughter_(lore),внучка (по сюжету)
+stepsister_(lore),сводная сестра (по сюжету)
+adoptive_brother_(lore),приёмный брат (по сюжету)
+grandmother_and_grandson_(lore),бабушка и внук (по сюжету)
+stepbrother_and_stepsister_(lore),сводный брат и сводная сестра (по сюжету)
+stepparent_and_stepchild_(lore),отчим/мачеха и пасынок/падчерица (по сюжету)
+stepfather_(lore),отчим (по сюжету)
+stepson_(lore),пасынок (по сюжету)
+adoptive_brothers_(lore),приёмные братья (по сюжету)
+grandmother_and_granddaughter_(lore),бабушка и внучка (по сюжету)
+adoptive_sister_(lore),приёмная сестра (по сюжету)
+stepfather_and_stepchild_(lore),отчим и пасынок/падчерица (по сюжету)
+stepparent_and_stepson_(lore),отчим или мачеха и пасынок (по сюжету)
+grandfather_and_granddaughter_(lore),дедушка и внучка (по сюжету)
+stepmother_(lore),мачеха (по сюжету)
+stepdaughter_(lore),падчерица (по сюжету)
+adoptive_sisters_(lore),приёмные сёстры (по сюжету)
+stepfather_and_stepson_(lore),отчим и пасынок (по сюжету)
+ancestor_and_descendant_(lore),предок и потомок (по сюжету)
+stepparent_and_stepdaughter_(lore),отчим или мачеха и падчерица (по сюжету)
+stepmother_and_stepchild_(lore),мачеха и пасынок/падчерица (по сюжету)
+stepfather_and_stepdaughter_(lore),отчим и падчерица (по сюжету)
+stepmother_and_stepson_(lore),мачеха и пасынок (по сюжету)
+stepbrothers_(lore),сводные братья (по сюжету)
+pokemon_(species),покемон — вид существа
+mythological_scalie,мифологическое существо с чертами чешуйчатого существа
+mythological_equine,мифологическое существо с чертами лошади
+hybrid,гибрид
+animal_humanoid,гуманоид с животными чертами
+rodent,грызун
+generation_1_pokemon,покемон 1-го поколения
+marine,морское существо
+pony,пони
+generation_4_pokemon,покемон 4-го поколения
+mammal_humanoid,гуманоид с чертами млекопитающего
+true_fox,настоящие лисицы
+generation_3_pokemon,покемон 3-го поколения
+generation_2_pokemon,покемон 2-го поколения
+generation_6_pokemon,покемон 6-го поколения
+mustelid,куньи
+bovine,бычьи
+generation_5_pokemon,покемон 5-го поколения
+prehistoric_species,доисторический вид
+digimon_(species),дигимон — вид существа
+bat,летучая мышь
+legendary_pokemon,легендарный покемон
+mythological_canine,мифологическое существо с чертами псовых
+generation_7_pokemon,покемон 7-го поколения
+mouse,мышь
+marsupial,сумчатое животное
+procyonid,енотовые
+pastoral_dog,пастушья собака
+cattle,крупный рогатый скот
+insect,насекомое
+herding_dog,собака для выпаса скота
+werecreature,оборотень
+nordic_sled_dog,северная ездовая собака
+sciurid,беличьи
+felid_humanoid,гуманоид с чертами кошачьих
+werecanid,оборотень с чертами псовых
+generation_8_pokemon,покемон 8-го поколения
+feline_humanoid,гуманоид с чертами кошачьих
+elemental_creature,"существо, связанное со стихией"
+rat,крыса
+mythological_avian,мифологическое существо с чертами птицы
+cat_humanoid,гуманоид с чертами кошки
+canid_humanoid,гуманоид с чертами псовых
+mephitid,скунсовые
+ursine,медвежьи
+werecanine,оборотень с чертами псовых
+hunting_dog,охотничья собака
+canine_humanoid,гуманоид с чертами псовых
+ailurid,пандовые
+hellhound,адская гончая
+primate,примат
+horned_humanoid,рогатый гуманоид
+flora_fauna,существо с чертами растения и животного
+suid,свиные
+tree_squirrel,древесная белка
+gryphon,грифон
+sus_(pig),род свиней
+raccoon_dog,енотовидная собака
+animate_inanimate,одушевлённый предмет
+amphibian,земноводное
+unknown_species,неизвестный вид
+goo_creature,существо из слизи
+mollusk,моллюск
+galliform,курообразное
+phasianid,фазановые
+passerine,воробьинообразное
+macropod,кенгуровые
+new_world_deer,олени Нового Света
+generation_9_pokemon,покемон 9-го поколения
+marine_humanoid,гуманоид с чертами морского существа
+gallus_(genus),род джунглевых кур
+bird_dog,охотничья собака для работы по птице
+toy_dog,декоративная собака
+fox_humanoid,гуманоид с чертами лисы
+alien_humanoid,гуманоидный пришелец
+cetacean,китообразное
+alligatorid,аллигаторовые
+sheepdog,пастушья собака
+demon_humanoid,гуманоид с чертами демона
+corvid,врановые
+pinscher,пинчер
+regional_form_(pokemon),региональная форма покемона
+arachnid,паукообразное
+toothed_whale,зубатый кит
+deity,божество
+lepidopteran,чешуекрылое насекомое
+domestic_pig,домашняя свинья
+wingless_dragon,бескрылый дракон
+dromaeosaurid,дромеозаврид
+oceanic_dolphin,океанический дельфин
+wild_boar,дикий кабан
+hymenopteran,перепончатокрылое насекомое
+retriever,ретривер
+ambiguous_species,неоднозначная видовая принадлежность
+molosser,молосс
+experiment_(lilo_and_stitch),эксперимент из Lilo & Stitch
+ground_squirrel,наземная белка
+bandicoot,бандикут
+accipitrid,ястребиные
+lagomorph_humanoid,гуманоид с чертами зайцеобразных
+bovid_humanoid,гуманоид с чертами полорогих
+anseriform,гусеобразное
+anatid,утиные
+mollusk_humanoid,гуманоид с чертами моллюска
+cougar,пума
+cephalopod_humanoid,гуманоид с чертами головоногого моллюска
+corvus_(genus),род воронов
+saber-toothed_tiger,саблезубый тигр
+robot_humanoid,гуманоидный робот
+leporid_humanoid,гуманоид с чертами заячьих
+giraffid,жирафовые
+rabbit_humanoid,гуманоид с чертами кролика
+yokai,ёкай
+food_creature,существо из еды
+domestic_sheep,домашняя овца
+monotreme,однопроходное млекопитающее
+cobra,кобра
+dragon_humanoid,гуманоид с чертами дракона
+proboscidean,хоботное
+domestic_ferret,домашний хорёк
+elephantid,слоновые
+echidna,ехидна
+tyrannosauroid,тираннозавроид
+tyrannosaurid,тираннозаврид
+bovine_humanoid,гуманоид с чертами бычьих
+alolan_form,алольская форма покемона
+tailed_humanoid,хвостатый гуманоид
+naga,нага — змееподобное существо
+merfolk,русалочий народ
+arthropod_humanoid,гуманоид с чертами членистоногого
+plant_humanoid,растение-гуманоид
+scalie_humanoid,гуманоид с чертами чешуйчатого существа
+winged_humanoid,крылатый гуманоид
+pinniped,ластоногое
+living_machine,живая машина
+wolf_humanoid,гуманоид с чертами волка
+cattle_humanoid,гуманоид с чертами крупного рогатого скота
+sighthound,борзая
+domestic_rabbit,домашний кролик
+animated_skeleton,оживший скелет
+gastropod,брюхоногий моллюск
+living_inflatable,живое надувное существо
+fish_humanoid,гуманоид с чертами рыбы
+virginia_opossum,виргинский опоссум
+hare,заяц
+labrador,лабрадор
+aquatic_dragon,водный дракон
+hisuian_form,хисуйская форма покемона
+succubus,суккуб
+ceratopsian,цератопс
+dog_humanoid,гуманоид с чертами собаки
+rodent_humanoid,гуманоид с чертами грызуна
+avian_humanoid,гуманоид с чертами птицы
+reptile_humanoid,гуманоид с чертами рептилии
+equid_humanoid,гуманоид с чертами лошадиных
+insect_humanoid,гуманоид с чертами насекомого
+mythological_bird,мифологическое существо с чертами птицы
+equine_humanoid,гуманоид с чертами лошади
+pantherine_humanoid,гуманоид с чертами пантеровых
+bird_humanoid,гуманоид с чертами птицы
+tiger_humanoid,гуманоид с чертами тигра
+snake_humanoid,гуманоид с чертами змеи
+sheep_humanoid,гуманоид с чертами овцы
+shark_humanoid,гуманоид с чертами акулы
+lizard_humanoid,гуманоид с чертами ящерицы
+werefox,оборотень с чертами лисы
+goat_humanoid,гуманоид с чертами козы
+horse_humanoid,гуманоид с чертами лошади
+raccoon_humanoid,гуманоид с чертами енота
+amphibian_humanoid,гуманоид с чертами земноводного
+werefelid,оборотень с чертами кошачьих
+bat_humanoid,гуманоид с чертами летучей мыши
+lion_humanoid,гуманоид с чертами льва
+deer_humanoid,гуманоид с чертами оленя
+mythological_fox,мифологическое существо с чертами лисы
+weredog,оборотень с чертами собаки
+mythological_marine,мифологическое существо с чертами морского существа
+werefeline,оборотень с чертами кошачьих
+werecat,оборотень с чертами кошки
+weasel_humanoid,гуманоид с чертами ласки
+werepantherine,оборотень с чертами пантеровых
+ursine_humanoid,гуманоид с чертами медведя
+werehyena,оборотень с чертами гиены
+cervine_humanoid,гуманоид с чертами оленя
+wererodent,оборотень с чертами грызуна
+wereequine,оборотень с чертами лошади
+werelagomorph,оборотень с чертами зайцеобразных
+werelion,оборотень с чертами льва
+wererabbit,оборотень с чертами кролика
+hyena_humanoid,гуманоид с чертами гиены
+weretiger,оборотень с чертами тигра
+leopard_humanoid,гуманоид с чертами леопарда
+otter_humanoid,гуманоид с чертами выдры
+skunk_humanoid,гуманоид с чертами скунса
+weredeer,оборотень с чертами оленя
+wereavian,оборотень с чертами птицы
+wereursine,оборотень с чертами медведя
+weredragon,оборотень с чертами дракона
+werebird,оборотень с чертами птицы
+wereshark,оборотень с чертами акулы
+werefish,оборотень с чертами рыбы
+wereskunk,оборотень с чертами скунса
+wereotter,оборотень с чертами выдры
+werescalie,оборотень с чертами чешуйчатого существа
+mythological_arthropod,мифологическое существо с чертами членистоногого
+werereptile,оборотень с чертами рептилии
+werebovine,оборотень с чертами бычьих
+butt_focus,акцент на ягодицах
+holding_cellphone,держит мобильный телефон
+holding_smartphone,держит смартфон
+hand_on_own_butt,рука на своих ягодицах
+hand_on_own_breast,рука на своей груди
+holding_glass,держит стакан или бокал
+hand_on_own_belly,рука на своём животе
+hand_on_another's_butt,рука на ягодицах другого персонажа
+holding_mug,держит кружку
+holding_handgun,держит пистолет
+hand_on_another's_breast,рука на груди другого персонажа
+holding_spear,держит копьё
+holding_plushie,держит мягкую игрушку
+belly_focus,акцент на животе
+holding_rifle,держит винтовку
+hand_on_another's_belly,рука на животе другого персонажа
+holding_wine_glass,держит бокал для вина
+face_focus,акцент на лице
+hands_on_own_belly,руки на своём животе
+holding_apple,держит яблоко
+holding_rose,держит розу
+hand_on_another's_tail,рука на хвосте другого персонажа
+hand_on_another's_foot,рука на ступне другого персонажа
+hands_on_own_arms,руки на своих руках
+hands_on_another's_hip,руки на бедре другого персонажа
+hands_on_another's_thigh,руки на бедре другого персонажа
+hands_on_another's_legs,руки на ногах другого персонажа
+hand_on_own_back,рука на своей спине
+hands_on_own_back,руки на своей спине
+hands_on_own_ears,руки на своих ушах
+carrying_weapon,несёт оружие
+holding_playing_card,держит игральную карту
+white_sclera,белые белки глаз
+red_lipstick,красная губная помада
+black_lipstick,чёрная губная помада
+pink_lipstick,розовая губная помада
+purple_lipstick,фиолетовая губная помада
+black_necklace,чёрное ожерелье
+blue_lipstick,синяя губная помада
+black_paws,чёрные лапы
+pink_paws,розовые лапы
+brown_paws,коричневые лапы
+blue_paws,синие лапы
+white_paws,белые лапы
+black_bracelet,чёрный браслет
+green_lipstick,зелёная губная помада
+red_necklace,красное ожерелье
+yellow_lipstick,жёлтая губная помада
+green_paws,зелёные лапы
+yellow_paws,жёлтые лапы
+grey_paws,серые лапы
+pink_necklace,розовое ожерелье
+purple_paws,фиолетовые лапы
+multicolored_bracelet,разноцветный браслет
+orange_paws,оранжевые лапы
+red_paws,красные лапы
+red_hair_tie,красная резинка для волос
+yellow_bracelet,жёлтый браслет
+blue_necklace,синее ожерелье
+white_necklace,белое ожерелье
+black_nail_polish,чёрный лак для ногтей
+blue_bracelet,синий браслет
+red_nail_polish,красный лак для ногтей
+orange_lipstick,оранжевая губная помада
+purple_necklace,фиолетовое ожерелье
+multicolored_necklace,разноцветное ожерелье
+blue_nail_polish,синий лак для ногтей
+pink_bracelet,розовый браслет
+pink_nail_polish,розовый лак для ногтей
+green_necklace,зелёное ожерелье
+blue_backpack,синий рюкзак
+gold_lipstick,золотая губная помада
+multicolored_paws,разноцветные лапы
+yellow_mask,жёлтая маска
+black_backpack,чёрный рюкзак
+green_backpack,зелёный рюкзак
+plaid_scrunchie,клетчатая объёмная резинка для волос
+orange_petals,оранжевые лепестки
+red_bracelet,красный браслет
+blue_headphones,синие наушники
+green_bracelet,зелёный браслет
+purple_nail_polish,фиолетовый лак для ногтей
+white_tiara,белая тиара
+blue_hair_tie,синяя резинка для волос
+yellow_necklace,жёлтое ожерелье
+multicolored_headphones,разноцветные наушники
+black_hair_tie,чёрная резинка для волос
+polka_dot_border,рамка в горошек
+polka_dot_one-piece_swimsuit,слитный купальник в горошек
+striped_umbrella,полосатый зонт
+purple_headphones,фиолетовые наушники
+rabbit-shaped_eyewear,очки в форме кролика
+striped_border,полосатая рамка
+green_hair_tie,зелёная резинка для волос
+multicolored_ascot,разноцветный галстук-аскот
+plaid_one-piece_swimsuit,клетчатый слитный купальник
+skull-shaped_pupils,зрачки в форме черепа
+white_lipstick,белая губная помада
+striped_ascot,полосатый галстук-аскот
+red_feather,красное перо
+orange_headphones,оранжевые наушники
+red_backpack,красный рюкзак
+blue_hairclip,синяя заколка для волос
+green_crown,зелёная корона
+white_bracelet,белый браслет
+purple_bracelet,фиолетовый браслет
+black_petals,чёрные лепестки
+brown_backpack,коричневый рюкзак
+gold_mask,золотая маска
+yellow_headphones,жёлтые наушники
+pink_hair_tie,розовая резинка для волос
+brown_necklace,коричневое ожерелье
+pink_backpack,розовый рюкзак
+brown_lipstick,коричневая губная помада
+grey_lipstick,серая губная помада
+cat-shaped_eyewear,очки в форме кошки
+plaid_umbrella,клетчатый зонт
+brown_bracelet,коричневый браслет
+green_headphones,зелёные наушники
+flower-shaped_eyewear,очки в форме цветка
+two-tone_scrunchie,двухцветная объёмная резинка для волос
+crescent-shaped_pupils,зрачки в форме полумесяца
+purple_crown,фиолетовая корона
+green_nail_polish,зелёный лак для ногтей
+two-tone_ascot,двухцветный галстук-аскот
+purple_hair_tie,фиолетовая резинка для волос
+grey_necklace,серое ожерелье
+silver_one-piece_swimsuit,серебряный слитный купальник
+yellow_backpack,жёлтый рюкзак
+grey_backpack,серый рюкзак
+grey_headphones,серые наушники
+purple_backpack,фиолетовый рюкзак
+orange_bracelet,оранжевый браслет
+plaid_border,клетчатая рамка
+yellow_hair_tie,жёлтая резинка для волос
+grey_bracelet,серый браслет
+tan_skin,светло-коричневая кожа
+teal_eyes,сине-зелёные глаза
+tan_tail,светло-коричневый хвост
+tan_scales,светло-коричневая чешуя
+tan_hair,светло-коричневые волосы
+tan_background,светло-коричневый фон
+tan_ears,светло-коричневые уши
+tan_clothing,светло-коричневая одежда
+teal_body,сине-зелёное тело
+tan_feathers,светло-коричневые перья
+teal_hair,сине-зелёные волосы
+tan_eyebrows,светло-коричневые брови
+tan_nose,светло-коричневый нос
+teal_background,сине-зелёный фон
+teal_clothing,сине-зелёная одежда
+tan_pants,светло-коричневые брюки
+tan_shirt,светло-коричневая рубашка
+teal_fur,сине-зелёная шерсть
+tan_eyes,светло-коричневые глаза
+tan_claws,светло-коричневые когти
+tan_wings,светло-коричневые крылья
+turquoise_hair,бирюзовые волосы
+teal_scales,сине-зелёная чешуя
+teal_skin,сине-зелёная кожа
+tan_teeth,светло-коричневые зубы
+tan_sclera,светло-коричневые белки глаз
+tan_shorts,светло-коричневые шорты
+cyan_background,голубой фон
+teal_nose,сине-зелёный нос
+cream_hair,кремовые волосы
+tan_hat,светло-коричневая шляпа
+maroon_fur,тёмно-бордовая шерсть
+tan_skirt,светло-коричневая юбка
+tan_beak,светло-коричневый клюв
+turquoise_body,бирюзовое тело
+tan_sweater,светло-коричневый свитер
+teal_sclera,сине-зелёные белки глаз
+tan_footwear,светло-коричневая обувь
+teal_shirt,сине-зелёная рубашка
+tan_border,светло-коричневая рамка
+teal_tail,сине-зелёный хвост
+teal_claws,сине-зелёные когти
+tan_underwear,светло-коричневое нижнее бельё
+tan_nails,светло-коричневые ногти
+tan_jacket,светло-коричневая куртка
+tan_paws,светло-коричневые лапы
+teal_ears,сине-зелёные уши
+turquoise_scales,бирюзовая чешуя
+teal_underwear,сине-зелёное нижнее бельё
+tan_gloves,светло-коричневые перчатки
+teal_wings,сине-зелёные крылья
+tan_hoodie,светло-коричневая толстовка с капюшоном
+teal_feathers,сине-зелёные перья
+aqua_bag,бирюзовая сумка
+tan_lips,светло-коричневые губы
+turquoise_tail,бирюзовый хвост
+maroon_hair,тёмно-бордовые волосы
+aqua_feathers,бирюзовые перья
+tan_panties,светло-коричневые трусики
+tan_legwear,светло-коричневые чулочно-носочные изделия
+tan_shoes,светло-коричневые туфли
+tan_boots,светло-коричневые сапоги
+teal_dress,сине-зелёное платье
+aqua_robe,бирюзовая мантия
+aqua_sweater_vest,бирюзовый вязаный жилет
+teal_eyebrows,сине-зелёные брови
+teal_nails,сине-зелёные ногти
+aqua_umbrella,бирюзовый зонт
+tan_t-shirt,светло-коричневая футболка
+teal_footwear,сине-зелёная обувь
+maroon_clothing,тёмно-бордовая одежда
+tan_bra,светло-коричневый бюстгальтер
+tan_coat,светло-коричневое пальто
+teal_collar,сине-зелёный воротник
+tan_vest,светло-коричневый жилет
+tan_tank_top,светло-коричневый топ без рукавов
+maroon_background,тёмно-бордовый фон
+maroon_body,тёмно-бордовое тело
+aqua_scales,бирюзовая чешуя
+turquoise_background,бирюзовый фон
+teal_shorts,сине-зелёные шорты
+teal_legwear,сине-зелёные чулочно-носочные изделия
+tan_crop_top,светло-коричневый укороченный топ
+cream_background,кремовый фон
+turquoise_ears,бирюзовые уши
+teal_pupils,сине-зелёные зрачки
+aqua_hood,бирюзовый капюшон
+teal_panties,сине-зелёные трусики
+teal_bikini,сине-зелёный купальник-бикини
+tan_thigh_highs,светло-коричневые чулки выше колена
+teal_lips,сине-зелёные губы
+tan_cape,светло-коричневый плащ-накидка
+tan_socks,светло-коричневые носки
+tan_belt,светло-коричневый ремень
+aqua_haori,бирюзовое хаори
+teal_skirt,сине-зелёная юбка
+teal_lipstick,сине-зелёная губная помада
+tan_loincloth,светло-коричневая набедренная повязка
+tan_neckerchief,светло-коричневый шейный платок
+turquoise_clothing,бирюзовая одежда
+teal_hoodie,сине-зелёная толстовка с капюшоном
+teal_gloves,сине-зелёные перчатки
+aqua_hakama,бирюзовые хакама
+teal_thigh_highs,сине-зелёные чулки выше колена
+burgundy_jacket,бордовая куртка
+teal_sweater,сине-зелёный свитер
+big_nipples,большие соски
+big_ears,большие уши
+thick_penis,толстый пенис
+big_tail,большой хвост
+huge_belly,огромный живот
+huge_muscles,огромные мышцы
+long_penis,длинный пенис
+big_eyes,большие глаза
+thin_thighs,тонкие бёдра
+wet_body,мокрое тело
+thin_legs,тонкие ноги
+big_feet,большие ступни
+fluffy_ears,пушистые уши
+big_hands,большие кисти рук
+wet_fur,мокрая шерсть
+thin_tail,тонкий хвост
+sharp_nails,острые ногти
+small_balls,маленькие яички
+huge_tail,огромный хвост
+glowing_body,светящееся тело
+long_nails,длинные ногти
+small_wings,маленькие крылья
+small_nose,маленький нос
+glowing_horn,светящийся рог
+long_snout,длинная морда
+small_horn,маленький рог
+long_horn,длинный рог
+short_snout,короткая морда
+huge_feet,огромные ступни
+big_horn,большой рог
+small_butt,маленькие ягодицы
+big_wings,большие крылья
+short_ears,короткие уши
+short_horn,короткий рог
+small_ears,маленькие уши
+small_feet,маленькие ступни
+fluffy_fur,пушистая шерсть
+sharp_fangs,острые клыки
+thin_penis,тонкий пенис
+small_eyes,маленькие глаза
+huge_lips,огромные губы
+thick_tongue,толстый язык
+huge_hands,огромные кисти рук
+fluffy_paws,пушистые лапы
+thin_arms,тонкие руки
+small_mouth,маленький рот
+fluffy_body,пушистое тело
+small_body,маленькое тело
+large_paws,большие лапы
+big_ear,большое ухо
+huge_wings,огромные крылья
+short_penis,короткий пенис
+short_arms,короткие руки
+wide_nose,широкий нос
+short_fingers,короткие пальцы рук
+big_mouth,большой рот
+huge_ears,огромные уши
+huge_eyes,огромные глаза
+huge_horn,огромный рог
+narrow_hips,узкие бёдра
+long_muzzle,длинная морда
+wide_waist,широкая талия
+thin_neck,тонкая шея
+wet_tail,мокрый хвост
+wide_mouth,широкий рот
+small_paws,маленькие лапы
+fluffy_tail,пушистый хвост
+large_nose,большой нос
+glowing_tongue,светящийся язык
+fluffy_ear,пушистое ухо
+wide_shoulders,широкие плечи
+huge_mouth,огромный рот

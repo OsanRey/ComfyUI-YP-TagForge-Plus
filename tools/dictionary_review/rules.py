@@ -1,4 +1,9 @@
 """Explicit terminology and bounded grammatical rules, never general machine translation."""
+from anatomy_rules import anatomy_translation
+from visual_rules import COLOR_NOUNS, visual_translation
+from pose_rules import pose_translation
+from species_rules import species_translation
+from lore_rules import translate_lore
 from meta_rules import translate_meta
 from apparel_rules import CLOTHING_NOUNS, apparel_translation
 import csv
@@ -59,10 +64,53 @@ characters = {'hatsune_miku':'Хацуне Мику','hakurei_reimu':'Хакур
 def display_original(tag):
     return tag.replace('_', ' ')
 
+
+# Additional common palette names; no translation of arbitrary color strings.
+colors.update({
+ 'aqua':('бирюзовый','бирюзовая','бирюзовое','бирюзовые'),
+ 'cyan':('голубой','голубая','голубое','голубые'),
+ 'teal':('сине-зелёный','сине-зелёная','сине-зелёное','сине-зелёные'),
+ 'turquoise':('бирюзовый','бирюзовая','бирюзовое','бирюзовые'),
+ 'lavender':('светло-сиреневый','светло-сиреневая','светло-сиреневое','светло-сиреневые'),
+ 'beige':('бежевый','бежевая','бежевое','бежевые'),
+ 'tan':('светло-коричневый','светло-коричневая','светло-коричневое','светло-коричневые'),
+ 'cream':('кремовый','кремовая','кремовое','кремовые'),
+ 'maroon':('тёмно-бордовый','тёмно-бордовая','тёмно-бордовое','тёмно-бордовые'),
+ 'burgundy':('бордовый','бордовая','бордовое','бордовые'),
+ 'navy_blue':('тёмно-синий','тёмно-синяя','тёмно-синее','тёмно-синие'),
+ 'light_brown':('светло-коричневый','светло-коричневая','светло-коричневое','светло-коричневые'),
+ 'dark_brown':('тёмно-коричневый','тёмно-коричневая','тёмно-коричневое','тёмно-коричневые'),
+ 'light_grey':('светло-серый','светло-серая','светло-серое','светло-серые'),
+ 'dark_grey':('тёмно-серый','тёмно-серая','тёмно-серое','тёмно-серые'),
+ 'light_gray':('светло-серый','светло-серая','светло-серое','светло-серые'),
+ 'dark_gray':('тёмно-серый','тёмно-серая','тёмно-серое','тёмно-серые'),
+ 'light_pink':('светло-розовый','светло-розовая','светло-розовое','светло-розовые'),
+ 'dark_pink':('тёмно-розовый','тёмно-розовая','тёмно-розовое','тёмно-розовые'),
+ 'light_purple':('светло-фиолетовый','светло-фиолетовая','светло-фиолетовое','светло-фиолетовые'),
+ 'dark_purple':('тёмно-фиолетовый','тёмно-фиолетовая','тёмно-фиолетовое','тёмно-фиолетовые'),
+ 'light_red':('светло-красный','светло-красная','светло-красное','светло-красные'),
+ 'light_yellow':('светло-жёлтый','светло-жёлтая','светло-жёлтое','светло-жёлтые'),
+ 'dark_yellow':('тёмно-жёлтый','тёмно-жёлтая','тёмно-жёлтое','тёмно-жёлтые'),
+ 'light_orange':('светло-оранжевый','светло-оранжевая','светло-оранжевое','светло-оранжевые'),
+ 'dark_orange':('тёмно-оранжевый','тёмно-оранжевая','тёмно-оранжевое','тёмно-оранжевые'),
+ 'black_and_white':('чёрно-белый','чёрно-белая','чёрно-белое','чёрно-белые'),
+})
+
 nouns.update(CLOTHING_NOUNS)
+nouns.update(COLOR_NOUNS)
 
 def descriptive(tag):
     if tag in glossary: return glossary[tag], 'glossary'
+    anatomy=anatomy_translation(tag)
+    if anatomy is not None:return anatomy,'bounded-anatomy-rule'
+    visual=visual_translation(tag)
+    if visual is not None:return visual,'bounded-shape-rule'
+    pose=pose_translation(tag)
+    if pose is not None:return pose,'bounded-pose-rule'
+    species=species_translation(tag)
+    if species is not None:return species,'bounded-species-rule'
+    lore=translate_lore(tag)
+    if lore is not None:return lore,'contextual-lore-rule'
     apparel=apparel_translation(tag,nouns)
     if apparel is not None:return apparel,'apparel-rule'
     meta=translate_meta(tag)

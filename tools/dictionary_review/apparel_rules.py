@@ -13,7 +13,7 @@ CLOTHING_NOUNS['hoodie']=(1,'толстовка с капюшоном')
 CLOTHING_NOUNS['maid_headdress']=(0,'головной убор горничной')
 CLOTHING_NOUNS['leather_jacket']=(1,'куртка из кожи')
 CLOTHING_NOUNS['school_uniform']=(1,'школьная форма')
-CLOTHING_NOUNS.update({'kimono':(2,'кимоно'),'haori':(2,'хаори'),'poncho':(2,'пончо'),'fishnets':(1,'сетчатая одежда')})
+CLOTHING_NOUNS.update({'kimono':(2,'кимоно'),'haori':(2,'хаори'),'poncho':(2,'пончо'),'fishnets':(1,'сетчатая одежда'),'one-piece_swimsuit':(0,'слитный купальник'),'competition_swimsuit':(0,'спортивный купальник для соревнований'),'serafuku':(1,'школьная форма с матросским воротником')})
 
 GARMENTS = set(CLOTHING_NOUNS) | set('shirt blouse skirt miniskirt jacket t-shirt bra hat cap beret armor footwear ribbon headband dress coat underwear gloves socks thighhighs pantyhose panties pants shorts shoes boots sleeves clothes clothing kneehighs sandals sneakers legwear bow necktie scarf sweater vest hood belt choker collar leotard bikini swimsuit cape suit hair_bow hair_ribbon'.split())
 ADJECTIVES = {

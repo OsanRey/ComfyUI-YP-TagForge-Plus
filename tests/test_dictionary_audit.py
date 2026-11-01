@@ -20,6 +20,8 @@ class AuditTests(unittest.TestCase):
             self.assertEqual(sum(summary["statuses"].values()),len(rows))
             tags={row["tag"]:row for row in rows}
             self.assertEqual(tags["wlop"]["status"],"preserve_handle")
+            self.assertEqual(tags[":d"]["status"],"preserve_symbol")
+            self.assertEqual(tags["parent_and_child_(lore)"]["status"],"reviewed")
             self.assertEqual(tags["cowboy_shot"]["status"],"reviewed")
             self.assertEqual(tags["stuffed_animal"]["translation"],"мягкая игрушка в виде животного")
             self.assertGreater(summary["statuses"]["needs_review"],0)

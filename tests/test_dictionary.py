@@ -15,6 +15,8 @@ class DictionaryTests(unittest.TestCase):
     def test_meaning_and_grammar(self):
         expected = {
             "highres": "высокое разрешение",
+            "fins": "плавники", "single_glove": "одна перчатка",
+            "thighband_pantyhose": "колготки с тёмными полосами на бёдрах",
             "white_apron": "белый фартук", "staff": "посох",
             "hand_fan": "ручной веер", "hat_ribbon": "лента на головном уборе",
             "procreate_(medium)": "создано в Procreate",
