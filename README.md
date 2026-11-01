@@ -100,6 +100,8 @@ When enabled, the extension turns off competing completion and formatting handle
 
 The extension works independently. Add tag CSV files to `tags/` and translation CSV files to `translate/`; reload the page to update the available file list. There are no automatic data downloads at startup.
 
+A reproducible full-catalog inventory and review queue are available through [dictionary review tools](tools/dictionary_review/README.md). Reviewed terminology, preserved original names and unreviewed legacy labels are counted separately. The full semantic review remains in progress.
+
 ## Development
 
 Tests cover formatting, artist prefixes, popup sizing, existing tags, related-tag insertion, data indexing and field integration. CI also checks Python and JavaScript syntax.

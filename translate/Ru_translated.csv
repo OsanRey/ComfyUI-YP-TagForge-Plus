@@ -126,7 +126,7 @@ shoes,туфли
 penis,пенис
 choker,чокер
 japanese_clothes,японская одежда
-virtual_youtuber,виртуальный ютубер
+virtual_youtuber,виртуальный видеоблогер
 pointy_ears,заострённые уши
 socks,носки
 tongue,язык
@@ -171,7 +171,7 @@ stomach,живот
 speech_bubble,реплика в облачке
 sex,секс
 white_dress,белое платье
-twitter_username,имя пользователя twitter
+twitter_username,имя пользователя в Twitter
 pokemon,Покемон
 halo,нимб
 looking_at_another,смотрит на другого персонажа
@@ -191,7 +191,7 @@ blue_archive,Blue Archive
 hair_bun,пучок волос
 3girls,3 девушки
 armpits,подмышки
-chibi,чиби
+chibi,чиби — персонаж с уменьшенными пропорциями
 off_shoulder,одежда с открытыми плечами
 open_jacket,расстёгнутая куртка
 kimono,кимоно
@@ -249,7 +249,7 @@ arms_up,поднятые руки
 :o,:o
 dated,с указанной датой
 white_panties,белые трусики
-completely_nude,полностью обнаженный
+completely_nude,полностью без одежды
 grey_eyes,серые глаза
 cup,чашка
 commission,работа на заказ
@@ -301,7 +301,7 @@ maid,горничная
 groin,пах
 no_humans,без людей
 fake_animal_ears,накладные звериные уши
-pokemon_(creature),покемон(существо)
+pokemon_(creature),покемон — существо
 fox_ears,лисьи уши
 torn_clothes,порванная одежда
 gun,огнестрельное оружие
@@ -317,7 +317,7 @@ ascot,галстук-аскот
 head_tilt,наклон головы
 sash,широкий пояс или перевязь
 lips,губы
-bare_arms,обнаженные руки
+bare_arms,обнажённые руки
 book,книга
 neck_ribbon,лента на шее
 black_bow,чёрный бант
@@ -366,12 +366,12 @@ horse_ears,лошадиные уши
 dutch_angle,заваленный горизонт
 shadow,тень
 expressionless,без выражения
-bell,колокол
+bell,колокольчик или колокол
 capelet,короткая накидка
 kneeling,стоит на коленях
 sideboob,видна боковая часть груди
 copyright_name,название произведения
-turtleneck,водолазка с высоким воротом
+turtleneck,высокий облегающий воротник
 umamusume,umamusume
 open_shirt,расстёгнутая рубашка
 :3,:3
@@ -396,8 +396,8 @@ scar,шрам
 on_bed,на кровати
 ^_^,^_^
 brown_footwear,коричневая обувь
-pussy_juice,кисельный сок
-siblings,братья и сестры
+pussy_juice,вагинальные выделения
+siblings,братья и сёстры
 fruit,фрукты
 piercing,пирсинг
 black_hat,чёрная шляпа
@@ -410,7 +410,7 @@ rose,роза
 bird,птица
 chinese_clothes,китайская одежда
 nose_blush,румянец на носу
-leaf,лист
+leaf,лист растения
 one_side_up,один хвостик сбоку с распущенными остальными волосами
 fox_tail,лисий хвост
 fangs,клыки
@@ -419,39 +419,39 @@ soles,подошвы ступней
 chain,цепь
 animal,животное
 depth_of_field,глубина резкости
-playboy_bunny,плейбой-банни
+playboy_bunny,костюм кролика Playboy
 md5_mismatch,совпадение md5 mismatch
 blush_stickers,условные отметки румянца на щеках
 beret,берет
-cum_in_pussy,кончаю в киску
-no_bra,нет бра
-glowing,пылающий
+cum_in_pussy,сперма во влагалище
+no_bra,без бюстгальтера
+glowing,свечение
 halterneck,бретели или завязки на шее
-thick_thighs,толстые бедра
+thick_thighs,объёмные бёдра
 white_footwear,белая обувь
-military,военный
+military,военная тематика
 holding_hands,держатся за руки
 ocean,океан
 thick_eyebrows,густые брови
-witch_hat,ведьмачья шляпа
-underboob,нижняя часть груди
+witch_hat,ведьминская шляпа
+underboob,видна нижняя часть груди
 headband,повязка на голову
-4koma,4кома
+4koma,комикс из четырёх панелей
 muscular_male,мускулистый мужчина
 blue_shirt,синяя рубашка
 from_above,вид сверху
 phone,телефон
 headphones,наушники
-facial_mark,лицевая метка
-cameltoe,камелтое
-embarrassed,смущенный
+facial_mark,отметина на лице
+cameltoe,контуры вульвы под облегающей одеждой
+embarrassed,смущённое выражение
 non-web_source,не являющийся веб-источником
 erection,эрекция
-military_uniform,военная униформа
+military_uniform,военная форма
 looking_down,смотрит вниз
-bottomless,бездонный
-side-tie_bikini_bottom,боковая завязка бикини снизу
-no_panties,никаких трусиков
+bottomless,без одежды на нижней части тела
+side-tie_bikini_bottom,плавки бикини с завязками по бокам
+no_panties,без трусиков
 white_bikini,белый купальник-бикини
 bed_sheet,простыня
 abs,мышцы пресса
@@ -459,11 +459,11 @@ blue_jacket,синяя куртка
 black_socks,чёрные носки
 sunglasses,солнцезащитные очки
 half-closed_eyes,полуприкрытые глаза
-arm_support,arm поддержка
+arm_support,опирается на руку
 cum_on_body,сперма на теле
 lowres,низкое разрешение
 pink_background,розовый фон
-holding_food,хранение продуктов питания
+holding_food,держит еду
 bandages,бинты
 sandals,сандалии
 hood_down,капюшон опущен
@@ -473,7 +473,7 @@ bob_cut,стрижка каре
 no_shoes,без обуви
 beach,пляж
 frilled_dress,платье с оборками
-happy,счастливый
+happy,радостное выражение
 back,спина
 white_flower,белый цветок
 short_dress,короткое платье
@@ -481,126 +481,126 @@ chair,стул
 honkai_(series),honkai (series)
 red_dress,красное платье
 black_hairband,чёрный ободок
-ass_visible_through_thighs,видимая сквозь бедра
+ass_visible_through_thighs,ягодицы видны между бёдрами
 dark-skinned_male,темнокожий мужчина
 fire_emblem,fire emblem
 drill_hair,спиральные локоны
 thigh_boots,ботфорты
-cat_girl,девушка-кошка
-umbrella,зонтик
+cat_girl,девушка с кошачьими чертами
+umbrella,зонт
 floral_print,цветочный принт
 on_side,лежит на боку
 love_live!,love live!
 testicles,яички
 white_skirt,белая юбка
-female_pubic_hair,женские лобковые волосы
-flying_sweatdrops,летающие сладкие капли
+female_pubic_hair,лобковые волосы у женщины
+flying_sweatdrops,разлетающиеся капли пота
 heart-shaped_pupils,зрачки в форме сердечек
 white_bow,белый бант
 traditional_media,традиционные художественные материалы
 arms_behind_back,руки за спиной
-groping,нащупывание
+groping,ощупывание тела
 squatting,приседает
 transparent_background,прозрачный фон
 scan,сканировать
-eating,кушающий
+eating,ест
 ring,кольцо
-stuffed_toy,игрушка с начинкой
-white_border,белая граница
+stuffed_toy,мягкая игрушка
+white_border,белая рамка
 crossed_arms,скрещённые руки
-cleavage_cutout,вырез декольте
+cleavage_cutout,вырез одежды в области декольте
 table,стол
 korean_commentary,корейский комментарий
-6+girls,6+девочек
-garter_straps,завязки для подвязок
-wariza,вариза
+6+girls,шесть и более девушек
+garter_straps,ремешки для крепления чулок
+wariza,сидит между разведёнными в стороны голенями
 demon_horns,рога демона
 animated,анимированный
 from_below,вид снизу
 obi,пояс оби
-sharp_teeth,острые зубья
-standing_on_one_leg,стоять на одной ноге
+sharp_teeth,острые зубы
+standing_on_one_leg,стоит на одной ноге
 portrait,портрет
-bright_pupils,яркие зрачки
+bright_pupils,светлые зрачки
 shirt_lift,приподнятая рубашка
-headgear,головной убор
-clothes_pull,тюк с одеждой
+headgear,экипировка на голове
+clothes_pull,оттягивание одежды
 wolf_ears,волчьи уши
 copyright_request,запрос на авторское право
-leg_up,подъем по ноге
-oral,устный
+leg_up,поднятая нога
+oral,оральный секс
 black_background,чёрный фон
 cat,кошка
-demon_girl,девушка-демон
-mouth_hold,захват ртом
+demon_girl,девушка с демоническими чертами
+mouth_hold,держит предмет ртом
 cardigan,кардиган
 final_fantasy,final fantasy
-wavy_mouth,волнистый рот
+wavy_mouth,волнистая линия рта
 hakurei_reimu,Хакурэй Рэйму
-bound,связанный
+bound,связан верёвками или путами
 helmet,шлем
 tank_top,майка без рукавов
 sunlight,солнечный свет
 scrunchie,объёмная резинка для волос
 cellphone,мобильный телефон
-own_hands_together,владеть ручьми вместе
+own_hands_together,собственные кисти сложены вместе
 parody,пародия
-thigh_gap,зазор между бедрами
+thigh_gap,просвет между бёдрами
 high_ponytail,высокий хвост
 moon,луна
 trembling,дрожь
-antenna_hair,усик волосатый
-magical_girl,волшебная девушка
+antenna_hair,две торчащие пряди-антенны
+magical_girl,девушка-волшебница
 crying,плачет
-eyepatch,повязка на глазу
-hair_tubes,трубочки для волос
+eyepatch,повязка на один глаз
+hair_tubes,трубчатые украшения на прядях волос
 crossed_legs,скрещённые ноги
 grass,трава
-colored_inner_hair,окрашенные внутренние волосы
-fox_girl,девушка-лиса
+colored_inner_hair,внутренний слой волос другого цвета
+fox_girl,девушка с лисьими чертами
 partial_commentary,частичный комментарий
 frilled_sleeves,рукава с оборками
 feathers,перья
 frilled_skirt,юбка с оборками
 backpack,рюкзак
 blue_ribbon,синяя лента
-bara,бара
-cloudy_sky,облачный ский
-x_hair_ornament,x украшение волос
-eyes_visible_through_hair,видимые сквозь волосы
+bara,бара — жанр с мускулистыми мужскими персонажами
+cloudy_sky,облачное небо
+x_hair_ornament,украшение для волос в форме X
+eyes_visible_through_hair,глаза видны сквозь волосы
 white_hat,белая шляпа
-mob_cap,моб кап
-suit,подходить
-furry,пушистый
+mob_cap,мягкий чепец с оборками
+suit,костюм
+furry,антропоморфные или другие звероподобные персонажи
 red_necktie,красный галстук
 3boys,3 юноши
 pink_bow,розовый бант
-light_smile,легкая улыбка
+light_smile,лёгкая улыбка
 skirt_lift,приподнятая юбка
 black_nails,чёрные ногти
 red_flower,красный цветок
-sleeping,спящий
+sleeping,спит
 plant,растение
-topless,с обнаженной грудью
+topless,без одежды на верхней части тела
 suspenders,подтяжки
 mahou_shoujo_madoka_magica,mahou shoujo madoka magica
-ear_piercing,прокалывание ушей
-blazer,блейзер
+ear_piercing,пирсинг уха
+blazer,клубный пиджак
 bottle,бутылка
 looking_up,смотрит вверх
 kirisame_marisa,Кирисамэ Мариса
 denim,джинсовая ткань
-1other,1 другой
+1other,один персонаж вне категорий «девушка» и «юноша»
 fire,огонь
 motion_lines,линии движения
-couple,пара
-cross,пересекать
+couple,пара персонажей
+cross,крест
 elf,эльф
 yaoi,яой — отношения между мужчинами
-spiked_hair,колючие волосы
-stuffed_animal,чучело животного
+spiked_hair,"волосы, уложенные острыми прядями"
+stuffed_animal,мягкая игрушка в виде животного
 red_shirt,красная рубашка
-single_hair_bun,пучок одиночных волос
+single_hair_bun,один пучок волос
 white_apron,белый капрон
 bug,жук
 formal_clothes,официальная одежда

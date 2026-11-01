@@ -1,0 +1,794 @@
+highres	высокое разрешение
+hi_res	высокое разрешение
+absurdres	очень высокое разрешение
+absurd_res	очень высокое разрешение
+lowres	низкое разрешение
+incredibly_absurdres	чрезвычайно высокое разрешение
+solo	один персонаж
+duo	два персонажа
+group	группа персонажей
+multiple_girls	несколько девушек
+multiple_boys	несколько юношей
+multiple_others	несколько других персонажей
+male_focus	акцент на мужском персонаже
+female_focus	акцент на женском персонаже
+solo_focus	акцент на одном персонаже
+long_hair	длинные волосы
+very_long_hair	очень длинные волосы
+short_hair	короткие волосы
+medium_hair	волосы средней длины
+hair	волосы
+blonde_hair	светлые волосы
+brown_hair	каштановые волосы
+red_hair	рыжие волосы
+grey_hair	серые волосы
+white_hair	белые волосы
+multicolored_hair	разноцветные волосы
+two-tone_hair	двухцветные волосы
+streaked_hair	волосы с цветными прядями
+bangs	чёлка
+blunt_bangs	ровная чёлка
+parted_bangs	чёлка с пробором
+swept_bangs	чёлка набок
+hair_between_eyes	прядь между глазами
+hair_over_one_eye	волосы закрывают один глаз
+hair_over_eyes	волосы закрывают глаза
+sidelocks	боковые пряди волос
+braid	коса
+twin_braids	две косы
+single_braid	одна коса
+side_braid	коса сбоку
+ponytail	конский хвост
+high_ponytail	высокий хвост
+low_ponytail	низкий хвост
+side_ponytail	хвост сбоку
+twintails	два хвостика
+short_twintails	короткие хвостики
+hair_bun	пучок волос
+double_bun	два пучка волос
+hair_ornament	украшение для волос
+hair_ribbon	лента в волосах
+hair_bow	бант в волосах
+hair_flower	цветок в волосах
+hairclip	заколка для волос
+hairband	ободок для волос
+headband	повязка на голову
+floating_hair	приподнятые в воздух волосы
+wind_lift	приподнято ветром
+messy_hair	растрёпанные волосы
+wet_hair	мокрые волосы
+curly_hair	кудрявые волосы
+wavy_hair	волнистые волосы
+straight_hair	прямые волосы
+ahoge	ахоге — торчащая прядь
+animal_ears	звериные уши
+animal_ear_fluff	пух внутри звериных ушей
+pointy_ears	заострённые уши
+cat_ears	кошачьи уши
+rabbit_ears	кроличьи уши
+dog_ears	собачьи уши
+fox_ears	лисьи уши
+wolf_ears	волчьи уши
+looking_at_viewer	смотрит на зрителя
+looking_to_the_side	смотрит в сторону
+looking_at_another	смотрит на другого персонажа
+looking_back	оглядывается
+looking_away	смотрит в сторону от зрителя
+looking_up	смотрит вверх
+looking_down	смотрит вниз
+looking_at_mirror	смотрит в зеркало
+closed_eyes	закрытые глаза
+eyes_closed	закрытые глаза
+one_eye_closed	один глаз закрыт
+half-closed_eyes	полуприкрытые глаза
+wide-eyed	широко раскрытые глаза
+empty_eyes	пустой взгляд
+brown_eyes	карие глаза
+open_mouth	открытый рот
+closed_mouth	закрытый рот
+parted_lips	приоткрытые губы
+smile	улыбка
+grin	широкая улыбка с зубами
+smirk	ухмылка
+blush	румянец
+light_blush	лёгкий румянец
+full-face_blush	румянец на всём лице
+tears	слёзы
+crying	плачет
+sweat	пот
+sweatdrop	капля пота
+tongue_out	высунутый язык
+fang	клык
+teeth	зубы
+angry	сердитое выражение
+sad	грустное выражение
+surprised	удивлённое выражение
+expressionless	без выражения
+pout	надутые губы
+holding	держит предмет
+holding_object	держит предмет
+holding_weapon	держит оружие
+holding_sword	держит меч
+holding_gun	держит огнестрельное оружие
+holding_hands	держатся за руки
+holding_hair	держит волосы
+holding_clothes	держит одежду
+holding_cup	держит чашку
+holding_phone	держит телефон
+sitting	сидит
+standing	стоит
+lying	лежит
+kneeling	стоит на коленях
+crouching	сидит на корточках
+squatting	приседает
+walking	идёт
+running	бежит
+jumping	прыгает
+leaning_forward	наклоняется вперёд
+leaning_back	отклоняется назад
+bent_over	наклоняется вперёд корпусом
+on_back	лежит на спине
+on_side	лежит на боку
+on_stomach	лежит на животе
+all_fours	на четвереньках
+crossed_legs	скрещённые ноги
+spread_legs	разведённые ноги
+legs_up	поднятые ноги
+arm_up	поднятая рука
+arms_up	поднятые руки
+hand_up	поднятая кисть
+hands_up	поднятые кисти
+arms_behind_back	руки за спиной
+arms_behind_head	руки за головой
+hand_on_hip	рука на бедре
+hands_on_hips	руки на бёдрах
+hand_on_own_face	рука на своём лице
+hand_on_own_chest	рука на своей груди
+hand_on_own_head	рука на своей голове
+hand_in_hair	рука в волосах
+crossed_arms	скрещённые руки
+outstretched_arms	вытянутые руки
+outstretched_arm	вытянутая рука
+v	жест победы — два пальца
+peace_sign	жест мира
+waving	машет рукой
+pointing	указывает пальцем
+head_tilt	наклон головы
+head_rest	голова опирается на руку
+full_body	в полный рост
+upper_body	верхняя часть тела
+lower_body	нижняя часть тела
+cowboy_shot	план до бёдер
+portrait	портрет
+close-up	крупный план
+extreme_close-up	сверхкрупный план
+from_side	вид сбоку
+from_behind	вид сзади
+from_above	вид сверху
+from_below	вид снизу
+front_view	вид спереди
+back_view	вид сзади
+side_view	вид сбоку
+profile	профиль
+three_quarter_view	вид в три четверти
+dutch_angle	заваленный горизонт
+foreshortening	перспективное сокращение
+perspective	перспектива
+fisheye	эффект объектива «рыбий глаз»
+wide_shot	общий план
+depth_of_field	глубина резкости
+bokeh	боке — размытие вне фокуса
+blurry	размытие
+blurry_background	размытый фон
+blurry_foreground	размытый передний план
+motion_blur	размытие движения
+backlighting	контровой свет
+rim_lighting	световой контур
+sunlight	солнечный свет
+moonlight	лунный свет
+dappled_sunlight	пятна солнечного света
+shaded_face	лицо в тени
+shadow	тень
+shadows	тени
+reflection	отражение
+lens_flare	блик объектива
+light_rays	лучи света
+volumetric_lighting	объёмное освещение
+ambient_light	окружающее освещение
+monochrome	монохромное изображение
+greyscale	оттенки серого
+simple_background	простой фон
+detailed_background	детализированный фон
+transparent_background	прозрачный фон
+no_background	без фона
+outdoors	на улице
+outside	снаружи
+indoors	в помещении
+inside	внутри
+sky	небо
+blue_sky	голубое небо
+cloud	облако
+clouds	облака
+day	день
+night	ночь
+sunset	закат
+sunrise	рассвет
+water	вода
+rain	дождь
+snow	снег
+bed	кровать
+bedroom	спальня
+room	комната
+street	улица
+forest	лес
+beach	пляж
+school	школа
+classroom	классная комната
+flower	цветок
+flowers	цветы
+food	еда
+furniture	мебель
+shirt	рубашка
+t-shirt	футболка
+blouse	блузка
+jacket	куртка
+coat	пальто
+cape	плащ-накидка
+vest	жилет
+sweater	свитер
+hoodie	толстовка с капюшоном
+cardigan	кардиган
+dress	платье
+skirt	юбка
+miniskirt	мини-юбка
+pleated_skirt	плиссированная юбка
+pants	брюки
+shorts	шорты
+jeans	джинсы
+school_uniform	школьная форма
+serafuku	школьная форма с матросским воротником
+sailor_collar	матросский воротник
+japanese_clothes	японская одежда
+kimono	кимоно
+yukata	юката
+hakama	хакама
+haori	хаори
+obi	пояс оби
+swimsuit	купальник
+bikini	бикини
+leotard	гимнастический купальник
+underwear	нижнее бельё
+panties	трусики
+bra	бюстгальтер
+thighhighs	чулки выше колена
+pantyhose	колготки
+socks	носки
+kneehighs	гольфы до колена
+ankle_socks	короткие носки
+gloves	перчатки
+elbow_gloves	длинные перчатки до локтя
+fingerless_gloves	перчатки без пальцев
+long_sleeves	длинные рукава
+short_sleeves	короткие рукава
+wide_sleeves	широкие рукава
+puffy_sleeves	пышные рукава
+detached_sleeves	отдельные рукава
+sleeveless	без рукавов
+off_shoulder	одежда с открытыми плечами
+bare_shoulders	обнажённые плечи
+collared_shirt	рубашка с воротником
+open_clothes	расстёгнутая или распахнутая одежда
+open_shirt	расстёгнутая рубашка
+open_jacket	расстёгнутая куртка
+clothes_lift	приподнятая одежда
+shirt_lift	приподнятая рубашка
+skirt_lift	приподнятая юбка
+crop_top	укороченный топ
+bow	бант
+ribbon	лента
+bowtie	галстук-бабочка
+necktie	галстук
+belt	ремень
+choker	чокер
+necklace	ожерелье
+collar	воротник или ошейник
+earrings	серьги
+bracelet	браслет
+jewelry	украшения
+hat	шляпа
+hood	капюшон
+scarf	шарф
+apron	фартук
+armor	доспехи
+shoes	туфли
+boots	сапоги
+high_heels	обувь на высоком каблуке
+footwear	обувь
+headwear	головные уборы
+eyewear	очки и другие аксессуары для глаз
+handwear	перчатки и другие аксессуары для кистей
+legwear	одежда и аксессуары для ног
+topwear	одежда для верхней части тела
+bottomwear	одежда для нижней части тела
+clothing	одежда
+clothed	в одежде
+weapon	оружие
+sword	меч
+bow_(weapon)	лук — оружие
+heart	сердце
+heart_symbol	символ сердца
+star_(symbol)	символ звезды
+halo	нимб
+speech_bubble	реплика в облачке
+comic	комикс
+dialogue	диалог
+text	текст
+english_text	текст на английском языке
+translated	с переводом
+translation_request	запрос перевода
+commentary_request	запрос комментария автора
+commentary	комментарий автора
+artist_name	имя или ник художника
+character_name	имя персонажа
+signature	подпись художника
+watermark	водяной знак
+username	имя пользователя
+copyright_name	название произведения
+commission	работа на заказ
+official_art	официальная иллюстрация
+photoshop_(medium)	создано в Photoshop
+digital_media_(artwork)	цифровое изображение
+traditional_media	традиционные художественные материалы
+sketch	набросок
+lineart	контурный рисунок
+unfinished	незавершённая работа
+alternate_costume	другой костюм персонажа
+official_alternate_costume	другой официальный костюм персонажа
+aged_down	персонаж изображён младше
+aged_up	персонаж изображён старше
+genderswap	смена пола персонажа
+breasts	грудь
+large_breasts	большая грудь
+big_breasts	большая грудь
+medium_breasts	грудь среднего размера
+small_breasts	маленькая грудь
+huge_breasts	очень большая грудь
+flat_chest	плоская грудь
+cleavage	ложбинка между грудями
+navel	пупок
+collarbone	ключица
+midriff	открытый живот
+stomach	живот
+armpits	подмышки
+thighs	бёдра
+feet	ступни
+legs	ноги
+hands	кисти рук
+fingers	пальцы рук
+toes	пальцы ног
+nipples	соски
+areola	ареола
+butt	ягодицы
+ass	ягодицы
+big_butt	большие ягодицы
+penis	пенис
+pussy	вульва
+genitals	гениталии
+balls	яички
+sex	секс
+hetero	разнополая пара или взаимодействие
+yuri	юри — отношения между девушками
+yaoi	яой — отношения между мужчинами
+nude	без одежды
+naked	без одежды
+barefoot	босиком
+censored	с цензурой
+uncensored	без цензуры
+mosaic_censoring	мозаичная цензура
+mammal	млекопитающее
+canid	псовые
+canine	представитель псовых
+canis	род волков
+felid	кошачьи
+feline	представитель кошачьих
+felis	род кошек
+domestic_cat	домашняя кошка
+domestic_dog	домашняя собака
+equid	лошадиные
+equine	представитель лошадиных
+lagomorph	зайцеобразное
+leporid	заячьи
+reptile	пресмыкающееся
+avian	птица
+bovid	полорогие
+anthro	антропоморфный персонаж
+feral	персонаж с животным строением тела
+humanoid	гуманоид
+human	человек
+biped	двуногое существо
+scalie	чешуйчатый персонаж
+male	мужской пол
+female	женский пол
+intersex	интерсекс
+fur	шерсть
+paws	лапы
+tail	хвост
+horn	рог
+horns	рога
+wings	крылья
+beak	клюв
+claws	когти
+scales	чешуя
+hooves	копыта
+snout	морда
+muzzle	морда
+masterpiece	шедевр
+best_quality	наилучшее качество
+high_quality	высокое качество
+normal_quality	обычное качество
+low_quality	низкое качество
+worst_quality	наихудшее качество
+amazing_quality	превосходное качество
+very_aesthetic	выраженная эстетичность
+aesthetic	эстетичность
+newest	новейшие работы
+aqua_eyes	бирюзовые глаза
+aqua_hair	бирюзовые волосы
+puffy_short_sleeves	короткие пышные рукава
+v-shaped_eyebrows	брови в форме буквы V
+two_side_up	два хвостика с распущенными остальными волосами
+one_side_up	один хвостик сбоку с распущенными остальными волосами
+symbol-shaped_pupils	зрачки в форме символов
+multiple_views	несколько ракурсов одного персонажа
+sleeves_past_wrists	рукава закрывают запястья
+sleeves_past_fingers	рукава закрывают пальцы
+covered_nipples	соски прикрыты
+covered_navel	пупок прикрыт
+fur_trim	меховая отделка
+mole_under_eye	родинка под глазом
+clothing_cutout	вырез в одежде
+strapless	без бретелек
+hand_on_own_hip	рука на своём бедре
+hands_on_own_hips	руки на своих бёдрах
+see-through_clothes	просвечивающая одежда
+upper_teeth_only	видны только верхние зубы
+wrist_cuffs	декоративные манжеты на запястьях
+feet_out_of_frame	ступни за пределами кадра
+head_out_of_frame	голова за пределами кадра
+eyes_out_of_frame	глаза за пределами кадра
+bar_censor	цензура полосой
+sleeveless_shirt	рубашка без рукавов
+sleeveless_dress	платье без рукавов
+wet	мокрая поверхность или одежда
+sparkle	искра или блёстка
+maid	горничная
+no_humans	без людей
+fake_animal_ears	накладные звериные уши
+gun	огнестрельное оружие
+thigh_strap	ремешок на бедре
+muscular	развитая мускулатура
+short_shorts	очень короткие шорты
+buttons	пуговицы
+gradient_background	градиентный фон
+ascot	галстук-аскот
+sash	широкий пояс или перевязь
+neck_ribbon	лента на шее
+gradient_hair	градиентный цвет волос
+one-piece_swimsuit	слитный купальник
+border	рамка изображения
+bare_legs	обнажённые ноги
+zettai_ryouiki	участок кожи между чулками и короткой одеждой
+detached_collar	отдельный воротник
+makeup	макияж
+facial_hair	волосы на лице
+dress_shirt	классическая рубашка
+pov	вид от первого лица
+hug	объятие
+horse_ears	лошадиные уши
+capelet	короткая накидка
+sideboob	видна боковая часть груди
+horse_girl	девушка с лошадиными чертами
+hair_intakes	парные пряди, выгнутые вперёд над головой
+skindentation	вдавливание тесной одежды в кожу
+highleg	высокие вырезы для ног в одежде
+low_twintails	низкие хвостики
+piercing	пирсинг
+frown	нахмуренное выражение
+alternate_hairstyle	другая причёска персонажа
+blush_stickers	условные отметки румянца на щеках
+dated	с указанной датой
+bandeau	топ-бандо
+bloomers	блумеры — короткие пышные штанишки
+frilled_skirt	юбка с оборками
+layered_skirt	многослойная юбка
+suspender_skirt	юбка на подтяжках
+suspenders	подтяжки
+sundress	лёгкое летнее платье
+sweater_vest	вязаный жилет
+sweater_dress	платье-свитер
+hooded_jacket	куртка с капюшоном
+hood_down	капюшон опущен
+hood_up	капюшон надет
+hooded_cloak	плащ с капюшоном
+cloak	плащ
+trench_coat	тренч
+labcoat	лабораторный халат
+raincoat	дождевик
+business_suit	деловой костюм
+track_suit	спортивный костюм
+tracksuit	спортивный костюм
+pajamas	пижама
+nightgown	ночная сорочка
+lingerie	декоративное нижнее бельё
+camisole	топ на тонких бретелях
+tank_top	майка без рукавов
+tube_top	топ без бретелей
+halter_top	топ с завязкой на шее
+halterneck	бретели или завязки на шее
+bikini_top	верх купальника-бикини
+bikini_bottom	низ купальника-бикини
+sports_bra	спортивный бюстгальтер
+sneakers	кроссовки
+sandals	сандалии
+loafers	лоферы
+mary_janes	туфли с ремешком на подъёме
+ankle_boots	ботильоны
+knee_boots	сапоги до колена
+thigh_boots	ботфорты
+platform_footwear	обувь на платформе
+stiletto_heels	каблуки-шпильки
+cross-laced_footwear	обувь с перекрёстной шнуровкой
+lace_trim	кружевная отделка
+frilled_sleeves	рукава с оборками
+juliet_sleeves	рукава с пышным верхом и узким низом
+bell_sleeves	расклешённые рукава
+rolled_up_sleeves	закатанные рукава
+sleeves_rolled_up	закатанные рукава
+clothes_around_waist	одежда, завязанная вокруг талии
+shirt_tucked_in	заправленная рубашка
+untucked_shirt	незаправленная рубашка
+unbuttoned	расстёгнутые пуговицы
+partially_unbuttoned	частично расстёгнутые пуговицы
+unbuttoned_shirt	рубашка с расстёгнутыми пуговицами
+unfastened	расстёгнутая застёжка
+zipper	молния-застёжка
+harness	портупея или система ремней
+buckle	пряжка
+brooch	брошь
+pendant	кулон
+ring	кольцо
+hairpin	шпилька для волос
+scrunchie	объёмная резинка для волос
+hair_scrunchie	объёмная резинка в волосах
+hair_tie	резинка для волос
+drill_hair	спиральные локоны
+twin_drills	два спиральных локона
+ringlets	кольцевые локоны
+hime_cut	причёска химэ
+bob_cut	стрижка каре
+pixie_cut	стрижка пикси
+undercut	стрижка с выбритыми боками или затылком
+hair_slicked_back	зачёсанные назад волосы
+slicked_back_hair	зачёсанные назад волосы
+hair_pulled_back	убранные назад волосы
+hair_tucking	убирает волосы за ухо
+adjusting_hair	поправляет волосы
+adjusting_clothes	поправляет одежду
+adjusting_glasses	поправляет очки
+adjusting_hat	поправляет головной убор
+adjusting_necktie	поправляет галстук
+low_braid	низкая коса
+messy_bun	небрежный пучок волос
+french_braid	французская коса
+crown_braid	коса вокруг головы
+hair_up	собранные наверх волосы
+forehead	лоб
+forehead_jewel	украшение на лбу
+heterochromia	глаза разного цвета
+slit_pupils	щелевидные зрачки
+constricted_pupils	суженные зрачки
+dilated_pupils	расширенные зрачки
+heart-shaped_pupils	зрачки в форме сердечек
+star-shaped_pupils	зрачки в форме звёзд
+no_pupils	без зрачков
+no_eyebrows	без бровей
+thick_eyebrows	густые брови
+thin_eyebrows	тонкие брови
+raised_eyebrows	приподнятые брови
+furrowed_brow	нахмуренные брови
+nose_blush	румянец на носу
+nosebleed	кровь из носа
+freckles	веснушки
+scar	шрам
+scars	шрамы
+dark_skin	тёмная кожа
+pale_skin	бледная кожа
+tan	загар
+tanlines	следы загара
+shiny_skin	блестящая кожа
+colored_skin	необычный цвет кожи
+vein	вена
+blood	кровь
+saliva	слюна
+fingernails	ногти на руках
+toenails	ногти на ногах
+soles	подошвы ступней
+heel	пятка
+ankle	щиколотка
+wrist	запястье
+elbow	локоть
+knee	колено
+shoulders	плечи
+back	спина
+chest	грудная клетка
+waist	талия
+hips	таз и бёдра
+throat	горло
+neck	шея
+lips	губы
+eyebrows	брови
+eyelashes	ресницы
+fangs	клыки
+muscular_female	мускулистая женщина
+muscular_male	мускулистый мужчина
+pecs	грудные мышцы
+abs	мышцы пресса
+chubby	полное телосложение
+overweight	избыточный вес
+skinny	худое телосложение
+slim	стройное телосложение
+wide_hips	широкие бёдра
+narrow_waist	узкая талия
+long_legs	длинные ноги
+petite	миниатюрное телосложение
+shortstack	низкий рост и пышные формы
+red_hakama	красные хакама
+white_hakama	белые хакама
+black_hakama	чёрные хакама
+frills	оборки
+virtual_youtuber	виртуальный видеоблогер
+tongue	язык
+glasses	очки
+twitter_username	имя пользователя в Twitter
+mole	родинка
+cum	сперма
+chibi	чиби — персонаж с уменьшенными пропорциями
+nail_polish	лак для ногтей
+bag	сумка
+vaginal	вагинальный
+completely_nude	полностью без одежды
+cup	чашка
+dark-skinned_female	темнокожая женщина
+neckerchief	шейный платок
+tree	дерево
+cat_tail	кошачий хвост
+groin	пах
+pokemon_(creature)	покемон — существо
+torn_clothes	порванная одежда
+maid_headdress	головной убор горничной
+pillow	подушка
+bare_arms	обнажённые руки
+book	книга
+cosplay	косплей
+pubic_hair	лобковые волосы
+tattoo	татуировка
+window	окно
+petals	лепестки
+mask	маска
+bodysuit	боди
+bell	колокольчик или колокол
+turtleneck	высокий облегающий воротник
+anus	анус
+pussy_juice	вагинальные выделения
+siblings	братья и сёстры
+fruit	фрукты
+rose	роза
+bird	птица
+chinese_clothes	китайская одежда
+leaf	лист растения
+fox_tail	лисий хвост
+chain	цепь
+animal	животное
+playboy_bunny	костюм кролика Playboy
+beret	берет
+cum_in_pussy	сперма во влагалище
+no_bra	без бюстгальтера
+glowing	свечение
+thick_thighs	объёмные бёдра
+military	военная тематика
+ocean	океан
+witch_hat	ведьминская шляпа
+underboob	видна нижняя часть груди
+4koma	комикс из четырёх панелей
+phone	телефон
+headphones	наушники
+facial_mark	отметина на лице
+cameltoe	контуры вульвы под облегающей одеждой
+embarrassed	смущённое выражение
+erection	эрекция
+military_uniform	военная форма
+bottomless	без одежды на нижней части тела
+side-tie_bikini_bottom	плавки бикини с завязками по бокам
+no_panties	без трусиков
+bed_sheet	простыня
+sunglasses	солнцезащитные очки
+arm_support	опирается на руку
+cum_on_body	сперма на теле
+holding_food	держит еду
+bandages	бинты
+pectorals	грудные мышцы
+no_shoes	без обуви
+frilled_dress	платье с оборками
+happy	радостное выражение
+short_dress	короткое платье
+chair	стул
+ass_visible_through_thighs	ягодицы видны между бёдрами
+dark-skinned_male	темнокожий мужчина
+cat_girl	девушка с кошачьими чертами
+umbrella	зонт
+floral_print	цветочный принт
+testicles	яички
+female_pubic_hair	лобковые волосы у женщины
+flying_sweatdrops	разлетающиеся капли пота
+groping	ощупывание тела
+eating	ест
+stuffed_toy	мягкая игрушка
+white_border	белая рамка
+cleavage_cutout	вырез одежды в области декольте
+table	стол
+6+girls	шесть и более девушек
+garter_straps	ремешки для крепления чулок
+wariza	сидит между разведёнными в стороны голенями
+demon_horns	рога демона
+sharp_teeth	острые зубы
+standing_on_one_leg	стоит на одной ноге
+bright_pupils	светлые зрачки
+headgear	экипировка на голове
+clothes_pull	оттягивание одежды
+leg_up	поднятая нога
+oral	оральный секс
+cat	кошка
+demon_girl	девушка с демоническими чертами
+mouth_hold	держит предмет ртом
+wavy_mouth	волнистая линия рта
+bound	связан верёвками или путами
+helmet	шлем
+cellphone	мобильный телефон
+own_hands_together	собственные кисти сложены вместе
+parody	пародия
+thigh_gap	просвет между бёдрами
+moon	луна
+trembling	дрожь
+antenna_hair	две торчащие пряди-антенны
+magical_girl	девушка-волшебница
+eyepatch	повязка на один глаз
+hair_tubes	трубчатые украшения на прядях волос
+grass	трава
+colored_inner_hair	внутренний слой волос другого цвета
+fox_girl	девушка с лисьими чертами
+feathers	перья
+backpack	рюкзак
+bara	бара — жанр с мускулистыми мужскими персонажами
+cloudy_sky	облачное небо
+x_hair_ornament	украшение для волос в форме X
+eyes_visible_through_hair	глаза видны сквозь волосы
+mob_cap	мягкий чепец с оборками
+suit	костюм
+furry	антропоморфные или другие звероподобные персонажи
+light_smile	лёгкая улыбка
+sleeping	спит
+plant	растение
+topless	без одежды на верхней части тела
+ear_piercing	пирсинг уха
+blazer	клубный пиджак
+bottle	бутылка
+denim	джинсовая ткань
+1other	один персонаж вне категорий «девушка» и «юноша»
+fire	огонь
+motion_lines	линии движения
+couple	пара персонажей
+cross	крест
+elf	эльф
+spiked_hair	волосы, уложенные острыми прядями
+stuffed_animal	мягкая игрушка в виде животного
+single_hair_bun	один пучок волос
