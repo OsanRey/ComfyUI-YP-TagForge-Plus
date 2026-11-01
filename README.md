@@ -90,6 +90,10 @@ After:  1girl, solo, highres,
 
 Formatting retains weights, escaped parentheses, LoRA expressions and wildcard syntax. It does not guess tag boundaries in text without separators: `blue eyes` remains one tag. Read-only previews, code fields and numeric vectors are skipped.
 
+## Translation dictionary
+
+The Russian dictionary includes reviewed labels for common appearance, clothing, pose, composition, lighting and technical tags. Color and garment combinations use Russian grammatical agreement. Work titles retain their original names where a verified Russian title is unavailable. Artist handles remain unchanged. Existing character-name transliterations are retained, with source-work qualifiers corrected where identified. This is a targeted dictionary revision: many inherited labels and rare tags still need review; it is not a fully verified translation of the entire tag database.
+
 ## Compatibility
 
 When enabled, the extension turns off competing completion and formatting handlers through their settings. Turning it off restores those previous settings in the same browser. This avoids overlapping popups and duplicate insertions.
