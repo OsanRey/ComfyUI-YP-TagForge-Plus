@@ -102,6 +102,8 @@ The extension works independently. Add tag CSV files to `tags/` and translation 
 
 A reproducible full-catalog inventory and review queue are available through [dictionary review tools](tools/dictionary_review/README.md). Reviewed terminology, preserved original names and unreviewed legacy labels are counted separately. The full semantic review remains in progress.
 
+Dictionary review coverage in **0.1.6**: **3,611 canonical tags** match explicit definitions or bounded grammatical rules. This release updates 832 labels, including 405 new entries. These counts exclude preserved artist handles and original names; the full semantic review is not complete.
+
 ## Development
 
 Tests cover formatting, artist prefixes, popup sizing, existing tags, related-tag insertion, data indexing and field integration. CI also checks Python and JavaScript syntax.

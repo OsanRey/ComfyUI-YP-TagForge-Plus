@@ -1,5 +1,6 @@
 """Explicit terminology and bounded grammatical rules, never general machine translation."""
 from meta_rules import translate_meta
+from apparel_rules import CLOTHING_NOUNS, apparel_translation
 import csv
 from pathlib import Path
 with Path(__file__).with_name("glossary.tsv").open(encoding="utf-8-sig", newline="") as stream:
@@ -58,8 +59,12 @@ characters = {'hatsune_miku':'Хацуне Мику','hakurei_reimu':'Хакур
 def display_original(tag):
     return tag.replace('_', ' ')
 
+nouns.update(CLOTHING_NOUNS)
+
 def descriptive(tag):
     if tag in glossary: return glossary[tag], 'glossary'
+    apparel=apparel_translation(tag,nouns)
+    if apparel is not None:return apparel,'apparel-rule'
     meta=translate_meta(tag)
     if meta is not None:return meta,'metadata-rule'
     for color in sorted(colors, key=len, reverse=True):
