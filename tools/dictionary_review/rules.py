@@ -1,4 +1,5 @@
 """Explicit terminology and bounded grammatical rules, never general machine translation."""
+from scene_rules import scene_translation
 from anatomy_rules import anatomy_translation
 from visual_rules import COLOR_NOUNS, visual_translation
 from pose_rules import pose_translation
@@ -101,6 +102,8 @@ nouns.update(COLOR_NOUNS)
 
 def descriptive(tag):
     if tag in glossary: return glossary[tag], 'glossary'
+    scene=scene_translation(tag)
+    if scene is not None:return scene,'bounded-scene-rule'
     anatomy=anatomy_translation(tag)
     if anatomy is not None:return anatomy,'bounded-anatomy-rule'
     visual=visual_translation(tag)

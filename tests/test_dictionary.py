@@ -15,6 +15,8 @@ class DictionaryTests(unittest.TestCase):
     def test_meaning_and_grammar(self):
         expected = {
             "highres": "высокое разрешение",
+            "spaghetti_strap": "тонкая бретель", "headpat": "поглаживание по голове",
+            "reaching_towards_viewer": "тянется к зрителю", "assault_rifle": "штурмовая винтовка",
             "fins": "плавники", "single_glove": "одна перчатка",
             "thighband_pantyhose": "колготки с тёмными полосами на бёдрах",
             "white_apron": "белый фартук", "staff": "посох",

@@ -25,6 +25,14 @@ class ExtendedReviewTests(unittest.TestCase):
             "generation_4_pokemon":"покемон 4-го поколения",
             "wolf_humanoid":"гуманоид с чертами волка",
             "cover":"изображение обложки",
+            "kneeling_on_sofa":"стоит на коленях на диване",
+            "walking_on_water":"идёт по воде",
+            "cow_print_skirt":"юбка с узором из коровьих пятен",
+            "ribbed_gloves":"перчатки в рубчик",
+            "zoom_layer":"увеличенная копия части рисунка отдельным слоем",
+            "yokozuwari":"сидит на полу, сложив обе голени в одну сторону",
+            "bun_cover":"декоративный чехол на пучке волос",
+            "mechanical_arms":"механические руки",
             "long_claws":"длинные когти", "small_paws":"маленькие лапы",
             "lavender_dress":"светло-сиреневое платье",
             "dark_brown_gloves":"тёмно-коричневые перчатки",
@@ -33,7 +41,7 @@ class ExtendedReviewTests(unittest.TestCase):
 
     def test_unknowns_stay_pending(self):
         for tag in ["generation_99_pokemon","unknown_taxon_humanoid","unidentified_species",
-                    "holding_wlop","long_unknown_part","large_school_uniform","hand_on_own_unknown_part","herm_(lore)","irreplaceable_bvas"]:
+                    "holding_wlop","walking_on_unidentified_place","knitted_eyes","argyle_wlop","long_unknown_part","large_school_uniform","hand_on_own_unknown_part","herm_(lore)","irreplaceable_bvas"]:
             self.assertIsNone(rules.descriptive(tag)[0],tag)
 
 if __name__=="__main__":unittest.main()

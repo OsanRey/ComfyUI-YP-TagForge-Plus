@@ -24,3 +24,14 @@ Additional checks in the next review pass:
 - https://safebooru.donmai.us/wiki_pages/thighband_pantyhose
 
 The thighband_pantyhose label was corrected to describe darker thigh bands rather than assuming imitation stockings. Lore kinship/identity definitions always indicate narrative context and do not assert visible anatomy or a character's apparent age. Unfamiliar lore and species identifiers remain pending.
+
+Additional checks in review 0.1.8:
+
+- https://safebooru.donmai.us/wiki_pages/zoom_layer
+- https://safebooru.donmai.us/wiki_pages/yokozuwari
+- https://safebooru.donmai.us/wiki_pages/bun_cover
+- https://safebooru.donmai.us/wiki_pages/naked_shirt
+- https://safebooru.donmai.us/wiki_pages/uneven_legwear
+- https://safebooru.donmai.us/wiki_pages/tachi-e
+
+Tachi-e does not require a standing pose. Location rules exclude arbitrary nouns and moving-on-surface constructions; walking_on_water has an explicit Russian case/preposition form.
