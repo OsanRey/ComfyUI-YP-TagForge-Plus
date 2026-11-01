@@ -14,7 +14,11 @@ class DictionaryTests(unittest.TestCase):
 
     def test_meaning_and_grammar(self):
         expected = {
-            "highres": "высокое разрешение", "cowboy_shot": "план до бёдер",
+            "highres": "высокое разрешение",
+            "procreate_(medium)": "создано в Procreate",
+            "zip_available": "доступен архив ZIP",
+            "copyright_request": "запрос на опознание произведения",
+            "stuffed_animal": "мягкая игрушка в виде животного", "cowboy_shot": "план до бёдер",
             "looking_at_viewer": "смотрит на зрителя", "short_hair": "короткие волосы",
             "parted_lips": "приоткрытые губы", "depth_of_field": "глубина резкости",
             "red_hakama": "красные хакама", "black_thighhighs": "чёрные чулки выше колена",

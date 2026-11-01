@@ -1,4 +1,5 @@
 """Explicit terminology and bounded grammatical rules, never general machine translation."""
+from meta_rules import translate_meta
 import csv
 from pathlib import Path
 with Path(__file__).with_name("glossary.tsv").open(encoding="utf-8-sig", newline="") as stream:
@@ -59,6 +60,8 @@ def display_original(tag):
 
 def descriptive(tag):
     if tag in glossary: return glossary[tag], 'glossary'
+    meta=translate_meta(tag)
+    if meta is not None:return meta,'metadata-rule'
     for color in sorted(colors, key=len, reverse=True):
         if tag.startswith(color+'_') and tag[len(color)+1:] in nouns:
             noun=tag[len(color)+1:]; gender,text=nouns[noun]

@@ -792,3 +792,360 @@ elf	эльф
 spiked_hair	волосы, уложенные острыми прядями
 stuffed_animal	мягкая игрушка в виде животного
 single_hair_bun	один пучок волос
+md5_mismatch	контрольная сумма MD5 не совпадает
+non-web_source	источник вне интернета
+scan	сканированное изображение
+animated	анимация
+copyright_request	запрос на опознание произведения
+partial_commentary	комментарий автора приведён частично
+game_cg	иллюстрация из игры
+variant_set	набор вариантов изображения
+paid_reward_available	существует платная версия
+revision	исправленная или обновлённая версия
+bad_link	неработающая или неверная ссылка
+video	видео
+mixed-language_commentary	комментарий автора на нескольких языках
+second-party_source	источник, опубликованный заказчиком или другим участником создания
+duplicate	дубликат
+check_translation	проверить перевод
+spoilers	спойлеры
+resolution_mismatch	разрешение не совпадает с источником
+third-party_source	источник, опубликованный третьим лицом
+jpeg_artifacts	артефакты сжатия JPEG
+protected_link	ссылка с ограниченным доступом
+pixel-perfect_duplicate	попиксельный дубликат
+animated_gif	анимация GIF
+self-upload	загружено самим автором
+partially_translated	переведено частично
+large_variant_set	большой набор вариантов изображения
+inactive_account	неактивный аккаунт
+hashtag-only_commentary	комментарий автора состоит только из хештегов
+sound	со звуком
+ugoira	анимация Ugoira
+paid_reward	платный материал
+check_commentary	проверить комментарий автора
+tall_image	очень высокое изображение
+derivative_work	производная работа
+anime_screenshot	кадр из аниме
+source_smaller	у источника меньшее разрешение
+imageboard_desourced	утрачен исходный источник при перепубликации на имиджборде
+looping_animation	зацикленная анимация
+textless_version	версия без текста
+source_larger	у источника большее разрешение
+bad_source	неверно указанный источник
+dated_commentary	дата в комментарии автора
+image_sample	предварительная версия изображения
+colorized	раскрашенная версия
+promotional_art	рекламная иллюстрация
+cropped	обрезанное изображение
+artist_collaboration	совместная работа художников
+commissioner_upload	загружено заказчиком работы
+making-of_available	доступны материалы о процессе создания
+novel_illustration	иллюстрация к литературному произведению
+audible_music	слышна музыка
+ai-generated	создано генеративным ИИ
+photo-referenced	нарисовано с использованием фотографии как референса
+hard-translated	перевод встроен в изображение
+official_wallpaper	официальные обои для экрана
+audible_speech	слышна речь
+concept_art	концепт-арт
+resized	размер изображения изменён
+off-topic	не соответствует тематике сайта
+corrupted_twitter_file	повреждённый файл из Twitter
+magazine_scan	скан журнала
+alt_text	альтернативное текстовое описание
+screenshot_redraw	перерисовка кадра или снимка экрана
+scan_artifacts	артефакты сканирования
+artbook	артбук
+stitched	изображение склеено из фрагментов
+ai-assisted	при создании использован ИИ
+archived_source	архивная копия источника
+annotated	с аннотациями
+mixed_media	смешанная техника
+downscaled	уменьшенное разрешение
+upscaled	увеличенное разрешение
+wide_image	очень широкое изображение
+production_art	рабочие материалы производства
+key_visual	ключевая рекламная иллюстрация
+making-of	процесс создания
+nude_filter	редактирование изображения для удаления одежды
+romaji_commentary	комментарий автора на японском в латинской записи
+vector_trace	векторная обводка
+alternate_language	версия на другом языке
+redrawn	перерисованная версия
+cosplay_photo	фотография косплея
+crease	залом или складка материала
+alpha_transparency	прозрачность через альфа-канал
+tagme	требуется дополнить теги
+adversarial_noise	состязательный шум для затруднения распознавания
+unconventional_media	необычные материалы или способы создания
+lossy-lossless	данные со сжатием с потерями сохранены в формате без потерь
+decensored	цензура удалена редактированием
+gift_art	иллюстрация в подарок
+third-party_watermark	водяной знак стороннего распространителя
+flash	анимация или интерактивный материал Flash
+detexted	текст удалён редактированием
+engrish_commentary	комментарий автора на ломаном английском
+end_card	финальная заставка
+commentary_typo	опечатка в комментарии автора
+album_cover_redraw	перерисовка обложки музыкального альбома
+guest_art	иллюстрация приглашённого автора
+merchandise_available	существуют товары с этим изображением
+aliasing	ступенчатые края из-за дискретизации
+60+fps	60 и более кадров в секунду
+waifu2x	обработано с помощью waifu2x
+ruffle_compatible	совместимо с проигрывателем Ruffle
+game_screenshot	снимок экрана игры
+corrupted_metadata	повреждённые метаданные
+self-portrait	автопортрет
+comic_panel_redraw	перерисовка панели комикса
+hard-translated_(non-english)	встроенный перевод на язык, отличный от английского
+source_mismatch	файл не совпадает с указанным источником
+extraction	извлечено из исходных материалов
+eyecatch	короткая заставка между частями передачи
+reverse_translation	перевод с английского на другой язык
+music_video	музыкальный клип
+bmp-to-png_conversion	преобразование BMP в PNG
+art_study	учебный этюд
+pdf_available	доступен файл PDF
+completion_time	указано время создания
+screenshot	снимок экрана
+headshop	монтаж с заменой головы
+partially_annotated	аннотировано частично
+rotated	изображение повёрнуто
+tegaki_draw_and_tweet	создано в Tegaki Draw and Tweet
+adoptable	персонаж, предлагаемый для передачи другому владельцу
+exif_rotation	поворот задан в метаданных EXIF
+game_model	трёхмерная модель из игры
+ugoira_conversion	преобразовано из Ugoira
+epilepsy_warning	предупреждение о мерцании, способном вызвать приступ
+corrupted_file	повреждённый файл
+psd_available	доступен исходник PSD
+thumbnail_collage	коллаж из миниатюр
+bilingual_commentary	комментарий автора на двух языках
+figure_available	существует фигурка по изображению
+audible_internal_cumshot	слышен звук эякуляции внутрь
+animated_png	анимация PNG
+gif_artifacts	артефакты GIF
+reversed	воспроизведение в обратном направлении
+app_filter	фильтр приложения
+countdown_illustration	иллюстрация обратного отсчёта до события
+art_trade	обмен рисунками между авторами
+color_halftone	цветной полутоновый растр
+flash_game	игра Flash
+bad_aspect_ratio	искажённое соотношение сторон
+collaboration_request	приглашение к совместной работе
+zip_available	доступен архив ZIP
+fixed	ошибка изображения исправлена редактированием
+volume_warning	предупреждение о громких звуках
+roulette_animation	анимация-рулетка для остановки на случайном кадре
+character_counter_request	требуется подсчитать персонажей
+recolored	цвета изменены
+number-only_commentary	комментарий автора состоит только из чисел
+non-repeating_animation	анимация без повторения
+bleed_through	рисунок с обратной стороны просвечивает сквозь материал
+thumbnail_surprise	миниатюра заметно отличается от полного изображения
+metadata_pun	игра слов в метаданных
+color_banding	ступенчатые полосы в плавных цветовых переходах
+mojibake_commentary	нарушенная кодировка комментария автора
+cleaned	изображение очищено от дефектов
+reference_photo	фотография-референс
+avatar_generator	создано в конструкторе аватаров
+fanfiction_available	доступен связанный фанфик
+stop_motion_animation	покадровая анимация физических объектов
+video_game_cover_redraw	перерисовка обложки видеоигры
+color_issue	проблема цветопередачи
+exif_thumbnail_surprise	встроенная миниатюра EXIF отличается от изображения
+fake_translation	ложный перевод
+twitter_banner	баннер профиля Twitter
+binding_discoloration	изменение цвета у переплёта
+webp-to-png_conversion	преобразование WebP в PNG
+rotoscoping	ротоскопирование
+noise_reduction	подавление шума
+book_cover_redraw	перерисовка обложки книги
+wallpaper_forced	исходное изображение искусственно расширено до обоев
+animatic	аниматик
+lossless-lossy	данные из формата без потерь перекодированы с потерями
+upside-down_commentary	перевёрнутый текст комментария автора
+mixed-language_audio	аудио на нескольких языках
+multilingual_commentary	комментарий автора на нескольких языках
+low_bitrate	низкий битрейт
+check_spoilers	проверить наличие спойлеров
+scan_dust	пыль на скане
+slideshow_animation	анимация в виде сменяющихся изображений
+anatomy_study	учебный рисунок анатомии
+gibberish_commentary	бессмысленный или неразборчивый комментарий автора
+download_link	ссылка на скачивание
+line_sticker_available	существует стикер LINE
+pixiv_banner	баннер профиля Pixiv
+open_in_internet_explorer	для просмотра требуется Internet Explorer
+color_study	учебный этюд цвета
+video_crop	обрезанная версия видео
+shaded	с проработанными тенями
+widescreen	широкоэкранный формат
+short_playtime	короткая продолжительность
+url	веб-адрес
+alpha_channel	альфа-канал
+colored	цветное изображение
+full-length_portrait	портрет в полный рост
+webm	видео WebM
+black_and_white	чёрно-белое изображение
+3d_animation	трёхмерная анимация
+three-quarter_portrait	портрет примерно до колен
+2d_animation	двумерная анимация
+no_sound	без звука
+low_res	низкое разрешение
+pinup	пинап
+model_sheet	лист с видами и деталями персонажа
+loop	зацикленное воспроизведение
+4k	разрешение 4K
+story	история в текстовой форме
+story_in_description	история в описании
+frame_by_frame	покадровая анимация
+long_playtime	большая продолжительность
+line_art	контурный рисунок
+high_framerate	высокая частота кадров
+bust_portrait	погрудный портрет
+flat_colors	заливка цветом без светотени
+half-length_portrait	поясной портрет
+multiple_images	несколько изображений
+huge_filesize	очень большой размер файла
+detailed	высокая детализация
+lighting	освещение
+letterbox	горизонтальные поля сверху и снизу
+alternate_version_at_source	другая версия доступна у источника
+sequence	последовательность изображений
+cel_shading	сел-шейдинг — чёткие границы светотени
+headshot_portrait	портрет головы
+mosaic_censorship	мозаичная цензура
+motion_tweening	анимация с промежуточными состояниями движения
+long_image	сильно вытянутое изображение
+soft_shading	мягкие переходы светотени
+restricted_palette	ограниченная палитра
+unavailable_at_source	больше недоступно у источника
+multiple_scenes	несколько сцен
+colored_sketch	цветной набросок
+voice_acted	с озвучкой
+pictographics	пиктограммы
+simple_shading	простая светотень
+pixel_animation	пиксельная анимация
+icon	иконка
+reaction_image	картинка-реакция
+censor_removal_edit	цензура удалена при редактировании
+lol_comments	комментарии пользователей к изображению как элемент интереса
+sketch_page	лист с набросками
+dakimakura_design	рисунок для дакимакуры
+cover_art	иллюстрация для обложки
+wallpaper	обои для экрана
+translation_check	нужна проверка перевода
+smaller_version_at_source	у источника есть версия меньшего размера
+guide_lines	вспомогательные линии построения
+warm_colors	тёплая цветовая гамма
+colorful_theme	яркая разноцветная гамма
+right_to_left	чтение справа налево
+color_edit	редактирование цветов
+grandfathered_content	сохранено по прежним правилам сайта
+story_at_source	текстовая история доступна у источника
+cool_colors	холодная цветовая гамма
+distracting_watermark	заметный отвлекающий водяной знак
+compression_artifacts	артефакты сжатия
+bad_metadata	ошибочные метаданные
+hatching_(art)	штриховка
+handwritten_text	рукописный текст
+better_version_at_source	у источника доступна более качественная версия
+pillarbox	вертикальные поля слева и справа
+reference_image	изображение-референс
+redraw	перерисовка
+live2d	анимация Live2D
+hard_translated	перевод встроен в изображение
+ancient_art	древнее искусство
+colored_line_art	цветные контуры рисунка
+pastel_theme	пастельная цветовая гамма
+lineless	без контурных линий
+species_name	название вида
+thumbnail	миниатюра изображения
+translated_description	описание переведено
+picture_in_picture	картинка в картинке
+dark_theme	тёмная цветовая гамма
+animated_comic	анимированный комикс
+turntable_(animation)	анимация вращения объекта для осмотра
+photo_manipulation	редактирование или монтаж фотографии
+2_frame_animation	анимация из двух кадров
+promotional_material	рекламный материал
+better_version_at_paywall	более качественная версия за платным доступом
+engrish	ломаный английский
+missing_sample	предварительная версия отсутствует
+alternate_version_at_paywall	другая версия за платным доступом
+translation_edit	редактирование изображения с добавлением перевода
+multiple_versions	несколько версий
+draw_over	рисование поверх другого изображения
+expression_sheet	лист с выражениями лица
+preview	предварительный просмотр
+subtle_animation	малозаметная анимация
+character_badge_(artwork)	именной бейдж с изображением персонажа
+light_theme	светлая цветовая гамма
+side_by_side_stereogram	стереопара с изображениями рядом
+textless	без текста
+constructed_language	искусственно созданный язык
+first_page	первая страница
+character_cipher	шифр с заменой символов
+sound_edit	изменённая звуковая дорожка
+cross-hatching	перекрёстная штриховка
+human_edit	изображение отредактировано человеком
+image_macro	картинка с наложенной подписью-мемом
+teal_theme	бирюзовая цветовая гамма
+end_page	последняя страница
+seamless_loop	бесшовно зацикленная анимация
+one_page_comic	одностраничный комикс
+short_film	короткометражный фильм
+nude_edit	одежда удалена редактированием
+fictional_language	вымышленный язык
+shopped	фотомонтаж или другое редактирование изображения
+superabsurd_res	чрезвычайно высокое разрешение
+wall_eye_stereogram	стереограмма для просмотра с разведением глаз
+comment_chain	цепочка комментариев
+cyrillic_text	текст кириллицей
+technical_illustration	техническая иллюстрация
+shaded_line_art	контурный рисунок со светотенью
+traced	обведено по исходному изображению
+biological_illustration	биологическая иллюстрация
+3rd_party_watermark	водяной знак стороннего распространителя
+dialogue_in_description	диалог в описании
+unown_text	текст символами анноунов из Pokémon
+blur_censorship	цензура размытием
+upscale	увеличенное разрешение
+video_in_description	видео в описании
+book_cover	обложка книги
+screencap_edit	редактирование кадра или снимка экрана
+180_fov	поле зрения 180 градусов
+tantalog_text	текст вымышленной письменностью Tantalog
+intralingual_translation	передача текста другими средствами того же языка
+zoological_illustration	зоологическая иллюстрация
+cross_eye_stereogram	стереограмма для просмотра со сведением глаз
+unknown_text	неопознанный текст
+one_panel_comic	комикс из одной панели
+in_memoriam	работа в память об умершем
+tan_theme	светло-коричневая цветовая гамма
+8k	разрешение 8K
+uncensored_version_at_source	версия без цензуры доступна у источника
+text_game	текстовая игра
+uncensored_version_at_paywall	версия без цензуры за платным доступом
+360_fov	поле зрения 360 градусов
+wingdings_text	текст символами Wingdings
+selectively_detailed	отдельные части изображения детализированы сильнее
+comic_edit	отредактированная версия комикса
+aurebesh_text	текст письменностью ауребеш
+unknown_language	неопознанный язык
+meme_origin	источник происхождения мема
+wiggle_stereogram	стереоэффект от чередования ракурсов
+description_request	требуется описание изображения
+extremely_distracting_watermark	крайне заметный отвлекающий водяной знак
+frame_blending	смешивание соседних кадров
+constructed_script	искусственно созданная письменность
+runic_text	рунический текст
+baybayin_text	текст письменностью байбайин
+neon_colors	неоновые цвета
+linked_icons	связанные между собой иконки
+vertical_stereogram	стереопара с изображениями друг над другом
+medical_illustration	медицинская иллюстрация
+story_in_comments	история в комментариях
