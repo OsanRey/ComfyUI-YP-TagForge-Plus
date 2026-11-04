@@ -92,7 +92,11 @@ Formatting retains weights, escaped parentheses, LoRA expressions and wildcard s
 
 ## Translation dictionary
 
-The Russian dictionary includes reviewed labels for common appearance, clothing, pose, composition, lighting and technical tags. Color and garment combinations use Russian grammatical agreement. Work titles retain their original names where a verified Russian title is unavailable. Artist handles remain unchanged. Existing character-name transliterations are retained, with source-work qualifiers corrected where identified. This is a targeted dictionary revision: many inherited labels and rare tags still need review; it is not a fully verified translation of the entire tag database.
+The bundled Russian dictionary contains **63,468 entries**. The review covered appearance, clothing, actions, anatomy, composition, technical terms and species. Ambiguous tags use their tag-specific meanings or explicitly list alternatives. Translations are stored directly in `translate/Ru_translated.csv`; there is no translation generator at runtime.
+
+Original artist handles, character names and work titles are retained unless a confirmed localized name is available. Symbols and opaque identifiers are preserved rather than given invented definitions. These preserved labels are not counted as newly translated Russian descriptions. The review queue for this catalog snapshot is complete; this does not guarantee that every rare term is unambiguous or independently verified against a source wiki.
+
+Alias suggestions now display the current canonical tag translation, keeping the source site and category separate. Changing dictionaries also clears stale alias translations.
 
 ## Compatibility
 
@@ -100,9 +104,9 @@ When enabled, the extension turns off competing completion and formatting handle
 
 The extension works independently. Add tag CSV files to `tags/` and translation CSV files to `translate/`; reload the page to update the available file list. There are no automatic data downloads at startup.
 
-A reproducible full-catalog inventory and review queue are available through [dictionary review tools](tools/dictionary_review/README.md). Reviewed terminology, preserved original names and unreviewed legacy labels are counted separately. The full semantic review remains in progress.
+Version **0.1.9** completes the dictionary review for the bundled catalog snapshot: **59,154 canonical tags** have reviewed labels or explicitly retained designations. Other original names, titles, handles and symbols are tracked separately. Intermediate drafts, old translation generators and local backups are not included in the extension.
 
-Dictionary review coverage in **0.1.8**: **5,555 canonical tags** match explicit definitions or bounded grammatical rules. This release updates 482 labels, including 122 new entries. These counts exclude preserved artist handles and original names; the full semantic review is not complete.
+To update an existing Git installation, run `git pull --ff-only` in the extension directory. Back up `translate/Ru_translated.csv` first if you edited translations with the pencil tool. Restart ComfyUI after updating, then refresh the browser with **Ctrl+F5**.
 
 ## Development
 

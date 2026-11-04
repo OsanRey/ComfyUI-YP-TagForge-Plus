@@ -47,6 +47,13 @@ async def main():
     print("Loading Russian translations...", flush=True)
     await endpoints.load_translate(Request({"filename": "Ru_translated.csv"}))
     print("Checking searches...", flush=True)
+    alias = manager.conn.execute("SELECT translate FROM main_tags WHERE term='high_res' AND value='highres' AND site='danbooru'").fetchone()
+    canonical = manager.conn.execute("SELECT translate FROM main_tags WHERE term='highres' AND value='highres' AND site='danbooru'").fetchone()
+    assert alias and canonical and alias[0] == canonical[0] == "высокое разрешение"
+    manager.apply_translate([["high_res", "stale alias label"]])
+    alias = manager.conn.execute("SELECT translate FROM main_tags WHERE term='high_res' AND value='highres' AND site='danbooru'").fetchone()
+    assert alias[0] == canonical[0], "alias dictionary rows must not override the canonical meaning"
+
     matches = manager.search("oversized", [])
     assert any(item["value"] == "oversized_clothes" and item["translate"] for item in matches)
     artists = manager.search("wlop", ["Artist"])

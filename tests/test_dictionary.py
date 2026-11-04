@@ -15,6 +15,10 @@ class DictionaryTests(unittest.TestCase):
     def test_meaning_and_grammar(self):
         expected = {
             "highres": "высокое разрешение",
+            "clipboard": "планшет с зажимом для бумаги",
+            "doll_joints": "кукольные шарниры", "dog_tags": "армейские идентификационные жетоны",
+            "mother_and_daughter": "мать и дочь", "head_wreath": "венок на голове",
+            "blue_gemstone": "синий драгоценный камень", "single_sock": "один носок",
             "spaghetti_strap": "тонкая бретель", "headpat": "поглаживание по голове",
             "reaching_towards_viewer": "тянется к зрителю", "assault_rifle": "штурмовая винтовка",
             "fins": "плавники", "single_glove": "одна перчатка",
@@ -34,6 +38,21 @@ class DictionaryTests(unittest.TestCase):
         }
         for tag, label in expected.items():
             self.assertEqual(self.labels[tag], label, tag)
+
+    def test_context_specific_meanings(self):
+        expected = {
+            "snowbell_(flower)": "белоцветник — Leucojum",
+            "rope_train": "детская игра в паровозик с верёвкой",
+            "mortar": "миномёт",
+            "flowjob": "одновременная стимуляция пениса ртом и ступнями",
+            "breast_bulge": "выпуклость в груди от предмета, введённого через сосок",
+            "throat_transfer": "продевание предмета изо рта одного персонажа в рот другого",
+        }
+        for tag, label in expected.items():
+            self.assertEqual(self.labels[tag], label, tag)
+        self.assertIn("в хвост", self.labels["tail_penetration"])
+        self.assertIn("без", self.labels["autolactation"])
+        self.assertIn("пенис", self.labels["penis_face"])
 
     def test_names_and_keys(self):
         self.assertEqual(self.labels["blue_archive"], "Blue Archive")

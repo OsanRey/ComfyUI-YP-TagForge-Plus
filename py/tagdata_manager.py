@@ -206,9 +206,38 @@ class TagDataManager:
                     WHERE term = ?
                 ''', (translate_str, compact_tag(translate_str), tag))
         
+        cls.sync_alias_translations()
         cls.conn.commit()
-    
-    
+
+    @classmethod
+    def sync_alias_translations(cls):
+        """Display each alias with its canonical tag's current translation.
+
+        Match site and category so identical spellings from different sources
+        cannot borrow unrelated meanings. NULL/empty canonical labels also clear
+        stale alias labels after a dictionary switch or an intentional deletion.
+        """
+        if cls.conn is None:
+            return
+        for table in cls.tables:
+            # Materialize the mapping once. A correlated self-UPDATE can make
+            # SQLite revisit canonical rows for every alias on a full catalog.
+            canonical = {
+                (value, site, category): (translation, compact)
+                for value, site, category, translation, compact in cls.conn.execute(
+                    f"SELECT value,site,category,translate,compactTranslate "
+                    f"FROM {table}_tags WHERE term=value AND (postCount IS NULL OR postCount!='Alias')")
+            }
+            changes = []
+            for rowid, value, site, category, translation, compact in cls.conn.execute(
+                    f"SELECT rowid,value,site,category,translate,compactTranslate "
+                    f"FROM {table}_tags WHERE postCount='Alias'"):
+                key = (value, site, category)
+                if key in canonical and canonical[key] != (translation, compact):
+                    changes.append((*canonical[key], rowid))
+            cls.conn.executemany(
+                f"UPDATE {table}_tags SET translate=?,compactTranslate=? WHERE rowid=?", changes)
+
     @classmethod
     def clear_translate_data(cls):
         if cls.conn is None:
