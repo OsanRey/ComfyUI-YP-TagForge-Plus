@@ -12,6 +12,11 @@ for (const file of ['dropdown_layout.js', 'virtual_dropdown_controller.js']) {
         + (file.includes('controller') ? '\nglobalThis.Controller = VirtualDropdownController;' : ''), context);
 }
 const c = Object.create(context.Controller.prototype);
+c.isHoveringOnDropdown = true;
+c.isMousedownOnDropdown = false;
+assert.equal(c.isMouseInteracting(), false, 'hovering the popup must not suppress blur');
+c.isMousedownOnDropdown = true;
+assert.equal(c.isMouseInteracting(), true, 'a press inside the popup must preserve it for the click');
 const clone = width => ({ style: {}, querySelector: () => null, children: [{ style: {}, classList: { contains: () => true } }],
     getBoundingClientRect() {
         assert.equal(this.style.flexWrap, 'nowrap');

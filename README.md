@@ -63,7 +63,7 @@ Underscore conversion and the separator after insertion are configurable. Catego
 | **Replace '_' with 'Space'** | Convert inserted tag underscores to spaces. |
 | **Delimiter / Add Space** | Configure the separator added after a suggestion. |
 | **Max Suggestions to Display** | Number of search suggestions; 0 requests all available matches. |
-| **Related tag count** | Number of related-tag results. |
+| **Related tag count** | Maximum number of results before any appended characters. |
 | **Tag window width (px)** | Base popup width, from 320 to 1600 px. The window expands for longer rows within screen bounds. |
 | **Prompt formatting** | Enable prompt formatting. |
 | **Format on blur** | Format automatically when the field loses focus. |
@@ -73,7 +73,7 @@ Window height is automatic. Results that do not fit on screen remain available b
 
 ## Related tags
 
-Related results are ranked by Jaccard similarity using tag co-occurrence data. Selecting a result adds it after the source tag. If it is already present, the existing text is selected instead of being inserted again.
+Related results are ranked by how often pairs occur together beyond what their individual frequencies would predict. The percentage shows Jaccard overlap. For a General tag, up to five related characters appear after the General results. Selecting a result adds it after the source tag. If it is already present, the existing text is selected instead of being inserted again.
 
 Related data covers Danbooru. Some artists, rare tags and e621-only tags have no related entries. The first lookup builds a local disk index at `data/related.sqlite3`; later lookups use that index. Changing the source CSV rebuilds it automatically.
 

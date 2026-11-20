@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 const pending = [], shown = [], errors = [];
-const context = { AbortController, loadCSS() {}, console: { error: (...args) => errors.push(args) },
+const context = { AbortController, setTimeout, clearTimeout, loadCSS() {}, console: { error: (...args) => errors.push(args) },
     api_post: (route, body, options) => new Promise(resolve => pending.push({ body, signal: options.signal, resolve })) };
 vm.createContext(context);
 for (const file of ['tag_completer_settings.js', 'text_processor.js', 'search_engine.js', 'tag_completer.js']) {
@@ -15,7 +15,13 @@ const c = context.make();
 c.element = { value: 'on', selectionStart: 2, selectionEnd: 2 };
 c.helper = { getBeforeCursor: () => c.element.value.slice(0, c.element.selectionStart) };
 let hidden = 0, scheduled = 0;
-c.dropdownController = { hide() { hidden++; } };
+const inside = {};
+let pressed = false;
+c.dropdownController = {
+    dropdown: { contains: target => target === inside },
+    isMouseInteracting: () => pressed,
+    hide() { hidden++; },
+};
 c.showDropdown = (results, info) => shown.push({ results, term: info.term });
 c.debouncedUpdate = () => scheduled++;
 function type(text) { c.element.value = text; c.element.selectionStart = c.element.selectionEnd = text.length; c.handleInput({}); }
@@ -44,6 +50,42 @@ function type(text) { c.element.value = text; c.element.selectionStart = c.eleme
     pending[4].resolve([{ value: 'on_bed' }]); await beforeClick;
     assert.equal(hidden, hidesAfterClick, 'stale autocomplete must not interfere with a related-tag panel');
     assert.equal(shown.length, 2);
+    const beforeBlur = c.update();
+    c.handleBlur({ relatedTarget: inside });
+    pressed = true;
+    c.handleBlur({ relatedTarget: null });
+    assert.equal(hidden, hidesAfterClick, 'moving into the popup or selecting a row must keep the popup available');
+    pressed = false;
+    let openedWildcardOptions = false;
+    c.wildcardOptionsTimeout = setTimeout(() => { openedWildcardOptions = true; }, 0);
+    c.handleBlur({ relatedTarget: {} });
+    assert.equal(hidden, hidesAfterClick + 1, 'leaving the field must close its suggestions');
+    assert.equal(pending[5].signal.aborted, true);
+    pending[5].resolve([{ value: 'on_bed' }]); await beforeBlur;
+    await new Promise(resolve => setTimeout(resolve, 0));
+    assert.equal(shown.length, 2, 'late results must not reopen the popup');
+    assert.equal(openedWildcardOptions, false, 'leaving cancels pending wildcard options');
+    const handlers = new Map();
+    c.element.addEventListener = (type, listener) => handlers.set(type, listener);
+    c.element.removeEventListener = (type, listener) => {
+        assert.equal(handlers.get(type), listener);
+        handlers.delete(type);
+    };
+    c.setupEventListeners();
+    const beforeSelection = c.update();
+    const hidesBeforeSelection = hidden;
+    handlers.get('pointerdown')();
+    assert.equal(hidden, hidesBeforeSelection + 1, 'hide the popup before mouse selection begins');
+    assert.equal(pending[6].signal.aborted, true);
+    pending[6].resolve([{ value: 'on_bed' }]); await beforeSelection;
+    assert.equal(shown.length, 2);
+    handlers.get('select')();
+    assert.equal(hidden, hidesBeforeSelection + 1, 'a caret move does not count as selecting text');
+    c.element.selectionStart = 0;
+    handlers.get('select')();
+    assert.equal(hidden, hidesBeforeSelection + 2, 'selecting text also dismisses suggestions');
+    c.removeEventListeners();
+    assert.equal(handlers.size, 0);
     assert.ok(scheduled >= 4);
     assert.equal(errors.length, 0);
     console.log('Search updates: fast typing, omitted separators, out-of-order responses and click invalidation passed');

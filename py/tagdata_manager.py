@@ -59,6 +59,40 @@ class TagDataManager:
     restrictAlias: bool = False
     
     conn = None
+
+    @classmethod
+    def related_alias_groups(cls, tag):
+        if cls.conn is None:
+            return ()
+        entries = cls.conn.execute(
+            "SELECT site,value FROM main_tags WHERE term=? AND site IN ('danbooru','e621')", (tag,),
+        ).fetchall()
+        danbooru = {value for site, value in entries if site == "danbooru" and value != tag}
+        e621 = {value for site, value in entries if site == "e621"}
+        if tag in e621:
+            e621 = {tag}
+        if len(e621) != 1:
+            return danbooru, set(), set()
+        canonical = next(iter(e621))
+        variants = set()
+        bridge = set()
+        canonical_targets = set()
+        for variant, target in cls.conn.execute("""
+            SELECT e.term,d.value
+            FROM main_tags e
+            LEFT JOIN main_tags d ON d.term=e.term AND d.site='danbooru'
+            WHERE e.value=? AND e.site='e621'
+        """, (canonical,)):
+            variants.add(variant)
+            if target:
+                bridge.add(target)
+                if variant == canonical:
+                    canonical_targets.add(target)
+        # Follow an e621 alias through its canonical name only when all
+        # Danbooru mappings from the group agree with that name's mapping.
+        if canonical == tag or len(bridge) != 1 or bridge != canonical_targets:
+            bridge.clear()
+        return danbooru, variants, bridge
     
     
     # -------------------------------------------

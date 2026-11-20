@@ -29,7 +29,6 @@ export class VirtualDropdownController {
         this.endIndex = 0;
         this.currentIndex = 0;
         this.isMousedownOnDropdown = false;
-        this.isHoveringOnDropdown = false;
         
         // スクロール制御用フラグ
         this.isUserScrolling = false;
@@ -349,7 +348,6 @@ export class VirtualDropdownController {
         this.startIndex = 0;
         this.endIndex = 0;
         this.isMousedownOnDropdown = false;
-        this.isHoveringOnDropdown = false;
         this.isUserScrolling = false;
         this.dropdown.remove();
     }
@@ -546,7 +544,7 @@ export class VirtualDropdownController {
     // マウス状態を確認
     // ------------------------------------------
     isMouseInteracting() {
-        return this.isMousedownOnDropdown || this.isHoveringOnDropdown;
+        return this.isMousedownOnDropdown;
     }
 
     // ------------------------------------------
@@ -612,26 +610,14 @@ export class VirtualDropdownController {
     // マウスイベント処理
     // ------------------------------------------
     setupDropdownMouseEvents() {
-        document.addEventListener("mousedown", (e) => {
-            if (this.dropdown.contains(e.target)) {
-                this.isMousedownOnDropdown = true;
-                this.handleScrollbarClick(e);
-            } else {
-                this.isMousedownOnDropdown = false;
-            }
+        this.dropdown.addEventListener("mousedown", (e) => {
+            this.isMousedownOnDropdown = true;
+            this.handleScrollbarClick(e);
         });
-
-        document.addEventListener("mouseup", () => {
+        this.endMouseInteraction = () => {
             this.isMousedownOnDropdown = false;
-        });
-
-        this.dropdown.addEventListener("mouseenter", () => {
-            this.isHoveringOnDropdown = true;
-        });
-
-        this.dropdown.addEventListener("mouseleave", () => {
-            this.isHoveringOnDropdown = false;
-        });
+        };
+        document.addEventListener("mouseup", this.endMouseInteraction, true);
     }
 
     handleScrollbarClick(e) {
@@ -643,7 +629,7 @@ export class VirtualDropdownController {
         if (isScrollbarClick) {
             e.preventDefault();
             setTimeout(() => {
-                this.textareaElement.focus();
+                if (this.isVisible()) this.textareaElement.focus();
             }, 0);
         }
     }
@@ -656,7 +642,6 @@ export class VirtualDropdownController {
             clearTimeout(this.userScrollTimeout);
         }
         this.hide();
-        this.isMousedownOnDropdown = false;
-        this.isHoveringOnDropdown = false;
+        document.removeEventListener("mouseup", this.endMouseInteraction, true);
     }
 }

@@ -16,12 +16,13 @@ const values = new Map([
     ['jupo.TagForge.enable', true], ['AutocompletePlus.Autocompletion.Enable', true],
     ['AutocompletePlus.RelatedTags.Enable', true], ['AutocompletePlus.AutoFormatter.EnableAutoFormat', true],
 ]);
-const listeners = {}, storage = new Map(), writes = [], live = [];
+const listeners = {}, windowListeners = {}, storage = new Map(), writes = [], live = [];
 const settings = { enable: { onChange: async () => {} }, mainFile: { defaultValue: 'merged.csv' },
     extraFile: { defaultValue: 'extra.csv' }, translateFile: { defaultValue: 'ru.csv' },
     load: async () => {}, getList: () => [] };
 const c = { HTMLTextAreaElement: Textarea, Event: class {},
     document: { body: {}, addEventListener(name, fn) { listeners[name] = fn; } },
+    window: { addEventListener(name, fn) { windowListeners[name] = fn; } },
     MutationObserver: class { constructor(fn) { c.cleanup = fn; } observe() {} },
     settings, mk_name: x => `yp.TagForgePlus.${x}`, api_post: async (route, data) => { writes.push({ route, data }); },
     findTextareaFromWidget: w => w.inputEl,
@@ -30,8 +31,18 @@ const c = { HTMLTextAreaElement: Textarea, Event: class {},
         setSettingValue: async (id, value) => { values.set(id, value); } } },
         registerExtension(ext) { c.extension = ext; } },
     ComfyWidgets: { STRING: () => ({ widget: { inputEl: new Textarea() } }) },
-    PlusCompleter: class { constructor(element) { this.element = element; this.dropdownController = { isMouseInteracting: () => false, hide() {} }; live.push(this); }
-        destroy() { this.destroyed = true; } },
+    PlusCompleter: class {
+        constructor(element) {
+            this.element = element;
+            this.popupControl = {};
+            this.dropdownController = { dropdown: { contains: target => target === this.popupControl },
+                isVisible: () => this.visible };
+            live.push(this);
+        }
+        isDropdownInteraction(event) { return this.dropdownController.dropdown.contains(event.relatedTarget); }
+        dismissDropdown() { this.visible = false; }
+        destroy() { this.destroyed = true; }
+    },
 };
 vm.createContext(c);
 vm.runInContext(fs.readFileSync(path.join(__dirname, '../web/prompt_format.js'), 'utf8').replace(/export /g, ''), c);
@@ -42,7 +53,23 @@ const source = fs.readFileSync(path.join(__dirname, '../web/ex_tagcomplete.js'),
     for (const id of ['jupo.TagForge.enable', 'AutocompletePlus.Autocompletion.Enable', 'AutocompletePlus.RelatedTags.Enable', 'AutocompletePlus.AutoFormatter.EnableAutoFormat']) assert.equal(values.get(id), false);
     assert.equal(writes.length, 3);
     const modern = new Textarea(); listeners.focusin({ target: modern });
-    modern.handlers.blur(); assert.equal(modern.value, '1girl, solo, '); assert.equal(modern.notified, true);
+    const completer = live[0];
+    completer.visible = true;
+    modern.handlers.blur({ relatedTarget: completer.popupControl });
+    assert.equal(modern.value, '1girl,,solo', 'formatting must not run when opening the translation editor');
+    listeners.focusin({ target: completer.popupControl });
+    assert.equal(completer.visible, true, 'focus inside the popup keeps it open');
+    listeners.focusin({ target: {} });
+    assert.equal(completer.visible, false, 'focus leaving the popup closes it');
+    c.document.activeElement = modern;
+    completer.visible = true;
+    listeners.pointerdown({ target: {} });
+    assert.equal(completer.visible, false, 'outside pointer events close the popup even without blur');
+    completer.visible = true;
+    windowListeners.blur();
+    assert.equal(completer.visible, false, 'leaving the window closes the popup');
+    modern.handlers.blur({ relatedTarget: null });
+    assert.equal(modern.value, '1girl, solo, '); assert.equal(modern.notified, true);
     const preview = new Textarea(); preview.readOnly = true; listeners.focusin({ target: preview });
     assert.equal(live.length, 1, 'readonly previews must not receive a completer or formatter');
     const { widget } = c.ComfyWidgets.STRING({ type: 'Prompt' }, 'code', ['STRING', { multiline: true }]);

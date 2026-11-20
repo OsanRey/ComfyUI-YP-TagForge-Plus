@@ -31,9 +31,9 @@ function attach(element, info = nodeInfo(element)) {
     if (attached.has(element) || !eligible(element, info)) return;
     const completer = new PlusCompleter(element);
     attached.set(element, info); instances.set(element, completer);
-    const blur = () => {
+    const blur = event => {
         if (!enabled() || !value("formatEnabled", true) || !value("formatOnBlur", true)) return;
-        if (completer.dropdownController.isMouseInteracting()) return;
+        if (completer.isDropdownInteraction(event)) return;
         if (shouldFormat(element.value, info)) applyTextareaText(element, formatPrompt(element.value, {
             trailingComma: value("trailingComma", true), trim: value("trimSpaces", true),
         }));
@@ -67,9 +67,9 @@ async function coordinateExtensions(active) {
 
 const inheritedEnableChange = settings.enable.onChange;
 settings.enable.onChange = async active => {
+    if (!active) for (const completer of instances.values()) completer.dismissDropdown();
     await inheritedEnableChange(active);
     await coordinateExtensions(active);
-    if (!active) for (const completer of instances.values()) completer.dropdownController.hide();
 };
 
 function setting(key, name, defaultValue, type = "boolean", attrs) {
@@ -98,13 +98,23 @@ app.registerExtension({
             }
             return result;
         };
+        const dismissOutside = ({ target }) => {
+            for (const [element, completer] of instances) {
+                const controller = completer.dropdownController;
+                if (target === element || (target && controller.dropdown.contains(target))) continue;
+                if (controller.isVisible() || document.activeElement === element) completer.dismissDropdown();
+            }
+        };
+        document.addEventListener("pointerdown", dismissOutside, true);
+        window.addEventListener("blur", () => dismissOutside({ target: null }));
         document.addEventListener("focusin", event => {
+            dismissOutside(event);
             const element = event.target;
             if (!(element instanceof HTMLTextAreaElement)) return;
             if (!element.matches(".comfy-multiline-input") && !element.closest(
                 '.lg_domwidget,.comfyui-dom-widget,.dom-widget,[data-testid="node-widget"],[data-node-id]')) return;
             attach(element);
-        });
+        }, true);
         document.addEventListener("keydown", event => {
             if (!enabled() || !value("formatEnabled", true) || !event.altKey || !event.shiftKey || event.code !== "KeyF") return;
             const element = event.target;

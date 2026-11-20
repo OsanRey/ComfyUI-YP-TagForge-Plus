@@ -95,16 +95,7 @@ export class TagCompleter {
             onNavigateDown: () => this.dropdownController.navigateDown(), 
             onInsertItem: () => this.insertSelectedItem(), 
             onHide: () => {
-                this.invalidateSearch();
-                if (this.isInWildcardMode) {
-                    // ESC: torna alla wildcard inserita
-                    this.isInWildcardMode = false;
-                    this.originalWildcardResult = null;
-                    this.originalSearchInfo = null;
-                    this.dropdownController.hide();
-                } else {
-                    this.dropdownController.hide();
-                }
+                this.dismissDropdown();
             }, 
             onPageUp: () => this.handlePageUp(), 
             onPageDown: () => this.handlePageDown(), 
@@ -118,7 +109,7 @@ export class TagCompleter {
     
     // --- インスタンスを破棄 ---
     destroy() {
-        this.debouncedUpdate?.cancel?.();
+        this.dismissDropdown();
         this.searchEngine?.destroy();
         this.dropdownController?.destroy();
         this.removeEventListeners();
@@ -141,23 +132,25 @@ export class TagCompleter {
             keydown: (...args) => this.handleKeyDown(...args), 
             input: (...args) => this.handleInput(...args), 
             click: (...args) => this.handleClick(...args), 
+            pointerdown: event => this.handlePointerDown(event),
+            select: () => {
+                if (this.element.selectionStart !== this.element.selectionEnd) this.dismissDropdown();
+            },
             blur: (...args) => this.handleBlur(...args)
         };
 
-        this.element.addEventListener("keydown", this.boundHandlers.keydown);
-        this.element.addEventListener("input", this.boundHandlers.input);
-        this.element.addEventListener("click", this.boundHandlers.click);
-        this.element.addEventListener("blur", this.boundHandlers.blur);
+        for (const [type, handler] of Object.entries(this.boundHandlers)) {
+            this.element.addEventListener(type, handler);
+        }
     }
 
     // --- イベントリスナーを削除 ---
     removeEventListeners() {
         if (!this.boundHandlers) return;
 
-        this.element.removeEventListener("keydown", this.boundHandlers.keydown);
-        this.element.removeEventListener("input", this.boundHandlers.input);
-        this.element.removeEventListener("click", this.boundHandlers.click);
-        this.element.removeEventListener("blur", this.boundHandlers.blur);
+        for (const [type, handler] of Object.entries(this.boundHandlers)) {
+            this.element.removeEventListener(type, handler);
+        }
 
         this.boundHandlers = null;
     }
@@ -188,35 +181,38 @@ export class TagCompleter {
 
     invalidateSearch() {
         this.debouncedUpdate?.cancel?.();
+        clearTimeout(this.wildcardOptionsTimeout);
         this.searchEngine.cancelCurrentRequest();
         this.searchEngine.getNextSequence();
         this.searchEngine.setUpdating(false);
     }
 
     // --- click ---
+    handlePointerDown() {
+        this.dismissDropdown();
+    }
+
     handleClick(e) {
         this.invalidateSearch();
         this.dropdownController.hide();
     }
 
     // --- blur ---
-    handleBlur(e) {
-        // relatedTargetをチェックして、ドロップダウン内の要素にフォーカスが移った場合は隠さない
-        if (e.relatedTarget && this.dropdownController.dropdown.contains(e.relatedTarget)) {
-            return;
-        }
+    isDropdownInteraction({ relatedTarget }) {
+        return relatedTarget ? this.dropdownController.dropdown.contains(relatedTarget)
+            : this.dropdownController.isMouseInteracting();
+    }
 
-        // mouseイベント中は隠さない
-        if (this.dropdownController.isMouseInteracting()) {
-            return;
-        }
+    handleBlur(event) {
+        if (!this.isDropdownInteraction(event)) this.dismissDropdown();
+    }
 
+    dismissDropdown() {
         this.invalidateSearch();
-        setTimeout(() => {
-            if (!this.dropdownController.dropdown.contains(document.activeElement)) {
-                this.dropdownController.hide();
-            }
-        }, 0);
+        this.isInWildcardMode = false;
+        this.originalWildcardResult = null;
+        this.originalSearchInfo = null;
+        this.dropdownController.hide();
     }
 
     // --- pageup ---
@@ -255,7 +251,7 @@ export class TagCompleter {
             this.helper.insertAtCursor(insertValue, replaceLength);
             
             // Mostra le opzioni dopo un breve ritardo per assicurarsi che il dropdown sia visibile
-            setTimeout(() => this.showWildcardOptions(result, searchInfo), 50);
+            this.wildcardOptionsTimeout = setTimeout(() => this.showWildcardOptions(result, searchInfo), 50);
             return;
         }
 
@@ -334,6 +330,8 @@ export class TagCompleter {
 
     // --- wildcard options ---
     showWildcardOptions(wildcardResult, originalSearchInfo) {
+        if (!this.settings.enable || document.activeElement !== this.element) return;
+
         // Dividi le opzioni della wildcard per riga (ogni riga è un'opzione completa)
         const options = wildcardResult.wildcardValue.split('\n').map(opt => opt.trim()).filter(opt => opt);
         
